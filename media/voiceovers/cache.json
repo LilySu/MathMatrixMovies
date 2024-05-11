@@ -9985,5 +9985,2115 @@
     ],
     "original_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3",
     "final_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3"
+  },
+  {
+    "input_text": "Imagine you're standing on this curve, and you want to find the lowest point.",
+    "input_data": {
+      "input_text": "Imagine you're standing on this curve, and you want to find the lowest point.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine you're standing on this curve, and you want to find the lowest point.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine you're standing on this curve, and you want to find the lowest point.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 537,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "Imagine",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6250000,
+        "duration_milliseconds": 137,
+        "text_offset": 8,
+        "word_length": 6,
+        "text": "you're",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7750000,
+        "duration_milliseconds": 462,
+        "text_offset": 15,
+        "word_length": 8,
+        "text": "standing",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 125,
+        "text_offset": 24,
+        "word_length": 2,
+        "text": "on",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13875000,
+        "duration_milliseconds": 175,
+        "text_offset": 27,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15750000,
+        "duration_milliseconds": 437,
+        "text_offset": 32,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21125000,
+        "duration_milliseconds": 137,
+        "text_offset": 37,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 22500000,
+        "duration_milliseconds": 100,
+        "text_offset": 39,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23625000,
+        "duration_milliseconds": 100,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "you",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24750000,
+        "duration_milliseconds": 237,
+        "text_offset": 47,
+        "word_length": 4,
+        "text": "want",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27250000,
+        "duration_milliseconds": 87,
+        "text_offset": 52,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28250000,
+        "duration_milliseconds": 337,
+        "text_offset": 55,
+        "word_length": 4,
+        "text": "find",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31750000,
+        "duration_milliseconds": 112,
+        "text_offset": 60,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33000000,
+        "duration_milliseconds": 400,
+        "text_offset": 64,
+        "word_length": 6,
+        "text": "lowest",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37125000,
+        "duration_milliseconds": 437,
+        "text_offset": 71,
+        "word_length": 5,
+        "text": "point",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41625000,
+        "duration_milliseconds": 100,
+        "text_offset": 76,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "imagine-you-re-standing-on-this-curve-and-you-want-ee20a478.mp3",
+    "final_audio": "imagine-you-re-standing-on-this-curve-and-you-want-ee20a478.mp3"
+  },
+  {
+    "input_text": "You can't see the whole curve, so you need a way to find the minimum just by feeling the slope around you.",
+    "input_data": {
+      "input_text": "You can't see the whole curve, so you need a way to find the minimum just by feeling the slope around you.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">You can't see the whole curve, so you need a way to find the minimum just by feeling the slope around you.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">You can't see the whole curve, so you need a way to find the minimum just by feeling the slope around you.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 150,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "You",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2125000,
+        "duration_milliseconds": 312,
+        "text_offset": 4,
+        "word_length": 5,
+        "text": "can't",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5375000,
+        "duration_milliseconds": 162,
+        "text_offset": 10,
+        "word_length": 3,
+        "text": "see",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7125000,
+        "duration_milliseconds": 100,
+        "text_offset": 14,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8250000,
+        "duration_milliseconds": 275,
+        "text_offset": 18,
+        "word_length": 5,
+        "text": "whole",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11125000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16250000,
+        "duration_milliseconds": 237,
+        "text_offset": 29,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 18625000,
+        "duration_milliseconds": 100,
+        "text_offset": 31,
+        "word_length": 2,
+        "text": "so",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19750000,
+        "duration_milliseconds": 150,
+        "text_offset": 34,
+        "word_length": 3,
+        "text": "you",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21375000,
+        "duration_milliseconds": 187,
+        "text_offset": 38,
+        "word_length": 4,
+        "text": "need",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23375000,
+        "duration_milliseconds": 62,
+        "text_offset": 43,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 212,
+        "text_offset": 45,
+        "word_length": 3,
+        "text": "way",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26375000,
+        "duration_milliseconds": 100,
+        "text_offset": 49,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27500000,
+        "duration_milliseconds": 325,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "find",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30875000,
+        "duration_milliseconds": 62,
+        "text_offset": 57,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31625000,
+        "duration_milliseconds": 487,
+        "text_offset": 61,
+        "word_length": 7,
+        "text": "minimum",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36625000,
+        "duration_milliseconds": 262,
+        "text_offset": 69,
+        "word_length": 4,
+        "text": "just",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39375000,
+        "duration_milliseconds": 150,
+        "text_offset": 74,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41000000,
+        "duration_milliseconds": 337,
+        "text_offset": 77,
+        "word_length": 7,
+        "text": "feeling",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44500000,
+        "duration_milliseconds": 87,
+        "text_offset": 85,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45500000,
+        "duration_milliseconds": 300,
+        "text_offset": 89,
+        "word_length": 5,
+        "text": "slope",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 48625000,
+        "duration_milliseconds": 387,
+        "text_offset": 95,
+        "word_length": 6,
+        "text": "around",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 52625000,
+        "duration_milliseconds": 275,
+        "text_offset": 102,
+        "word_length": 3,
+        "text": "you",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55500000,
+        "duration_milliseconds": 100,
+        "text_offset": 105,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "you-can-t-see-the-whole-curve-so-you-need-a-way-to-017f9b54.mp3",
+    "final_audio": "you-can-t-see-the-whole-curve-so-you-need-a-way-to-017f9b54.mp3"
+  },
+  {
+    "input_text": "That's where Gradient Descent comes in. It's like taking small steps downhill, following the steepest descent.",
+    "input_data": {
+      "input_text": "That's where Gradient Descent comes in. It's like taking small steps downhill, following the steepest descent.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's where Gradient Descent comes in. It's like taking small steps downhill, following the steepest descent.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's where Gradient Descent comes in. It's like taking small steps downhill, following the steepest descent.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 300,
+        "text_offset": 0,
+        "word_length": 6,
+        "text": "That's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3625000,
+        "duration_milliseconds": 187,
+        "text_offset": 7,
+        "word_length": 5,
+        "text": "where",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5625000,
+        "duration_milliseconds": 500,
+        "text_offset": 13,
+        "word_length": 8,
+        "text": "Gradient",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10750000,
+        "duration_milliseconds": 400,
+        "text_offset": 22,
+        "word_length": 7,
+        "text": "Descent",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15375000,
+        "duration_milliseconds": 300,
+        "text_offset": 30,
+        "word_length": 5,
+        "text": "comes",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18500000,
+        "duration_milliseconds": 262,
+        "text_offset": 36,
+        "word_length": 2,
+        "text": "in",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21250000,
+        "duration_milliseconds": 112,
+        "text_offset": 38,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 29875000,
+        "duration_milliseconds": 200,
+        "text_offset": 40,
+        "word_length": 4,
+        "text": "It's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32000000,
+        "duration_milliseconds": 200,
+        "text_offset": 45,
+        "word_length": 4,
+        "text": "like",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34125000,
+        "duration_milliseconds": 387,
+        "text_offset": 50,
+        "word_length": 6,
+        "text": "taking",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38125000,
+        "duration_milliseconds": 350,
+        "text_offset": 57,
+        "word_length": 5,
+        "text": "small",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41750000,
+        "duration_milliseconds": 337,
+        "text_offset": 63,
+        "word_length": 5,
+        "text": "steps",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45250000,
+        "duration_milliseconds": 650,
+        "text_offset": 69,
+        "word_length": 8,
+        "text": "downhill",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 52750000,
+        "duration_milliseconds": 125,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 54000000,
+        "duration_milliseconds": 437,
+        "text_offset": 79,
+        "word_length": 9,
+        "text": "following",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58500000,
+        "duration_milliseconds": 100,
+        "text_offset": 89,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 59625000,
+        "duration_milliseconds": 500,
+        "text_offset": 93,
+        "word_length": 8,
+        "text": "steepest",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64750000,
+        "duration_milliseconds": 475,
+        "text_offset": 102,
+        "word_length": 7,
+        "text": "descent",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 69625000,
+        "duration_milliseconds": 100,
+        "text_offset": 109,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "that-s-where-gradient-descent-comes-in-it-s-like-98e66da7.mp3",
+    "final_audio": "that-s-where-gradient-descent-comes-in-it-s-like-98e66da7.mp3"
+  },
+  {
+    "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+    "input_data": {
+      "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2000000,
+        "duration_milliseconds": 600,
+        "text_offset": 3,
+        "word_length": 9,
+        "text": "calculate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 87,
+        "text_offset": 13,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9125000,
+        "duration_milliseconds": 412,
+        "text_offset": 17,
+        "word_length": 5,
+        "text": "slope",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14000000,
+        "duration_milliseconds": 125,
+        "text_offset": 23,
+        "word_length": 2,
+        "text": "at",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15375000,
+        "duration_milliseconds": 125,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16750000,
+        "duration_milliseconds": 325,
+        "text_offset": 30,
+        "word_length": 7,
+        "text": "current",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20125000,
+        "duration_milliseconds": 675,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "location",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27250000,
+        "duration_milliseconds": 125,
+        "text_offset": 47,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28625000,
+        "duration_milliseconds": 200,
+        "text_offset": 51,
+        "word_length": 4,
+        "text": "take",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30750000,
+        "duration_milliseconds": 62,
+        "text_offset": 56,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31500000,
+        "duration_milliseconds": 325,
+        "text_offset": 58,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34875000,
+        "duration_milliseconds": 625,
+        "text_offset": 63,
+        "word_length": 8,
+        "text": "downhill",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 100,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 125,
+        "text_offset": 73,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51125000,
+        "duration_milliseconds": 375,
+        "text_offset": 77,
+        "word_length": 4,
+        "text": "size",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55000000,
+        "duration_milliseconds": 62,
+        "text_offset": 82,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55750000,
+        "duration_milliseconds": 100,
+        "text_offset": 85,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56875000,
+        "duration_milliseconds": 375,
+        "text_offset": 89,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60750000,
+        "duration_milliseconds": 137,
+        "text_offset": 94,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62250000,
+        "duration_milliseconds": 537,
+        "text_offset": 97,
+        "word_length": 10,
+        "text": "controlled",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67750000,
+        "duration_milliseconds": 175,
+        "text_offset": 108,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 69625000,
+        "duration_milliseconds": 75,
+        "text_offset": 111,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 70500000,
+        "duration_milliseconds": 700,
+        "text_offset": 113,
+        "word_length": 9,
+        "text": "parameter",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 78125000,
+        "duration_milliseconds": 287,
+        "text_offset": 123,
+        "word_length": 6,
+        "text": "called",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 81125000,
+        "duration_milliseconds": 100,
+        "text_offset": 130,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 82250000,
+        "duration_milliseconds": 362,
+        "text_offset": 134,
+        "word_length": 8,
+        "text": "learning",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 86000000,
+        "duration_milliseconds": 375,
+        "text_offset": 143,
+        "word_length": 4,
+        "text": "rate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 89875000,
+        "duration_milliseconds": 100,
+        "text_offset": 147,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3",
+    "final_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3"
+  },
+  {
+    "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+    "input_data": {
+      "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2000000,
+        "duration_milliseconds": 600,
+        "text_offset": 3,
+        "word_length": 9,
+        "text": "calculate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 87,
+        "text_offset": 13,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9125000,
+        "duration_milliseconds": 412,
+        "text_offset": 17,
+        "word_length": 5,
+        "text": "slope",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14000000,
+        "duration_milliseconds": 125,
+        "text_offset": 23,
+        "word_length": 2,
+        "text": "at",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15375000,
+        "duration_milliseconds": 125,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16750000,
+        "duration_milliseconds": 325,
+        "text_offset": 30,
+        "word_length": 7,
+        "text": "current",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20125000,
+        "duration_milliseconds": 675,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "location",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27250000,
+        "duration_milliseconds": 125,
+        "text_offset": 47,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28625000,
+        "duration_milliseconds": 200,
+        "text_offset": 51,
+        "word_length": 4,
+        "text": "take",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30750000,
+        "duration_milliseconds": 62,
+        "text_offset": 56,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31500000,
+        "duration_milliseconds": 325,
+        "text_offset": 58,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34875000,
+        "duration_milliseconds": 625,
+        "text_offset": 63,
+        "word_length": 8,
+        "text": "downhill",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 100,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 125,
+        "text_offset": 73,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51125000,
+        "duration_milliseconds": 375,
+        "text_offset": 77,
+        "word_length": 4,
+        "text": "size",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55000000,
+        "duration_milliseconds": 62,
+        "text_offset": 82,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55750000,
+        "duration_milliseconds": 100,
+        "text_offset": 85,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56875000,
+        "duration_milliseconds": 375,
+        "text_offset": 89,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60750000,
+        "duration_milliseconds": 137,
+        "text_offset": 94,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62250000,
+        "duration_milliseconds": 537,
+        "text_offset": 97,
+        "word_length": 10,
+        "text": "controlled",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67750000,
+        "duration_milliseconds": 175,
+        "text_offset": 108,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 69625000,
+        "duration_milliseconds": 75,
+        "text_offset": 111,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 70500000,
+        "duration_milliseconds": 700,
+        "text_offset": 113,
+        "word_length": 9,
+        "text": "parameter",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 78125000,
+        "duration_milliseconds": 287,
+        "text_offset": 123,
+        "word_length": 6,
+        "text": "called",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 81125000,
+        "duration_milliseconds": 100,
+        "text_offset": 130,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 82250000,
+        "duration_milliseconds": 362,
+        "text_offset": 134,
+        "word_length": 8,
+        "text": "learning",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 86000000,
+        "duration_milliseconds": 375,
+        "text_offset": 143,
+        "word_length": 4,
+        "text": "rate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 89875000,
+        "duration_milliseconds": 100,
+        "text_offset": 147,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3",
+    "final_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3"
+  },
+  {
+    "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+    "input_data": {
+      "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2000000,
+        "duration_milliseconds": 600,
+        "text_offset": 3,
+        "word_length": 9,
+        "text": "calculate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 87,
+        "text_offset": 13,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9125000,
+        "duration_milliseconds": 412,
+        "text_offset": 17,
+        "word_length": 5,
+        "text": "slope",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14000000,
+        "duration_milliseconds": 125,
+        "text_offset": 23,
+        "word_length": 2,
+        "text": "at",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15375000,
+        "duration_milliseconds": 125,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16750000,
+        "duration_milliseconds": 325,
+        "text_offset": 30,
+        "word_length": 7,
+        "text": "current",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20125000,
+        "duration_milliseconds": 675,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "location",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27250000,
+        "duration_milliseconds": 125,
+        "text_offset": 47,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28625000,
+        "duration_milliseconds": 200,
+        "text_offset": 51,
+        "word_length": 4,
+        "text": "take",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30750000,
+        "duration_milliseconds": 62,
+        "text_offset": 56,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31500000,
+        "duration_milliseconds": 325,
+        "text_offset": 58,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34875000,
+        "duration_milliseconds": 625,
+        "text_offset": 63,
+        "word_length": 8,
+        "text": "downhill",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 100,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 125,
+        "text_offset": 73,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51125000,
+        "duration_milliseconds": 375,
+        "text_offset": 77,
+        "word_length": 4,
+        "text": "size",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55000000,
+        "duration_milliseconds": 62,
+        "text_offset": 82,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55750000,
+        "duration_milliseconds": 100,
+        "text_offset": 85,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56875000,
+        "duration_milliseconds": 375,
+        "text_offset": 89,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60750000,
+        "duration_milliseconds": 137,
+        "text_offset": 94,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62250000,
+        "duration_milliseconds": 537,
+        "text_offset": 97,
+        "word_length": 10,
+        "text": "controlled",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67750000,
+        "duration_milliseconds": 175,
+        "text_offset": 108,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 69625000,
+        "duration_milliseconds": 75,
+        "text_offset": 111,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 70500000,
+        "duration_milliseconds": 700,
+        "text_offset": 113,
+        "word_length": 9,
+        "text": "parameter",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 78125000,
+        "duration_milliseconds": 287,
+        "text_offset": 123,
+        "word_length": 6,
+        "text": "called",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 81125000,
+        "duration_milliseconds": 100,
+        "text_offset": 130,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 82250000,
+        "duration_milliseconds": 362,
+        "text_offset": 134,
+        "word_length": 8,
+        "text": "learning",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 86000000,
+        "duration_milliseconds": 375,
+        "text_offset": 143,
+        "word_length": 4,
+        "text": "rate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 89875000,
+        "duration_milliseconds": 100,
+        "text_offset": 147,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3",
+    "final_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3"
+  },
+  {
+    "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+    "input_data": {
+      "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2000000,
+        "duration_milliseconds": 600,
+        "text_offset": 3,
+        "word_length": 9,
+        "text": "calculate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 87,
+        "text_offset": 13,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9125000,
+        "duration_milliseconds": 412,
+        "text_offset": 17,
+        "word_length": 5,
+        "text": "slope",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14000000,
+        "duration_milliseconds": 125,
+        "text_offset": 23,
+        "word_length": 2,
+        "text": "at",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15375000,
+        "duration_milliseconds": 125,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16750000,
+        "duration_milliseconds": 325,
+        "text_offset": 30,
+        "word_length": 7,
+        "text": "current",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20125000,
+        "duration_milliseconds": 675,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "location",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27250000,
+        "duration_milliseconds": 125,
+        "text_offset": 47,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28625000,
+        "duration_milliseconds": 200,
+        "text_offset": 51,
+        "word_length": 4,
+        "text": "take",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30750000,
+        "duration_milliseconds": 62,
+        "text_offset": 56,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31500000,
+        "duration_milliseconds": 325,
+        "text_offset": 58,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34875000,
+        "duration_milliseconds": 625,
+        "text_offset": 63,
+        "word_length": 8,
+        "text": "downhill",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 100,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 125,
+        "text_offset": 73,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51125000,
+        "duration_milliseconds": 375,
+        "text_offset": 77,
+        "word_length": 4,
+        "text": "size",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55000000,
+        "duration_milliseconds": 62,
+        "text_offset": 82,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55750000,
+        "duration_milliseconds": 100,
+        "text_offset": 85,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56875000,
+        "duration_milliseconds": 375,
+        "text_offset": 89,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60750000,
+        "duration_milliseconds": 137,
+        "text_offset": 94,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62250000,
+        "duration_milliseconds": 537,
+        "text_offset": 97,
+        "word_length": 10,
+        "text": "controlled",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67750000,
+        "duration_milliseconds": 175,
+        "text_offset": 108,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 69625000,
+        "duration_milliseconds": 75,
+        "text_offset": 111,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 70500000,
+        "duration_milliseconds": 700,
+        "text_offset": 113,
+        "word_length": 9,
+        "text": "parameter",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 78125000,
+        "duration_milliseconds": 287,
+        "text_offset": 123,
+        "word_length": 6,
+        "text": "called",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 81125000,
+        "duration_milliseconds": 100,
+        "text_offset": 130,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 82250000,
+        "duration_milliseconds": 362,
+        "text_offset": 134,
+        "word_length": 8,
+        "text": "learning",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 86000000,
+        "duration_milliseconds": 375,
+        "text_offset": 143,
+        "word_length": 4,
+        "text": "rate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 89875000,
+        "duration_milliseconds": 100,
+        "text_offset": 147,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3",
+    "final_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3"
+  },
+  {
+    "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+    "input_data": {
+      "input_text": "We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We calculate the slope at our current location and take a step downhill. The size of the step is controlled by a parameter called the learning rate.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2000000,
+        "duration_milliseconds": 600,
+        "text_offset": 3,
+        "word_length": 9,
+        "text": "calculate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 87,
+        "text_offset": 13,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9125000,
+        "duration_milliseconds": 412,
+        "text_offset": 17,
+        "word_length": 5,
+        "text": "slope",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14000000,
+        "duration_milliseconds": 125,
+        "text_offset": 23,
+        "word_length": 2,
+        "text": "at",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15375000,
+        "duration_milliseconds": 125,
+        "text_offset": 26,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16750000,
+        "duration_milliseconds": 325,
+        "text_offset": 30,
+        "word_length": 7,
+        "text": "current",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20125000,
+        "duration_milliseconds": 675,
+        "text_offset": 38,
+        "word_length": 8,
+        "text": "location",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27250000,
+        "duration_milliseconds": 125,
+        "text_offset": 47,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28625000,
+        "duration_milliseconds": 200,
+        "text_offset": 51,
+        "word_length": 4,
+        "text": "take",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30750000,
+        "duration_milliseconds": 62,
+        "text_offset": 56,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31500000,
+        "duration_milliseconds": 325,
+        "text_offset": 58,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34875000,
+        "duration_milliseconds": 625,
+        "text_offset": 63,
+        "word_length": 8,
+        "text": "downhill",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 100,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 125,
+        "text_offset": 73,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51125000,
+        "duration_milliseconds": 375,
+        "text_offset": 77,
+        "word_length": 4,
+        "text": "size",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55000000,
+        "duration_milliseconds": 62,
+        "text_offset": 82,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55750000,
+        "duration_milliseconds": 100,
+        "text_offset": 85,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56875000,
+        "duration_milliseconds": 375,
+        "text_offset": 89,
+        "word_length": 4,
+        "text": "step",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60750000,
+        "duration_milliseconds": 137,
+        "text_offset": 94,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62250000,
+        "duration_milliseconds": 537,
+        "text_offset": 97,
+        "word_length": 10,
+        "text": "controlled",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67750000,
+        "duration_milliseconds": 175,
+        "text_offset": 108,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 69625000,
+        "duration_milliseconds": 75,
+        "text_offset": 111,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 70500000,
+        "duration_milliseconds": 700,
+        "text_offset": 113,
+        "word_length": 9,
+        "text": "parameter",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 78125000,
+        "duration_milliseconds": 287,
+        "text_offset": 123,
+        "word_length": 6,
+        "text": "called",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 81125000,
+        "duration_milliseconds": 100,
+        "text_offset": 130,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 82250000,
+        "duration_milliseconds": 362,
+        "text_offset": 134,
+        "word_length": 8,
+        "text": "learning",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 86000000,
+        "duration_milliseconds": 375,
+        "text_offset": 143,
+        "word_length": 4,
+        "text": "rate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 89875000,
+        "duration_milliseconds": 100,
+        "text_offset": 147,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3",
+    "final_audio": "we-calculate-the-slope-at-our-current-location-and-6e43285f.mp3"
+  },
+  {
+    "input_text": "By repeatedly taking these steps, we get closer and closer to the minimum point of the function.",
+    "input_data": {
+      "input_text": "By repeatedly taking these steps, we get closer and closer to the minimum point of the function.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">By repeatedly taking these steps, we get closer and closer to the minimum point of the function.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">By repeatedly taking these steps, we get closer and closer to the minimum point of the function.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 150,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "By",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2125000,
+        "duration_milliseconds": 637,
+        "text_offset": 3,
+        "word_length": 10,
+        "text": "repeatedly",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8625000,
+        "duration_milliseconds": 400,
+        "text_offset": 14,
+        "word_length": 6,
+        "text": "taking",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12750000,
+        "duration_milliseconds": 212,
+        "text_offset": 21,
+        "word_length": 5,
+        "text": "these",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15000000,
+        "duration_milliseconds": 425,
+        "text_offset": 27,
+        "word_length": 5,
+        "text": "steps",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20250000,
+        "duration_milliseconds": 187,
+        "text_offset": 32,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 22250000,
+        "duration_milliseconds": 125,
+        "text_offset": 34,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23625000,
+        "duration_milliseconds": 225,
+        "text_offset": 37,
+        "word_length": 3,
+        "text": "get",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26000000,
+        "duration_milliseconds": 575,
+        "text_offset": 41,
+        "word_length": 6,
+        "text": "closer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31875000,
+        "duration_milliseconds": 137,
+        "text_offset": 48,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33375000,
+        "duration_milliseconds": 537,
+        "text_offset": 52,
+        "word_length": 6,
+        "text": "closer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39375000,
+        "duration_milliseconds": 100,
+        "text_offset": 59,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40500000,
+        "duration_milliseconds": 100,
+        "text_offset": 62,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41625000,
+        "duration_milliseconds": 425,
+        "text_offset": 66,
+        "word_length": 7,
+        "text": "minimum",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46000000,
+        "duration_milliseconds": 362,
+        "text_offset": 74,
+        "word_length": 5,
+        "text": "point",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 62,
+        "text_offset": 80,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50500000,
+        "duration_milliseconds": 87,
+        "text_offset": 83,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51500000,
+        "duration_milliseconds": 562,
+        "text_offset": 87,
+        "word_length": 8,
+        "text": "function",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57250000,
+        "duration_milliseconds": 112,
+        "text_offset": 95,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "by-repeatedly-taking-these-steps-we-get-closer-and-1f42e073.mp3",
+    "final_audio": "by-repeatedly-taking-these-steps-we-get-closer-and-1f42e073.mp3"
+  },
+  {
+    "input_text": "And that's Gradient Descent in a nutshell! A simple yet powerful algorithm for finding minimums.",
+    "input_data": {
+      "input_text": "And that's Gradient Descent in a nutshell! A simple yet powerful algorithm for finding minimums.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">And that's Gradient Descent in a nutshell! A simple yet powerful algorithm for finding minimums.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">And that's Gradient Descent in a nutshell! A simple yet powerful algorithm for finding minimums.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 162,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "And",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2250000,
+        "duration_milliseconds": 262,
+        "text_offset": 4,
+        "word_length": 6,
+        "text": "that's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5000000,
+        "duration_milliseconds": 500,
+        "text_offset": 11,
+        "word_length": 8,
+        "text": "Gradient",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10125000,
+        "duration_milliseconds": 437,
+        "text_offset": 20,
+        "word_length": 7,
+        "text": "Descent",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 150,
+        "text_offset": 28,
+        "word_length": 2,
+        "text": "in",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16750000,
+        "duration_milliseconds": 37,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17250000,
+        "duration_milliseconds": 675,
+        "text_offset": 33,
+        "word_length": 8,
+        "text": "nutshell",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 100,
+        "text_offset": 41,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 32625000,
+        "duration_milliseconds": 112,
+        "text_offset": 43,
+        "word_length": 1,
+        "text": "A",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33875000,
+        "duration_milliseconds": 400,
+        "text_offset": 45,
+        "word_length": 6,
+        "text": "simple",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38000000,
+        "duration_milliseconds": 225,
+        "text_offset": 52,
+        "word_length": 3,
+        "text": "yet",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 612,
+        "text_offset": 56,
+        "word_length": 8,
+        "text": "powerful",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46625000,
+        "duration_milliseconds": 637,
+        "text_offset": 65,
+        "word_length": 9,
+        "text": "algorithm",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53625000,
+        "duration_milliseconds": 150,
+        "text_offset": 75,
+        "word_length": 3,
+        "text": "for",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55250000,
+        "duration_milliseconds": 437,
+        "text_offset": 79,
+        "word_length": 7,
+        "text": "finding",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 59750000,
+        "duration_milliseconds": 637,
+        "text_offset": 87,
+        "word_length": 8,
+        "text": "minimums",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 66250000,
+        "duration_milliseconds": 100,
+        "text_offset": 95,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "and-that-s-gradient-descent-in-a-nutshell-a-simple-49655058.mp3",
+    "final_audio": "and-that-s-gradient-descent-in-a-nutshell-a-simple-49655058.mp3"
   }
 ]

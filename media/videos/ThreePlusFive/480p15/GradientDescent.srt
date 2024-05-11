@@ -1,0 +1,100 @@
+1
+00:00:00,000 --> 00:00:02,658
+Imagine you're standing on this curve, and
+
+2
+00:00:02,758 --> 00:00:04,892
+you want to find the lowest point.
+
+3
+00:00:06,000 --> 00:00:08,818
+You can't see the whole curve, so you need a way
+
+4
+00:00:08,918 --> 00:00:12,284
+to find the minimum just by feeling the slope around you.
+
+5
+00:00:12,333 --> 00:00:15,739
+That's where Gradient Descent comes in. It's like
+
+6
+00:00:15,839 --> 00:00:20,033
+taking small steps downhill, following the steepest descent.
+
+7
+00:00:20,133 --> 00:00:23,394
+We calculate the slope at our current location and
+
+8
+00:00:23,494 --> 00:00:26,218
+take a step downhill. The size of the step
+
+9
+00:00:26,318 --> 00:00:29,849
+is controlled by a parameter called the learning rate.
+
+10
+00:00:29,933 --> 00:00:33,194
+We calculate the slope at our current location and
+
+11
+00:00:33,294 --> 00:00:36,018
+take a step downhill. The size of the step
+
+12
+00:00:36,118 --> 00:00:39,649
+is controlled by a parameter called the learning rate.
+
+13
+00:00:39,733 --> 00:00:42,994
+We calculate the slope at our current location and
+
+14
+00:00:43,094 --> 00:00:45,818
+take a step downhill. The size of the step
+
+15
+00:00:45,918 --> 00:00:49,449
+is controlled by a parameter called the learning rate.
+
+16
+00:00:49,533 --> 00:00:52,794
+We calculate the slope at our current location and
+
+17
+00:00:52,894 --> 00:00:55,618
+take a step downhill. The size of the step
+
+18
+00:00:55,718 --> 00:00:59,249
+is controlled by a parameter called the learning rate.
+
+19
+00:00:59,333 --> 00:01:02,594
+We calculate the slope at our current location and
+
+20
+00:01:02,694 --> 00:01:05,418
+take a step downhill. The size of the step
+
+21
+00:01:05,518 --> 00:01:09,049
+is controlled by a parameter called the learning rate.
+
+22
+00:01:09,133 --> 00:01:12,563
+By repeatedly taking these steps, we get closer and
+
+23
+00:01:12,663 --> 00:01:15,609
+closer to the minimum point of the function.
+
+24
+00:01:15,666 --> 00:01:19,023
+And that's Gradient Descent in a nutshell! A
+
+25
+00:01:19,123 --> 00:01:23,030
+simple yet powerful algorithm for finding minimums.
+

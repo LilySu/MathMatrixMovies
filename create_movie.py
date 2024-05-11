@@ -2,20 +2,25 @@ import argparse
 import re
 import os
 import google.generativeai as genai
+from dotenv import load_dotenv
+load_dotenv()
+
 
 def extract_code_blocks(text):
     # Regular expression pattern to find code blocks surrounded by triple backticks
     pattern = r"```python(.*?)```"
-    
+
     # Using re.DOTALL to make the dot match newlines as well
     matches = re.findall(pattern, text, re.DOTALL)
-    
+
     # 'matches' will be a list of all the code blocks found in the text
     return matches
 
-GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY')
+
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 genai.configure(api_key=GOOGLE_API_KEY)
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -94,6 +99,7 @@ Please do not use any external dependencies like svgs since they are not availab
 #       hindi_text = Text('नमस्ते', font='Lohit Devanagari')  # Replace 'Lohit Devanagari' with any available Hindi font
 #        tamil_text = Text('வணக்கம்', font='Lohit Tamil')  # Replace 'Lohit Tamil' with any available Tamil font
 
+
 def create_math_matrix_movie(math_problem, audience_type, language="English", voice_label="en-US-AriaNeural"):
     # Check if audience_type is a digit and format it as "x years old", otherwise leave as is
     if str(audience_type).isdigit():
@@ -119,7 +125,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     with open(filename, 'w') as file:
         file.write(code)
     return filename
-    
-    #Write subprocess
+
+    # Write subprocess
 if __name__ == "__main__":
     main()
