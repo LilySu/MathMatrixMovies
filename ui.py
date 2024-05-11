@@ -45,7 +45,7 @@ genai.configure(api_key=GOOGLE_API_KEY)
 prompt = st.text_input("Enter the topic you wanna generate video on")
 
 # Create columns for the dropdowns and the button
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3 = st.columns(3)
 
 # Dropdown 1 in the first column
 with col1:
@@ -57,7 +57,7 @@ with col1:
 with col2:
     option2 = st.selectbox(
         'Language',
-        ['English', 'French', 'Hindi','Spanish'], key="2")
+        ['English', 'Hindi','Spanish', 'Mandarin', 'Turkish', 'Tamil'], key="2")
 
 # Button in the third column, spanning the third and fourth columns
 with col3:
@@ -68,12 +68,11 @@ with col3:
         model = genai.GenerativeModel('gemini-1.5-pro-latest')
         response = model.generate_content(f"{prompt} Can you create manim script for that explanation.")
         print(response.text)
-        st.markdown(f"<div style='text-align: center; font-size: 24px; color: #555;'>You entered: <b>{prompt}</b></div>", unsafe_allow_html=True)
         st.write(f"Option 1 selected: {option1}")
         st.write(f"Option 2 selected: {option2}")
 
-# Empty space in the fourth column (optional, adjust as needed)
-with col4:
-    st.write("")
+# # Empty space in the fourth column (optional, adjust as needed)
+# with col4:
+#     st.write("")
 
     
