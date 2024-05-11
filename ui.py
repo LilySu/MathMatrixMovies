@@ -1,8 +1,5 @@
 import streamlit as st
-
-import os
-import google.generativeai as genai
-
+from create_movie import create_math_matrix_movie
 
 
 st.markdown("""
@@ -35,10 +32,6 @@ st.markdown("""
 st.markdown("<div class='title'>MathMatrixMovies</div>", unsafe_allow_html=True)
 
 
-GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY')
-
-genai.configure(api_key=GOOGLE_API_KEY)
-
 
 
 # Text input for the prompt
@@ -65,11 +58,12 @@ with col3:
         # This block will execute when the button is pressed
         # Display the entered prompt and selections
         st.write(f"You entered: {prompt}")
-        model = genai.GenerativeModel('gemini-1.5-pro-latest')
-        response = model.generate_content(f"{prompt} Can you create manim script for that explanation.")
-        print(response.text)
+        
         st.write(f"Option 1 selected: {option1}")
         st.write(f"Option 2 selected: {option2}")
+        video = create_math_matrix_movie(prompt, option1, option2)
+
+        
 
 # # Empty space in the fourth column (optional, adjust as needed)
 # with col4:

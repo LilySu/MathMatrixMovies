@@ -1,5 +1,21 @@
 import argparse
+import re
+import os
+import google.generativeai as genai
 
+def extract_code_blocks(text):
+    # Regular expression pattern to find code blocks surrounded by triple backticks
+    pattern = r"```python(.*?)```"
+    
+    # Using re.DOTALL to make the dot match newlines as well
+    matches = re.findall(pattern, text, re.DOTALL)
+    
+    # 'matches' will be a list of all the code blocks found in the text
+    return matches
+
+GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY')
+
+genai.configure(api_key=GOOGLE_API_KEY)
 
 def main():
     parser = argparse.ArgumentParser(
@@ -89,7 +105,21 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     # Print the filled prompt to the console
     print(filled_prompt)
+    model = genai.GenerativeModel('gemini-1.5-pro-latest')
+    response = model.generate_content(filled_prompt)
+    code_blocks = extract_code_blocks(response.text)
+    for block in code_blocks:
+        print("Found code block:")
+        print(block.strip())
+        code = block.strip()
+    # exec(code)
+    filename = "ThreePlusFive.py"
 
-
+    # Open the file in write mode ('w') which will overwrite the file if it already exists
+    with open(filename, 'w') as file:
+        file.write(code)
+    return filename
+    
+    #Write subprocess
 if __name__ == "__main__":
     main()
