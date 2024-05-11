@@ -75,6 +75,8 @@ Please do not use any external dependencies like svgs since they are not availab
 
 """
 
+#       hindi_text = Text('नमस्ते', font='Lohit Devanagari')  # Replace 'Lohit Devanagari' with any available Hindi font
+#        tamil_text = Text('வணக்கம்', font='Lohit Tamil')  # Replace 'Lohit Tamil' with any available Tamil font
 
 def create_math_matrix_movie(math_problem, audience_type, language="English", voice_label="en-US-AriaNeural"):
     # Check if audience_type is a digit and format it as "x years old", otherwise leave as is
