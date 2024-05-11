@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:03,413
+Let's understand Gradient Descent, an algorithm for
+
+2
+00:00:03,513 --> 00:00:05,756
+finding the minimum of a function.
+
+3
+00:00:12,733 --> 00:00:17,049
+Imagine you're on a hill, and you want to find the lowest point.
+
+4
+00:00:18,200 --> 00:00:20,884
+You can do this by taking steps downhill,
+
+5
+00:00:20,984 --> 00:00:23,668
+in the direction of the steepest descent.
+
+6
+00:00:23,733 --> 00:00:27,343
+The gradient of a function tells us the direction of
+
+7
+00:00:27,443 --> 00:00:31,553
+the steepest ascent. So, we move in the opposite direction.
+
+8
+00:00:31,600 --> 00:00:36,876
+Step 1. We calculate the gradient and take a step downhill.
+
+9
+00:00:38,000 --> 00:00:43,372
+Step 2. We calculate the gradient and take a step downhill.
+
+10
+00:00:44,533 --> 00:00:49,857
+Step 3. We calculate the gradient and take a step downhill.
+
+11
+00:00:51,000 --> 00:00:56,372
+Step 4. We calculate the gradient and take a step downhill.
+
+12
+00:00:57,533 --> 00:01:02,977
+Step 5. We calculate the gradient and take a step downhill.
+
+13
+00:01:04,133 --> 00:01:07,114
+We continue this process, taking smaller and
+
+14
+00:01:07,214 --> 00:01:09,985
+smaller steps as we approach the minimum.
+
+15
+00:01:10,066 --> 00:01:14,286
+Eventually, we converge to the lowest point of the function.
+

@@ -1,3 +1,5 @@
+import subprocess
+import uuid
 import argparse
 import re
 import os
@@ -96,6 +98,11 @@ Please do not use any external dependencies like svgs since they are not availab
 
 """
 
+
+TRANSLATION_PROMPT = """
+Ok. now translate the text to {language}, and replace the voice_label for azureservice with {voice_label}. Please write ALL the code in one go so that it can be extracted and run directly.
+"""
+
 #       hindi_text = Text('नमस्ते', font='Lohit Devanagari')  # Replace 'Lohit Devanagari' with any available Hindi font
 #        tamil_text = Text('வணக்கம்', font='Lohit Tamil')  # Replace 'Lohit Tamil' with any available Tamil font
 
@@ -119,11 +126,14 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         print(block.strip())
         code = block.strip()
     # exec(code)
-    filename = "ThreePlusFive.py"
+    filename = f"MathMovie_{uuid.uuid4().hex[:8]}.py"
 
     # Open the file in write mode ('w') which will overwrite the file if it already exists
     with open(filename, 'w') as file:
         file.write(code)
+    # Assuming filename is already defined as shown previously
+    command = f"{os.getenv('MANIM_BIN')} -pql {filename} --disable_caching"
+    subprocess.run(command, shell=True)
     return filename
 
     # Write subprocess
