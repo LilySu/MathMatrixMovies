@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:03,383
+Imagine a game of chess. After just the first
+
+2
+00:00:03,483 --> 00:00:07,796
+few moves, things can get really complex, really quickly!
+
+3
+00:00:07,866 --> 00:00:12,806
+Let's explore the sheer number of possible moves after only 10 moves.
+
+4
+00:00:12,866 --> 00:00:15,981
+This graph shows approximately how many different
+
+5
+00:00:16,081 --> 00:00:18,670
+chess games are possible after each move.
+
+6
+00:00:18,800 --> 00:00:23,956
+After just one move per player, there are already 20 possible games!
+
+7
+00:00:24,066 --> 00:00:27,878
+That number jumps to 400 after two moves each.
+
+8
+00:00:28,000 --> 00:00:30,790
+After five moves, it's already hard
+
+9
+00:00:30,890 --> 00:00:34,260
+to imagine: almost 200,000 possible games!
+
+10
+00:00:34,400 --> 00:00:37,492
+But after 10 moves, things explode.
+
+11
+00:00:37,600 --> 00:00:40,466
+Over 3 billion different possible chess
+
+12
+00:00:40,566 --> 00:00:42,900
+games exist after just 10 moves!
+
+13
+00:00:43,000 --> 00:00:46,300
+That's why chess is so amazing. It's a game of
+
+14
+00:00:46,400 --> 00:00:50,292
+near infinite possibilities, even in just a few moves.
+

@@ -29,9 +29,8 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Use HTML for the title with custom class for styling
-st.markdown("<div class='title'>MathMatrixMovies</div>", unsafe_allow_html=True)
-
-
+st.markdown("<div class='title'>MathMatrixMovies</div>",
+            unsafe_allow_html=True)
 
 
 # Text input for the prompt
@@ -44,13 +43,13 @@ col1, col2, col3 = st.columns(3)
 with col1:
     option1 = st.selectbox(
         'Age',
-        ['3', '4', '5','6','7','8','9','10','11','12','13','14','15','16','17','18', 'Undergraduate', 'Graduate'], key="1")
+        ['3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', 'Undergraduate', 'Graduate'], key="1")
 
 # Dropdown 2 in the second column
 with col2:
     option2 = st.selectbox(
         'Language',
-        ['English', 'Hindi','Spanish', 'Mandarin', 'Turkish', 'Tamil'], key="2")
+        ['English', 'Hindi', 'Spanish', 'Mandarin', 'Turkish', 'Tamil'], key="2")
 
 # Button in the third column, spanning the third and fourth columns
 with col3:
@@ -58,15 +57,13 @@ with col3:
         # This block will execute when the button is pressed
         # Display the entered prompt and selections
         st.write(f"You entered: {prompt}")
-        
+
         st.write(f"Option 1 selected: {option1}")
         st.write(f"Option 2 selected: {option2}")
-        video = create_math_matrix_movie(prompt, option1, option2)
+        video_result = create_math_matrix_movie(prompt, option1, option2)
+        st.video(video_result["video_url"])
 
-        
 
 # # Empty space in the fourth column (optional, adjust as needed)
 # with col4:
 #     st.write("")
-
-    

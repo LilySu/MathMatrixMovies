@@ -13608,5 +13608,1232 @@
     ],
     "original_audio": "eventually-we-converge-to-the-lowest-point-of-the-22fb8c3f.mp3",
     "final_audio": "eventually-we-converge-to-the-lowest-point-of-the-22fb8c3f.mp3"
+  },
+  {
+    "input_text": "Imagine a game of chess. After just the first few moves, things can get really complex, really quickly!",
+    "input_data": {
+      "input_text": "Imagine a game of chess. After just the first few moves, things can get really complex, really quickly!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine a game of chess. After just the first few moves, things can get really complex, really quickly!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine a game of chess. After just the first few moves, things can get really complex, really quickly!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 537,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "Imagine",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6000000,
+        "duration_milliseconds": 62,
+        "text_offset": 8,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6750000,
+        "duration_milliseconds": 275,
+        "text_offset": 10,
+        "word_length": 4,
+        "text": "game",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 112,
+        "text_offset": 15,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10875000,
+        "duration_milliseconds": 537,
+        "text_offset": 18,
+        "word_length": 5,
+        "text": "chess",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16375000,
+        "duration_milliseconds": 100,
+        "text_offset": 23,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24875000,
+        "duration_milliseconds": 325,
+        "text_offset": 25,
+        "word_length": 5,
+        "text": "After",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28250000,
+        "duration_milliseconds": 225,
+        "text_offset": 31,
+        "word_length": 4,
+        "text": "just",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30625000,
+        "duration_milliseconds": 100,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31750000,
+        "duration_milliseconds": 337,
+        "text_offset": 40,
+        "word_length": 5,
+        "text": "first",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35250000,
+        "duration_milliseconds": 162,
+        "text_offset": 46,
+        "word_length": 3,
+        "text": "few",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37000000,
+        "duration_milliseconds": 475,
+        "text_offset": 50,
+        "word_length": 5,
+        "text": "moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42750000,
+        "duration_milliseconds": 150,
+        "text_offset": 55,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 44250000,
+        "duration_milliseconds": 287,
+        "text_offset": 57,
+        "word_length": 6,
+        "text": "things",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47250000,
+        "duration_milliseconds": 150,
+        "text_offset": 64,
+        "word_length": 3,
+        "text": "can",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 48875000,
+        "duration_milliseconds": 225,
+        "text_offset": 68,
+        "word_length": 3,
+        "text": "get",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51250000,
+        "duration_milliseconds": 262,
+        "text_offset": 72,
+        "word_length": 6,
+        "text": "really",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 54000000,
+        "duration_milliseconds": 637,
+        "text_offset": 79,
+        "word_length": 7,
+        "text": "complex",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61375000,
+        "duration_milliseconds": 100,
+        "text_offset": 86,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 62375000,
+        "duration_milliseconds": 262,
+        "text_offset": 88,
+        "word_length": 6,
+        "text": "really",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 65125000,
+        "duration_milliseconds": 525,
+        "text_offset": 95,
+        "word_length": 7,
+        "text": "quickly",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 70500000,
+        "duration_milliseconds": 112,
+        "text_offset": 102,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "imagine-a-game-of-chess-after-just-the-first-few-c1b90519.mp3",
+    "final_audio": "imagine-a-game-of-chess-after-just-the-first-few-c1b90519.mp3"
+  },
+  {
+    "input_text": "Let's explore the sheer number of possible moves after only 10 moves.",
+    "input_data": {
+      "input_text": "Let's explore the sheer number of possible moves after only 10 moves.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's explore the sheer number of possible moves after only 10 moves.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's explore the sheer number of possible moves after only 10 moves.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 287,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3500000,
+        "duration_milliseconds": 487,
+        "text_offset": 6,
+        "word_length": 7,
+        "text": "explore",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8500000,
+        "duration_milliseconds": 87,
+        "text_offset": 14,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9500000,
+        "duration_milliseconds": 300,
+        "text_offset": 18,
+        "word_length": 5,
+        "text": "sheer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12625000,
+        "duration_milliseconds": 312,
+        "text_offset": 24,
+        "word_length": 6,
+        "text": "number",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15875000,
+        "duration_milliseconds": 87,
+        "text_offset": 31,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16875000,
+        "duration_milliseconds": 487,
+        "text_offset": 34,
+        "word_length": 8,
+        "text": "possible",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21875000,
+        "duration_milliseconds": 475,
+        "text_offset": 43,
+        "word_length": 5,
+        "text": "moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27375000,
+        "duration_milliseconds": 350,
+        "text_offset": 49,
+        "word_length": 5,
+        "text": "after",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31000000,
+        "duration_milliseconds": 275,
+        "text_offset": 55,
+        "word_length": 4,
+        "text": "only",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33875000,
+        "duration_milliseconds": 275,
+        "text_offset": 60,
+        "word_length": 2,
+        "text": "10",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36750000,
+        "duration_milliseconds": 525,
+        "text_offset": 63,
+        "word_length": 5,
+        "text": "moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42125000,
+        "duration_milliseconds": 100,
+        "text_offset": 68,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-explore-the-sheer-number-of-possible-moves-82d3dc92.mp3",
+    "final_audio": "let-s-explore-the-sheer-number-of-possible-moves-82d3dc92.mp3"
+  },
+  {
+    "input_text": "This graph shows approximately how many different chess games are possible after each move.",
+    "input_data": {
+      "input_text": "This graph shows approximately how many different chess games are possible after each move.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">This graph shows approximately how many different chess games are possible after each move.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">This graph shows approximately how many different chess games are possible after each move.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 200,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "This",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2625000,
+        "duration_milliseconds": 400,
+        "text_offset": 5,
+        "word_length": 5,
+        "text": "graph",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6750000,
+        "duration_milliseconds": 275,
+        "text_offset": 11,
+        "word_length": 5,
+        "text": "shows",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 750,
+        "text_offset": 17,
+        "word_length": 13,
+        "text": "approximately",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17250000,
+        "duration_milliseconds": 200,
+        "text_offset": 31,
+        "word_length": 3,
+        "text": "how",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19375000,
+        "duration_milliseconds": 237,
+        "text_offset": 35,
+        "word_length": 4,
+        "text": "many",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21875000,
+        "duration_milliseconds": 362,
+        "text_offset": 40,
+        "word_length": 9,
+        "text": "different",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25625000,
+        "duration_milliseconds": 275,
+        "text_offset": 50,
+        "word_length": 5,
+        "text": "chess",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28500000,
+        "duration_milliseconds": 375,
+        "text_offset": 56,
+        "word_length": 5,
+        "text": "games",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32875000,
+        "duration_milliseconds": 137,
+        "text_offset": 62,
+        "word_length": 3,
+        "text": "are",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34375000,
+        "duration_milliseconds": 550,
+        "text_offset": 66,
+        "word_length": 8,
+        "text": "possible",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40500000,
+        "duration_milliseconds": 250,
+        "text_offset": 75,
+        "word_length": 5,
+        "text": "after",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43125000,
+        "duration_milliseconds": 225,
+        "text_offset": 81,
+        "word_length": 4,
+        "text": "each",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45500000,
+        "duration_milliseconds": 512,
+        "text_offset": 86,
+        "word_length": 4,
+        "text": "move",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50750000,
+        "duration_milliseconds": 100,
+        "text_offset": 90,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "this-graph-shows-approximately-how-many-different-42ce66e1.mp3",
+    "final_audio": "this-graph-shows-approximately-how-many-different-42ce66e1.mp3"
+  },
+  {
+    "input_text": "After just one move per player, there are already 20 possible games!",
+    "input_data": {
+      "input_text": "After just one move per player, there are already 20 possible games!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">After just one move per player, there are already 20 possible games!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">After just one move per player, there are already 20 possible games!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 337,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "After",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4000000,
+        "duration_milliseconds": 262,
+        "text_offset": 6,
+        "word_length": 4,
+        "text": "just",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6750000,
+        "duration_milliseconds": 225,
+        "text_offset": 11,
+        "word_length": 3,
+        "text": "one",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9125000,
+        "duration_milliseconds": 225,
+        "text_offset": 15,
+        "word_length": 4,
+        "text": "move",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11500000,
+        "duration_milliseconds": 175,
+        "text_offset": 20,
+        "word_length": 3,
+        "text": "per",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13375000,
+        "duration_milliseconds": 412,
+        "text_offset": 24,
+        "word_length": 6,
+        "text": "player",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18500000,
+        "duration_milliseconds": 225,
+        "text_offset": 30,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 20875000,
+        "duration_milliseconds": 162,
+        "text_offset": 32,
+        "word_length": 5,
+        "text": "there",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22625000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 3,
+        "text": "are",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24875000,
+        "duration_milliseconds": 412,
+        "text_offset": 42,
+        "word_length": 7,
+        "text": "already",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29125000,
+        "duration_milliseconds": 337,
+        "text_offset": 50,
+        "word_length": 2,
+        "text": "20",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32625000,
+        "duration_milliseconds": 512,
+        "text_offset": 53,
+        "word_length": 8,
+        "text": "possible",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37875000,
+        "duration_milliseconds": 600,
+        "text_offset": 62,
+        "word_length": 5,
+        "text": "games",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44000000,
+        "duration_milliseconds": 112,
+        "text_offset": 67,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "after-just-one-move-per-player-there-are-already-7c26813b.mp3",
+    "final_audio": "after-just-one-move-per-player-there-are-already-7c26813b.mp3"
+  },
+  {
+    "input_text": "That number jumps to 400 after two moves each.",
+    "input_data": {
+      "input_text": "That number jumps to 400 after two moves each.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That number jumps to 400 after two moves each.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That number jumps to 400 after two moves each.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 250,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "That",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3125000,
+        "duration_milliseconds": 337,
+        "text_offset": 5,
+        "word_length": 6,
+        "text": "number",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6625000,
+        "duration_milliseconds": 325,
+        "text_offset": 12,
+        "word_length": 5,
+        "text": "jumps",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10250000,
+        "duration_milliseconds": 112,
+        "text_offset": 18,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11500000,
+        "duration_milliseconds": 562,
+        "text_offset": 21,
+        "word_length": 3,
+        "text": "400",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17750000,
+        "duration_milliseconds": 300,
+        "text_offset": 25,
+        "word_length": 5,
+        "text": "after",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20875000,
+        "duration_milliseconds": 212,
+        "text_offset": 31,
+        "word_length": 3,
+        "text": "two",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23125000,
+        "duration_milliseconds": 325,
+        "text_offset": 35,
+        "word_length": 5,
+        "text": "moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26500000,
+        "duration_milliseconds": 412,
+        "text_offset": 41,
+        "word_length": 4,
+        "text": "each",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30750000,
+        "duration_milliseconds": 100,
+        "text_offset": 45,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "that-number-jumps-to-400-after-two-moves-each-5e1a9a68.mp3",
+    "final_audio": "that-number-jumps-to-400-after-two-moves-each-5e1a9a68.mp3"
+  },
+  {
+    "input_text": "After five moves, it's already hard to imagine: almost 200,000 possible games!",
+    "input_data": {
+      "input_text": "After five moves, it's already hard to imagine: almost 200,000 possible games!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">After five moves, it's already hard to imagine: almost 200,000 possible games!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">After five moves, it's already hard to imagine: almost 200,000 possible games!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 337,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "After",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4000000,
+        "duration_milliseconds": 325,
+        "text_offset": 6,
+        "word_length": 4,
+        "text": "five",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7375000,
+        "duration_milliseconds": 462,
+        "text_offset": 11,
+        "word_length": 5,
+        "text": "moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13000000,
+        "duration_milliseconds": 37,
+        "text_offset": 16,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 150,
+        "text_offset": 18,
+        "word_length": 4,
+        "text": "it's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 362,
+        "text_offset": 23,
+        "word_length": 7,
+        "text": "already",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18875000,
+        "duration_milliseconds": 325,
+        "text_offset": 31,
+        "word_length": 4,
+        "text": "hard",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22250000,
+        "duration_milliseconds": 112,
+        "text_offset": 36,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23500000,
+        "duration_milliseconds": 550,
+        "text_offset": 39,
+        "word_length": 7,
+        "text": "imagine",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30000000,
+        "duration_milliseconds": 125,
+        "text_offset": 46,
+        "word_length": 1,
+        "text": ":",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 31375000,
+        "duration_milliseconds": 375,
+        "text_offset": 48,
+        "word_length": 6,
+        "text": "almost",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35250000,
+        "duration_milliseconds": 950,
+        "text_offset": 55,
+        "word_length": 7,
+        "text": "200,000",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44875000,
+        "duration_milliseconds": 412,
+        "text_offset": 63,
+        "word_length": 8,
+        "text": "possible",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49125000,
+        "duration_milliseconds": 587,
+        "text_offset": 72,
+        "word_length": 5,
+        "text": "games",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55125000,
+        "duration_milliseconds": 112,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "after-five-moves-it-s-already-hard-to-imagine-14d7e828.mp3",
+    "final_audio": "after-five-moves-it-s-already-hard-to-imagine-14d7e828.mp3"
+  },
+  {
+    "input_text": "But after 10 moves, things explode.",
+    "input_data": {
+      "input_text": "But after 10 moves, things explode.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">But after 10 moves, things explode.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">But after 10 moves, things explode.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 162,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "But",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2250000,
+        "duration_milliseconds": 325,
+        "text_offset": 4,
+        "word_length": 5,
+        "text": "after",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5625000,
+        "duration_milliseconds": 225,
+        "text_offset": 10,
+        "word_length": 2,
+        "text": "10",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8000000,
+        "duration_milliseconds": 425,
+        "text_offset": 13,
+        "word_length": 5,
+        "text": "moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13250000,
+        "duration_milliseconds": 75,
+        "text_offset": 18,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 14000000,
+        "duration_milliseconds": 287,
+        "text_offset": 20,
+        "word_length": 6,
+        "text": "things",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17000000,
+        "duration_milliseconds": 650,
+        "text_offset": 27,
+        "word_length": 7,
+        "text": "explode",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23625000,
+        "duration_milliseconds": 100,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "but-after-10-moves-things-explode-77b90839.mp3",
+    "final_audio": "but-after-10-moves-things-explode-77b90839.mp3"
+  },
+  {
+    "input_text": "Over 3 billion different possible chess games exist after just 10 moves!",
+    "input_data": {
+      "input_text": "Over 3 billion different possible chess games exist after just 10 moves!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Over 3 billion different possible chess games exist after just 10 moves!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Over 3 billion different possible chess games exist after just 10 moves!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 275,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "Over",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3375000,
+        "duration_milliseconds": 300,
+        "text_offset": 5,
+        "word_length": 1,
+        "text": "3",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6500000,
+        "duration_milliseconds": 400,
+        "text_offset": 7,
+        "word_length": 7,
+        "text": "billion",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10625000,
+        "duration_milliseconds": 350,
+        "text_offset": 15,
+        "word_length": 9,
+        "text": "different",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14250000,
+        "duration_milliseconds": 475,
+        "text_offset": 25,
+        "word_length": 8,
+        "text": "possible",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19125000,
+        "duration_milliseconds": 300,
+        "text_offset": 34,
+        "word_length": 5,
+        "text": "chess",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22250000,
+        "duration_milliseconds": 350,
+        "text_offset": 40,
+        "word_length": 5,
+        "text": "games",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25875000,
+        "duration_milliseconds": 562,
+        "text_offset": 46,
+        "word_length": 5,
+        "text": "exist",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32000000,
+        "duration_milliseconds": 275,
+        "text_offset": 52,
+        "word_length": 5,
+        "text": "after",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34875000,
+        "duration_milliseconds": 250,
+        "text_offset": 58,
+        "word_length": 4,
+        "text": "just",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37500000,
+        "duration_milliseconds": 237,
+        "text_offset": 63,
+        "word_length": 2,
+        "text": "10",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40000000,
+        "duration_milliseconds": 562,
+        "text_offset": 66,
+        "word_length": 5,
+        "text": "moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45750000,
+        "duration_milliseconds": 100,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "over-3-billion-different-possible-chess-games-0d464bac.mp3",
+    "final_audio": "over-3-billion-different-possible-chess-games-0d464bac.mp3"
+  },
+  {
+    "input_text": "That's why chess is so amazing. It's a game of near infinite possibilities, even in just a few moves.",
+    "input_data": {
+      "input_text": "That's why chess is so amazing. It's a game of near infinite possibilities, even in just a few moves.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's why chess is so amazing. It's a game of near infinite possibilities, even in just a few moves.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's why chess is so amazing. It's a game of near infinite possibilities, even in just a few moves.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 287,
+        "text_offset": 0,
+        "word_length": 6,
+        "text": "That's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3500000,
+        "duration_milliseconds": 162,
+        "text_offset": 7,
+        "word_length": 3,
+        "text": "why",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5250000,
+        "duration_milliseconds": 337,
+        "text_offset": 11,
+        "word_length": 5,
+        "text": "chess",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8750000,
+        "duration_milliseconds": 125,
+        "text_offset": 17,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10125000,
+        "duration_milliseconds": 250,
+        "text_offset": 20,
+        "word_length": 2,
+        "text": "so",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12750000,
+        "duration_milliseconds": 537,
+        "text_offset": 23,
+        "word_length": 7,
+        "text": "amazing",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18250000,
+        "duration_milliseconds": 100,
+        "text_offset": 30,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 200,
+        "text_offset": 32,
+        "word_length": 4,
+        "text": "It's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28875000,
+        "duration_milliseconds": 62,
+        "text_offset": 37,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29625000,
+        "duration_milliseconds": 287,
+        "text_offset": 39,
+        "word_length": 4,
+        "text": "game",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32625000,
+        "duration_milliseconds": 100,
+        "text_offset": 44,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33750000,
+        "duration_milliseconds": 212,
+        "text_offset": 47,
+        "word_length": 4,
+        "text": "near",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36000000,
+        "duration_milliseconds": 462,
+        "text_offset": 52,
+        "word_length": 8,
+        "text": "infinite",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40750000,
+        "duration_milliseconds": 837,
+        "text_offset": 61,
+        "word_length": 13,
+        "text": "possibilities",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50125000,
+        "duration_milliseconds": 100,
+        "text_offset": 74,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 51125000,
+        "duration_milliseconds": 250,
+        "text_offset": 76,
+        "word_length": 4,
+        "text": "even",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53750000,
+        "duration_milliseconds": 112,
+        "text_offset": 81,
+        "word_length": 2,
+        "text": "in",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55000000,
+        "duration_milliseconds": 212,
+        "text_offset": 84,
+        "word_length": 4,
+        "text": "just",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57250000,
+        "duration_milliseconds": 50,
+        "text_offset": 89,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57875000,
+        "duration_milliseconds": 187,
+        "text_offset": 91,
+        "word_length": 3,
+        "text": "few",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 59875000,
+        "duration_milliseconds": 550,
+        "text_offset": 95,
+        "word_length": 5,
+        "text": "moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 65500000,
+        "duration_milliseconds": 100,
+        "text_offset": 100,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "that-s-why-chess-is-so-amazing-it-s-a-game-of-near-b8f434dc.mp3",
+    "final_audio": "that-s-why-chess-is-so-amazing-it-s-a-game-of-near-b8f434dc.mp3"
   }
 ]

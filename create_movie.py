@@ -1,3 +1,4 @@
+import glob
 import subprocess
 import uuid
 import argparse
@@ -126,15 +127,19 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         print(block.strip())
         code = block.strip()
     # exec(code)
-    filename = f"MathMovie_{uuid.uuid4().hex[:8]}.py"
+    filename = f"MathMovie_{uuid.uuid4().hex[:8]}"
 
     # Open the file in write mode ('w') which will overwrite the file if it already exists
-    with open(filename, 'w') as file:
+    with open(f"{filename}.py", 'w') as file:
         file.write(code)
     # Assuming filename is already defined as shown previously
-    command = f"{os.getenv('MANIM_BIN')} -pql {filename} --disable_caching"
+    command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
     subprocess.run(command, shell=True)
-    return filename
+    current_script_dir = os.path.dirname(os.path.abspath(__file__))
+    path_pattern = os.path.join(
+        current_script_dir, f"media/videos/{filename}/480p15/*.mp4")
+    mp4_files = glob.glob(path_pattern)
+    return {"video_url": mp4_files[0], "video_id": filename}
 
     # Write subprocess
 if __name__ == "__main__":
