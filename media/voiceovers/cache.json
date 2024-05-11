@@ -5155,5 +5155,1067 @@
     ],
     "original_audio": "let-s-try-using-this-method-to-approximate-tau-to-1fdfd472.mp3",
     "final_audio": "let-s-try-using-this-method-to-approximate-tau-to-1fdfd472.mp3"
+  },
+  {
+    "input_text": "Let's dive into integral calculus!",
+    "input_data": {
+      "input_text": "Let's dive into integral calculus!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's dive into integral calculus!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's dive into integral calculus!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 350,
+        "text_offset": 6,
+        "word_length": 4,
+        "text": "dive",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7500000,
+        "duration_milliseconds": 187,
+        "text_offset": 11,
+        "word_length": 4,
+        "text": "into",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9500000,
+        "duration_milliseconds": 487,
+        "text_offset": 16,
+        "word_length": 8,
+        "text": "integral",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14500000,
+        "duration_milliseconds": 737,
+        "text_offset": 25,
+        "word_length": 8,
+        "text": "calculus",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22000000,
+        "duration_milliseconds": 112,
+        "text_offset": 33,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-dive-into-integral-calculus-646538c1.mp3",
+    "final_audio": "let-s-dive-into-integral-calculus-646538c1.mp3"
+  },
+  {
+    "input_text": "Imagine we have a curve, like this.",
+    "input_data": {
+      "input_text": "Imagine we have a curve, like this.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine we have a curve, like this.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine we have a curve, like this.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 575,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "Imagine",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6375000,
+        "duration_milliseconds": 125,
+        "text_offset": 8,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7750000,
+        "duration_milliseconds": 162,
+        "text_offset": 11,
+        "word_length": 4,
+        "text": "have",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9500000,
+        "duration_milliseconds": 75,
+        "text_offset": 16,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10375000,
+        "duration_milliseconds": 375,
+        "text_offset": 18,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 50,
+        "text_offset": 23,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 15625000,
+        "duration_milliseconds": 212,
+        "text_offset": 25,
+        "word_length": 4,
+        "text": "like",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17875000,
+        "duration_milliseconds": 400,
+        "text_offset": 30,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22000000,
+        "duration_milliseconds": 112,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "imagine-we-have-a-curve-like-this-64e8dbc7.mp3",
+    "final_audio": "imagine-we-have-a-curve-like-this-64e8dbc7.mp3"
+  },
+  {
+    "input_text": "Integral calculus helps us find the area under this curve.",
+    "input_data": {
+      "input_text": "Integral calculus helps us find the area under this curve.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Integral calculus helps us find the area under this curve.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Integral calculus helps us find the area under this curve.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 512,
+        "text_offset": 0,
+        "word_length": 8,
+        "text": "Integral",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5750000,
+        "duration_milliseconds": 637,
+        "text_offset": 9,
+        "word_length": 8,
+        "text": "calculus",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12625000,
+        "duration_milliseconds": 325,
+        "text_offset": 18,
+        "word_length": 5,
+        "text": "helps",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16000000,
+        "duration_milliseconds": 162,
+        "text_offset": 24,
+        "word_length": 2,
+        "text": "us",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17750000,
+        "duration_milliseconds": 312,
+        "text_offset": 27,
+        "word_length": 4,
+        "text": "find",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21000000,
+        "duration_milliseconds": 87,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22000000,
+        "duration_milliseconds": 525,
+        "text_offset": 36,
+        "word_length": 4,
+        "text": "area",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 250,
+        "text_offset": 41,
+        "word_length": 5,
+        "text": "under",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30375000,
+        "duration_milliseconds": 200,
+        "text_offset": 47,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32500000,
+        "duration_milliseconds": 487,
+        "text_offset": 52,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37500000,
+        "duration_milliseconds": 112,
+        "text_offset": 57,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "integral-calculus-helps-us-find-the-area-under-321e9aa0.mp3",
+    "final_audio": "integral-calculus-helps-us-find-the-area-under-321e9aa0.mp3"
+  },
+  {
+    "input_text": "We can approximate this area by using rectangles.",
+    "input_data": {
+      "input_text": "We can approximate this area by using rectangles.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We can approximate this area by using rectangles.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We can approximate this area by using rectangles.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2000000,
+        "duration_milliseconds": 137,
+        "text_offset": 3,
+        "word_length": 3,
+        "text": "can",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3500000,
+        "duration_milliseconds": 687,
+        "text_offset": 7,
+        "word_length": 11,
+        "text": "approximate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10500000,
+        "duration_milliseconds": 187,
+        "text_offset": 19,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 362,
+        "text_offset": 24,
+        "word_length": 4,
+        "text": "area",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16625000,
+        "duration_milliseconds": 125,
+        "text_offset": 29,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18000000,
+        "duration_milliseconds": 412,
+        "text_offset": 32,
+        "word_length": 5,
+        "text": "using",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22250000,
+        "duration_milliseconds": 850,
+        "text_offset": 38,
+        "word_length": 10,
+        "text": "rectangles",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30875000,
+        "duration_milliseconds": 100,
+        "text_offset": 48,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-can-approximate-this-area-by-using-rectangles-4a09db18.mp3",
+    "final_audio": "we-can-approximate-this-area-by-using-rectangles-4a09db18.mp3"
+  },
+  {
+    "input_text": "The thinner the rectangles, the more accurate our approximation.",
+    "input_data": {
+      "input_text": "The thinner the rectangles, the more accurate our approximation.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The thinner the rectangles, the more accurate our approximation.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The thinner the rectangles, the more accurate our approximation.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 112,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1750000,
+        "duration_milliseconds": 325,
+        "text_offset": 4,
+        "word_length": 7,
+        "text": "thinner",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5125000,
+        "duration_milliseconds": 112,
+        "text_offset": 12,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6375000,
+        "duration_milliseconds": 750,
+        "text_offset": 16,
+        "word_length": 10,
+        "text": "rectangles",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14875000,
+        "duration_milliseconds": 150,
+        "text_offset": 26,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 16375000,
+        "duration_milliseconds": 87,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 325,
+        "text_offset": 32,
+        "word_length": 4,
+        "text": "more",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20750000,
+        "duration_milliseconds": 500,
+        "text_offset": 37,
+        "word_length": 8,
+        "text": "accurate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25875000,
+        "duration_milliseconds": 150,
+        "text_offset": 46,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27500000,
+        "duration_milliseconds": 975,
+        "text_offset": 50,
+        "word_length": 13,
+        "text": "approximation",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37375000,
+        "duration_milliseconds": 112,
+        "text_offset": 63,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "the-thinner-the-rectangles-the-more-accurate-our-33aceff2.mp3",
+    "final_audio": "the-thinner-the-rectangles-the-more-accurate-our-33aceff2.mp3"
+  },
+  {
+    "input_text": "We represent this process of finding the exact area with the integral symbol.",
+    "input_data": {
+      "input_text": "We represent this process of finding the exact area with the integral symbol.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We represent this process of finding the exact area with the integral symbol.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We represent this process of finding the exact area with the integral symbol.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 162,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2250000,
+        "duration_milliseconds": 537,
+        "text_offset": 3,
+        "word_length": 9,
+        "text": "represent",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7750000,
+        "duration_milliseconds": 175,
+        "text_offset": 13,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 562,
+        "text_offset": 18,
+        "word_length": 7,
+        "text": "process",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15375000,
+        "duration_milliseconds": 87,
+        "text_offset": 26,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16375000,
+        "duration_milliseconds": 425,
+        "text_offset": 29,
+        "word_length": 7,
+        "text": "finding",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20750000,
+        "duration_milliseconds": 75,
+        "text_offset": 37,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21625000,
+        "duration_milliseconds": 537,
+        "text_offset": 41,
+        "word_length": 5,
+        "text": "exact",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27125000,
+        "duration_milliseconds": 412,
+        "text_offset": 47,
+        "word_length": 4,
+        "text": "area",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31875000,
+        "duration_milliseconds": 137,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "with",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33375000,
+        "duration_milliseconds": 112,
+        "text_offset": 57,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34625000,
+        "duration_milliseconds": 425,
+        "text_offset": 61,
+        "word_length": 8,
+        "text": "integral",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39000000,
+        "duration_milliseconds": 450,
+        "text_offset": 70,
+        "word_length": 6,
+        "text": "symbol",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43625000,
+        "duration_milliseconds": 100,
+        "text_offset": 76,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-represent-this-process-of-finding-the-exact-8a91bcdb.mp3",
+    "final_audio": "we-represent-this-process-of-finding-the-exact-8a91bcdb.mp3"
+  },
+  {
+    "input_text": "We integrate a function, in this case, x squared.",
+    "input_data": {
+      "input_text": "We integrate a function, in this case, x squared.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We integrate a function, in this case, x squared.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We integrate a function, in this case, x squared.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 187,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2500000,
+        "duration_milliseconds": 500,
+        "text_offset": 3,
+        "word_length": 9,
+        "text": "integrate",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7625000,
+        "duration_milliseconds": 62,
+        "text_offset": 13,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8375000,
+        "duration_milliseconds": 525,
+        "text_offset": 15,
+        "word_length": 8,
+        "text": "function",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14625000,
+        "duration_milliseconds": 25,
+        "text_offset": 23,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 15000000,
+        "duration_milliseconds": 125,
+        "text_offset": 25,
+        "word_length": 2,
+        "text": "in",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16375000,
+        "duration_milliseconds": 200,
+        "text_offset": 28,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18500000,
+        "duration_milliseconds": 362,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "case",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23125000,
+        "duration_milliseconds": 87,
+        "text_offset": 37,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24000000,
+        "duration_milliseconds": 187,
+        "text_offset": 39,
+        "word_length": 1,
+        "text": "x",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26000000,
+        "duration_milliseconds": 525,
+        "text_offset": 41,
+        "word_length": 7,
+        "text": "squared",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31375000,
+        "duration_milliseconds": 100,
+        "text_offset": 48,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-integrate-a-function-in-this-case-x-squared-ee590d52.mp3",
+    "final_audio": "we-integrate-a-function-in-this-case-x-squared-ee590d52.mp3"
+  },
+  {
+    "input_text": "And we specify the limits of integration, from 1 to 4.",
+    "input_data": {
+      "input_text": "And we specify the limits of integration, from 1 to 4.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">And we specify the limits of integration, from 1 to 4.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">And we specify the limits of integration, from 1 to 4.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 187,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "And",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2500000,
+        "duration_milliseconds": 112,
+        "text_offset": 4,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3750000,
+        "duration_milliseconds": 650,
+        "text_offset": 7,
+        "word_length": 7,
+        "text": "specify",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10375000,
+        "duration_milliseconds": 137,
+        "text_offset": 15,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11875000,
+        "duration_milliseconds": 337,
+        "text_offset": 19,
+        "word_length": 6,
+        "text": "limits",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15375000,
+        "duration_milliseconds": 87,
+        "text_offset": 26,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16375000,
+        "duration_milliseconds": 712,
+        "text_offset": 29,
+        "word_length": 11,
+        "text": "integration",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24500000,
+        "duration_milliseconds": 175,
+        "text_offset": 40,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 26250000,
+        "duration_milliseconds": 200,
+        "text_offset": 42,
+        "word_length": 4,
+        "text": "from",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28375000,
+        "duration_milliseconds": 187,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": "1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30375000,
+        "duration_milliseconds": 125,
+        "text_offset": 49,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31750000,
+        "duration_milliseconds": 425,
+        "text_offset": 52,
+        "word_length": 1,
+        "text": "4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36125000,
+        "duration_milliseconds": 100,
+        "text_offset": 53,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "and-we-specify-the-limits-of-integration-from-1-to-ad3a6299.mp3",
+    "final_audio": "and-we-specify-the-limits-of-integration-from-1-to-ad3a6299.mp3"
+  },
+  {
+    "input_text": "This integral gives us the precise area under the curve between these limits.",
+    "input_data": {
+      "input_text": "This integral gives us the precise area under the curve between these limits.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">This integral gives us the precise area under the curve between these limits.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">This integral gives us the precise area under the curve between these limits.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 212,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "This",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2750000,
+        "duration_milliseconds": 537,
+        "text_offset": 5,
+        "word_length": 8,
+        "text": "integral",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8250000,
+        "duration_milliseconds": 237,
+        "text_offset": 14,
+        "word_length": 5,
+        "text": "gives",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10750000,
+        "duration_milliseconds": 162,
+        "text_offset": 20,
+        "word_length": 2,
+        "text": "us",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 100,
+        "text_offset": 23,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13625000,
+        "duration_milliseconds": 512,
+        "text_offset": 27,
+        "word_length": 7,
+        "text": "precise",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18875000,
+        "duration_milliseconds": 450,
+        "text_offset": 35,
+        "word_length": 4,
+        "text": "area",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23750000,
+        "duration_milliseconds": 212,
+        "text_offset": 40,
+        "word_length": 5,
+        "text": "under",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26000000,
+        "duration_milliseconds": 87,
+        "text_offset": 46,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27000000,
+        "duration_milliseconds": 375,
+        "text_offset": 50,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31375000,
+        "duration_milliseconds": 375,
+        "text_offset": 56,
+        "word_length": 7,
+        "text": "between",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35250000,
+        "duration_milliseconds": 237,
+        "text_offset": 64,
+        "word_length": 5,
+        "text": "these",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37750000,
+        "duration_milliseconds": 537,
+        "text_offset": 70,
+        "word_length": 6,
+        "text": "limits",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43250000,
+        "duration_milliseconds": 100,
+        "text_offset": 76,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "this-integral-gives-us-the-precise-area-under-the-cadb78e9.mp3",
+    "final_audio": "this-integral-gives-us-the-precise-area-under-the-cadb78e9.mp3"
+  },
+  {
+    "input_text": "That's a glimpse into the power of integral calculus!",
+    "input_data": {
+      "input_text": "That's a glimpse into the power of integral calculus!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's a glimpse into the power of integral calculus!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's a glimpse into the power of integral calculus!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 275,
+        "text_offset": 0,
+        "word_length": 6,
+        "text": "That's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3375000,
+        "duration_milliseconds": 62,
+        "text_offset": 7,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4125000,
+        "duration_milliseconds": 425,
+        "text_offset": 9,
+        "word_length": 7,
+        "text": "glimpse",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9000000,
+        "duration_milliseconds": 212,
+        "text_offset": 17,
+        "word_length": 4,
+        "text": "into",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11250000,
+        "duration_milliseconds": 112,
+        "text_offset": 22,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 437,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "power",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17000000,
+        "duration_milliseconds": 100,
+        "text_offset": 32,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18125000,
+        "duration_milliseconds": 437,
+        "text_offset": 35,
+        "word_length": 8,
+        "text": "integral",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22625000,
+        "duration_milliseconds": 800,
+        "text_offset": 44,
+        "word_length": 8,
+        "text": "calculus",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30750000,
+        "duration_milliseconds": 112,
+        "text_offset": 52,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "that-s-a-glimpse-into-the-power-of-integral-75a123d4.mp3",
+    "final_audio": "that-s-a-glimpse-into-the-power-of-integral-75a123d4.mp3"
   }
 ]
