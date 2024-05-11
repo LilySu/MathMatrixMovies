@@ -6217,5 +6217,3773 @@
     ],
     "original_audio": "that-s-a-glimpse-into-the-power-of-integral-75a123d4.mp3",
     "final_audio": "that-s-a-glimpse-into-the-power-of-integral-75a123d4.mp3"
+  },
+  {
+    "input_text": "\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!",
+    "input_data": {
+      "input_text": "\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 475,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "\u0b9a\u0bb0\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6250000,
+        "duration_milliseconds": 162,
+        "text_offset": 3,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 7875000,
+        "duration_milliseconds": 625,
+        "text_offset": 5,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14250000,
+        "duration_milliseconds": 587,
+        "text_offset": 16,
+        "word_length": 9,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20250000,
+        "duration_milliseconds": 350,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "\u0baa\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23875000,
+        "duration_milliseconds": 537,
+        "text_offset": 32,
+        "word_length": 7,
+        "text": "\u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29375000,
+        "duration_milliseconds": 437,
+        "text_offset": 40,
+        "word_length": 4,
+        "text": "\u0b86\u0bb4\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33875000,
+        "duration_milliseconds": 675,
+        "text_offset": 45,
+        "word_length": 9,
+        "text": "\u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40750000,
+        "duration_milliseconds": 100,
+        "text_offset": 54,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "cri-innnttekrl-kaalkuls-ptti-keaanycm-aalllmaa-d9e92c8f.mp3",
+    "final_audio": "cri-innnttekrl-kaalkuls-ptti-keaanycm-aalllmaa-d9e92c8f.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.",
+    "input_data": {
+      "input_text": "\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 362,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0b99\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4250000,
+        "duration_milliseconds": 250,
+        "text_offset": 5,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6875000,
+        "duration_milliseconds": 375,
+        "text_offset": 9,
+        "word_length": 5,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10750000,
+        "duration_milliseconds": 475,
+        "text_offset": 15,
+        "word_length": 9,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15625000,
+        "duration_milliseconds": 900,
+        "text_offset": 25,
+        "word_length": 12,
+        "text": "\u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25625000,
+        "duration_milliseconds": 87,
+        "text_offset": 37,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 26500000,
+        "duration_milliseconds": 200,
+        "text_offset": 39,
+        "word_length": 3,
+        "text": "\u0b87\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28625000,
+        "duration_milliseconds": 587,
+        "text_offset": 43,
+        "word_length": 6,
+        "text": "\u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34625000,
+        "duration_milliseconds": 100,
+        "text_offset": 49,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "ingk-oru-vllaivu-irukkunnnu-vccukkeeaangk-itu-947e8c35.mp3",
+    "final_audio": "ingk-oru-vllaivu-irukkunnnu-vccukkeeaangk-itu-947e8c35.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 337,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4000000,
+        "duration_milliseconds": 625,
+        "text_offset": 5,
+        "word_length": 9,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10375000,
+        "duration_milliseconds": 400,
+        "text_offset": 15,
+        "word_length": 3,
+        "text": "\u0b95\u0bc0\u0bb4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14500000,
+        "duration_milliseconds": 525,
+        "text_offset": 19,
+        "word_length": 8,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19875000,
+        "duration_milliseconds": 650,
+        "text_offset": 28,
+        "word_length": 7,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26500000,
+        "duration_milliseconds": 812,
+        "text_offset": 36,
+        "word_length": 12,
+        "text": "\u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34750000,
+        "duration_milliseconds": 625,
+        "text_offset": 49,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41125000,
+        "duration_milliseconds": 612,
+        "text_offset": 60,
+        "word_length": 9,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47375000,
+        "duration_milliseconds": 637,
+        "text_offset": 70,
+        "word_length": 6,
+        "text": "\u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53875000,
+        "duration_milliseconds": 112,
+        "text_offset": 76,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-vllaivukku-kiilll-irukkirr-prppllv-1cd7aca8.mp3",
+    "final_audio": "int-vllaivukku-kiilll-irukkirr-prppllv-1cd7aca8.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 762,
+        "text_offset": 5,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11625000,
+        "duration_milliseconds": 662,
+        "text_offset": 14,
+        "word_length": 11,
+        "text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18375000,
+        "duration_milliseconds": 725,
+        "text_offset": 26,
+        "word_length": 11,
+        "text": "\u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25750000,
+        "duration_milliseconds": 712,
+        "text_offset": 38,
+        "word_length": 7,
+        "text": "\u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33000000,
+        "duration_milliseconds": 812,
+        "text_offset": 46,
+        "word_length": 11,
+        "text": "\u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 100,
+        "text_offset": 57,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-prppllvai-cevvkngkllai-pynnnpttutti-64ddab55.mp3",
+    "final_audio": "int-prppllvai-cevvkngkllai-pynnnpttutti-64ddab55.mp3"
+  },
+  {
+    "input_text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 775,
+        "text_offset": 0,
+        "word_length": 11,
+        "text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8375000,
+        "duration_milliseconds": 562,
+        "text_offset": 12,
+        "word_length": 7,
+        "text": "\u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 712,
+        "text_offset": 20,
+        "word_length": 9,
+        "text": "\u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22250000,
+        "duration_milliseconds": 187,
+        "text_offset": 29,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 500,
+        "text_offset": 31,
+        "word_length": 7,
+        "text": "\u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29250000,
+        "duration_milliseconds": 662,
+        "text_offset": 39,
+        "word_length": 9,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36000000,
+        "duration_milliseconds": 337,
+        "text_offset": 49,
+        "word_length": 4,
+        "text": "\u0ba8\u0bae\u0bcd\u0bae",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39500000,
+        "duration_milliseconds": 537,
+        "text_offset": 54,
+        "word_length": 7,
+        "text": "\u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 537,
+        "text_offset": 62,
+        "word_length": 9,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50500000,
+        "duration_milliseconds": 112,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "cevvkngkll-evvllvu-melliyteeaa-avvllvu-tulliymaa-2ab47837.mp3",
+    "final_audio": "cevvkngkll-evvllvu-melliyteeaa-avvllvu-tulliymaa-2ab47837.mp3"
+  },
+  {
+    "input_text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 737,
+        "text_offset": 0,
+        "word_length": 10,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8000000,
+        "duration_milliseconds": 662,
+        "text_offset": 11,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14750000,
+        "duration_milliseconds": 925,
+        "text_offset": 20,
+        "word_length": 14,
+        "text": "\u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 325,
+        "text_offset": 35,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27500000,
+        "duration_milliseconds": 912,
+        "text_offset": 40,
+        "word_length": 13,
+        "text": "\u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36750000,
+        "duration_milliseconds": 562,
+        "text_offset": 54,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42500000,
+        "duration_milliseconds": 487,
+        "text_offset": 65,
+        "word_length": 9,
+        "text": "\u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 950,
+        "text_offset": 75,
+        "word_length": 15,
+        "text": "\u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57125000,
+        "duration_milliseconds": 100,
+        "text_offset": 90,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "tulliymaannn-prppllvai-knnttupittikkirr-int-ce9d641a.mp3",
+    "final_audio": "tulliymaannn-prppllvai-knnttupittikkirr-int-ce9d641a.mp3"
+  },
+  {
+    "input_text": "\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.",
+    "input_data": {
+      "input_text": "\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 450,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "\u0ba8\u0bbe\u0bae",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5125000,
+        "duration_milliseconds": 237,
+        "text_offset": 4,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7625000,
+        "duration_milliseconds": 475,
+        "text_offset": 8,
+        "word_length": 5,
+        "text": "\u0b9a\u0bbe\u0bb0\u0bcd\u0baa",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 925,
+        "text_offset": 14,
+        "word_length": 17,
+        "text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22750000,
+        "duration_milliseconds": 175,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24500000,
+        "duration_milliseconds": 375,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28375000,
+        "duration_milliseconds": 775,
+        "text_offset": 38,
+        "word_length": 9,
+        "text": "\u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37125000,
+        "duration_milliseconds": 125,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 38375000,
+        "duration_milliseconds": 312,
+        "text_offset": 49,
+        "word_length": 5,
+        "text": "\u0b8e\u0b95\u0bcd\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41625000,
+        "duration_milliseconds": 500,
+        "text_offset": 55,
+        "word_length": 9,
+        "text": "\u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46750000,
+        "duration_milliseconds": 100,
+        "text_offset": 64,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "naam-oru-caarp-orungkinnaikkirreeaam-int-vissyttul-66ec413c.mp3",
+    "final_audio": "naam-oru-caarp-orungkinnaikkirreeaam-int-vissyttul-66ec413c.mp3"
+  },
+  {
+    "input_text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 812,
+        "text_offset": 0,
+        "word_length": 13,
+        "text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8750000,
+        "duration_milliseconds": 600,
+        "text_offset": 14,
+        "word_length": 8,
+        "text": "\u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14875000,
+        "duration_milliseconds": 375,
+        "text_offset": 23,
+        "word_length": 1,
+        "text": "1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 562,
+        "text_offset": 25,
+        "word_length": 8,
+        "text": "\u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24500000,
+        "duration_milliseconds": 450,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": "4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29125000,
+        "duration_milliseconds": 250,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\u0bb5\u0bb0\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31750000,
+        "duration_milliseconds": 787,
+        "text_offset": 40,
+        "word_length": 14,
+        "text": "\u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39750000,
+        "duration_milliseconds": 112,
+        "text_offset": 54,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "orungkinnaippu-ellaikllai-1-liruntu-4-vrai-1de45ce7.mp3",
+    "final_audio": "orungkinnaippu-ellaikllai-1-liruntu-4-vrai-1de45ce7.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 687,
+        "text_offset": 5,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11750000,
+        "duration_milliseconds": 337,
+        "text_offset": 16,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15250000,
+        "duration_milliseconds": 837,
+        "text_offset": 21,
+        "word_length": 12,
+        "text": "\u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23750000,
+        "duration_milliseconds": 387,
+        "text_offset": 34,
+        "word_length": 6,
+        "text": "\u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 300,
+        "text_offset": 41,
+        "word_length": 4,
+        "text": "\u0b89\u0bb3\u0bcd\u0bb3",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30875000,
+        "duration_milliseconds": 650,
+        "text_offset": 46,
+        "word_length": 9,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37500000,
+        "duration_milliseconds": 462,
+        "text_offset": 56,
+        "word_length": 3,
+        "text": "\u0b95\u0bc0\u0bb4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42250000,
+        "duration_milliseconds": 737,
+        "text_offset": 60,
+        "word_length": 10,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 612,
+        "text_offset": 71,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56000000,
+        "duration_milliseconds": 575,
+        "text_offset": 80,
+        "word_length": 5,
+        "text": "\u0ba4\u0bb0\u0bc1\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61875000,
+        "duration_milliseconds": 112,
+        "text_offset": 85,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-innnttekrl-int-ellaikllukku-ittaiyil-ullll-0f0e8b48.mp3",
+    "final_audio": "int-innnttekrl-int-ellaikllukku-ittaiyil-ullll-0f0e8b48.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!",
+    "input_data": {
+      "input_text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 575,
+        "text_offset": 0,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6375000,
+        "duration_milliseconds": 762,
+        "text_offset": 11,
+        "word_length": 11,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 450,
+        "text_offset": 23,
+        "word_length": 6,
+        "text": "\u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 475,
+        "text_offset": 30,
+        "word_length": 5,
+        "text": "\u0baa\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23625000,
+        "duration_milliseconds": 287,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\u0b87\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26625000,
+        "duration_milliseconds": 237,
+        "text_offset": 40,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29125000,
+        "duration_milliseconds": 325,
+        "text_offset": 44,
+        "word_length": 5,
+        "text": "\u0b9a\u0bbf\u0ba9\u0bcd\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32500000,
+        "duration_milliseconds": 950,
+        "text_offset": 50,
+        "word_length": 15,
+        "text": "\u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42125000,
+        "duration_milliseconds": 112,
+        "text_offset": 65,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3",
+    "final_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3"
+  },
+  {
+    "input_text": "\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!",
+    "input_data": {
+      "input_text": "\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 475,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "\u0b9a\u0bb0\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6250000,
+        "duration_milliseconds": 162,
+        "text_offset": 3,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 7875000,
+        "duration_milliseconds": 625,
+        "text_offset": 5,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14250000,
+        "duration_milliseconds": 587,
+        "text_offset": 16,
+        "word_length": 9,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20250000,
+        "duration_milliseconds": 350,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "\u0baa\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23875000,
+        "duration_milliseconds": 537,
+        "text_offset": 32,
+        "word_length": 7,
+        "text": "\u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29375000,
+        "duration_milliseconds": 437,
+        "text_offset": 40,
+        "word_length": 4,
+        "text": "\u0b86\u0bb4\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33875000,
+        "duration_milliseconds": 675,
+        "text_offset": 45,
+        "word_length": 9,
+        "text": "\u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40750000,
+        "duration_milliseconds": 100,
+        "text_offset": 54,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "cri-innnttekrl-kaalkuls-ptti-keaanycm-aalllmaa-d9e92c8f.mp3",
+    "final_audio": "cri-innnttekrl-kaalkuls-ptti-keaanycm-aalllmaa-d9e92c8f.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.",
+    "input_data": {
+      "input_text": "\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 362,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0b99\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4250000,
+        "duration_milliseconds": 250,
+        "text_offset": 5,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6875000,
+        "duration_milliseconds": 375,
+        "text_offset": 9,
+        "word_length": 5,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10750000,
+        "duration_milliseconds": 475,
+        "text_offset": 15,
+        "word_length": 9,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15625000,
+        "duration_milliseconds": 900,
+        "text_offset": 25,
+        "word_length": 12,
+        "text": "\u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25625000,
+        "duration_milliseconds": 87,
+        "text_offset": 37,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 26500000,
+        "duration_milliseconds": 200,
+        "text_offset": 39,
+        "word_length": 3,
+        "text": "\u0b87\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28625000,
+        "duration_milliseconds": 587,
+        "text_offset": 43,
+        "word_length": 6,
+        "text": "\u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34625000,
+        "duration_milliseconds": 100,
+        "text_offset": 49,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "ingk-oru-vllaivu-irukkunnnu-vccukkeeaangk-itu-947e8c35.mp3",
+    "final_audio": "ingk-oru-vllaivu-irukkunnnu-vccukkeeaangk-itu-947e8c35.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 337,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4000000,
+        "duration_milliseconds": 625,
+        "text_offset": 5,
+        "word_length": 9,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10375000,
+        "duration_milliseconds": 400,
+        "text_offset": 15,
+        "word_length": 3,
+        "text": "\u0b95\u0bc0\u0bb4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14500000,
+        "duration_milliseconds": 525,
+        "text_offset": 19,
+        "word_length": 8,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19875000,
+        "duration_milliseconds": 650,
+        "text_offset": 28,
+        "word_length": 7,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26500000,
+        "duration_milliseconds": 812,
+        "text_offset": 36,
+        "word_length": 12,
+        "text": "\u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34750000,
+        "duration_milliseconds": 625,
+        "text_offset": 49,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41125000,
+        "duration_milliseconds": 612,
+        "text_offset": 60,
+        "word_length": 9,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47375000,
+        "duration_milliseconds": 637,
+        "text_offset": 70,
+        "word_length": 6,
+        "text": "\u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53875000,
+        "duration_milliseconds": 112,
+        "text_offset": 76,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-vllaivukku-kiilll-irukkirr-prppllv-1cd7aca8.mp3",
+    "final_audio": "int-vllaivukku-kiilll-irukkirr-prppllv-1cd7aca8.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 762,
+        "text_offset": 5,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11625000,
+        "duration_milliseconds": 662,
+        "text_offset": 14,
+        "word_length": 11,
+        "text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18375000,
+        "duration_milliseconds": 725,
+        "text_offset": 26,
+        "word_length": 11,
+        "text": "\u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25750000,
+        "duration_milliseconds": 712,
+        "text_offset": 38,
+        "word_length": 7,
+        "text": "\u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33000000,
+        "duration_milliseconds": 812,
+        "text_offset": 46,
+        "word_length": 11,
+        "text": "\u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 100,
+        "text_offset": 57,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-prppllvai-cevvkngkllai-pynnnpttutti-64ddab55.mp3",
+    "final_audio": "int-prppllvai-cevvkngkllai-pynnnpttutti-64ddab55.mp3"
+  },
+  {
+    "input_text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 775,
+        "text_offset": 0,
+        "word_length": 11,
+        "text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8375000,
+        "duration_milliseconds": 562,
+        "text_offset": 12,
+        "word_length": 7,
+        "text": "\u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 712,
+        "text_offset": 20,
+        "word_length": 9,
+        "text": "\u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22250000,
+        "duration_milliseconds": 187,
+        "text_offset": 29,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 500,
+        "text_offset": 31,
+        "word_length": 7,
+        "text": "\u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29250000,
+        "duration_milliseconds": 662,
+        "text_offset": 39,
+        "word_length": 9,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36000000,
+        "duration_milliseconds": 337,
+        "text_offset": 49,
+        "word_length": 4,
+        "text": "\u0ba8\u0bae\u0bcd\u0bae",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39500000,
+        "duration_milliseconds": 537,
+        "text_offset": 54,
+        "word_length": 7,
+        "text": "\u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 537,
+        "text_offset": 62,
+        "word_length": 9,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50500000,
+        "duration_milliseconds": 112,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "cevvkngkll-evvllvu-melliyteeaa-avvllvu-tulliymaa-2ab47837.mp3",
+    "final_audio": "cevvkngkll-evvllvu-melliyteeaa-avvllvu-tulliymaa-2ab47837.mp3"
+  },
+  {
+    "input_text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 737,
+        "text_offset": 0,
+        "word_length": 10,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8000000,
+        "duration_milliseconds": 662,
+        "text_offset": 11,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14750000,
+        "duration_milliseconds": 925,
+        "text_offset": 20,
+        "word_length": 14,
+        "text": "\u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 325,
+        "text_offset": 35,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27500000,
+        "duration_milliseconds": 912,
+        "text_offset": 40,
+        "word_length": 13,
+        "text": "\u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36750000,
+        "duration_milliseconds": 562,
+        "text_offset": 54,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42500000,
+        "duration_milliseconds": 487,
+        "text_offset": 65,
+        "word_length": 9,
+        "text": "\u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 950,
+        "text_offset": 75,
+        "word_length": 15,
+        "text": "\u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57125000,
+        "duration_milliseconds": 100,
+        "text_offset": 90,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "tulliymaannn-prppllvai-knnttupittikkirr-int-ce9d641a.mp3",
+    "final_audio": "tulliymaannn-prppllvai-knnttupittikkirr-int-ce9d641a.mp3"
+  },
+  {
+    "input_text": "\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.",
+    "input_data": {
+      "input_text": "\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 450,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "\u0ba8\u0bbe\u0bae",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5125000,
+        "duration_milliseconds": 237,
+        "text_offset": 4,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7625000,
+        "duration_milliseconds": 475,
+        "text_offset": 8,
+        "word_length": 5,
+        "text": "\u0b9a\u0bbe\u0bb0\u0bcd\u0baa",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 925,
+        "text_offset": 14,
+        "word_length": 17,
+        "text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22750000,
+        "duration_milliseconds": 175,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24500000,
+        "duration_milliseconds": 375,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28375000,
+        "duration_milliseconds": 775,
+        "text_offset": 38,
+        "word_length": 9,
+        "text": "\u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37125000,
+        "duration_milliseconds": 125,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 38375000,
+        "duration_milliseconds": 312,
+        "text_offset": 49,
+        "word_length": 5,
+        "text": "\u0b8e\u0b95\u0bcd\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41625000,
+        "duration_milliseconds": 500,
+        "text_offset": 55,
+        "word_length": 9,
+        "text": "\u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46750000,
+        "duration_milliseconds": 100,
+        "text_offset": 64,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "naam-oru-caarp-orungkinnaikkirreeaam-int-vissyttul-66ec413c.mp3",
+    "final_audio": "naam-oru-caarp-orungkinnaikkirreeaam-int-vissyttul-66ec413c.mp3"
+  },
+  {
+    "input_text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 812,
+        "text_offset": 0,
+        "word_length": 13,
+        "text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8750000,
+        "duration_milliseconds": 600,
+        "text_offset": 14,
+        "word_length": 8,
+        "text": "\u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14875000,
+        "duration_milliseconds": 375,
+        "text_offset": 23,
+        "word_length": 1,
+        "text": "1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 562,
+        "text_offset": 25,
+        "word_length": 8,
+        "text": "\u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24500000,
+        "duration_milliseconds": 450,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": "4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29125000,
+        "duration_milliseconds": 250,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\u0bb5\u0bb0\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31750000,
+        "duration_milliseconds": 787,
+        "text_offset": 40,
+        "word_length": 14,
+        "text": "\u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39750000,
+        "duration_milliseconds": 112,
+        "text_offset": 54,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "orungkinnaippu-ellaikllai-1-liruntu-4-vrai-1de45ce7.mp3",
+    "final_audio": "orungkinnaippu-ellaikllai-1-liruntu-4-vrai-1de45ce7.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 687,
+        "text_offset": 5,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11750000,
+        "duration_milliseconds": 337,
+        "text_offset": 16,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15250000,
+        "duration_milliseconds": 837,
+        "text_offset": 21,
+        "word_length": 12,
+        "text": "\u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23750000,
+        "duration_milliseconds": 387,
+        "text_offset": 34,
+        "word_length": 6,
+        "text": "\u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 300,
+        "text_offset": 41,
+        "word_length": 4,
+        "text": "\u0b89\u0bb3\u0bcd\u0bb3",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30875000,
+        "duration_milliseconds": 650,
+        "text_offset": 46,
+        "word_length": 9,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37500000,
+        "duration_milliseconds": 462,
+        "text_offset": 56,
+        "word_length": 3,
+        "text": "\u0b95\u0bc0\u0bb4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42250000,
+        "duration_milliseconds": 737,
+        "text_offset": 60,
+        "word_length": 10,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 612,
+        "text_offset": 71,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56000000,
+        "duration_milliseconds": 575,
+        "text_offset": 80,
+        "word_length": 5,
+        "text": "\u0ba4\u0bb0\u0bc1\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61875000,
+        "duration_milliseconds": 112,
+        "text_offset": 85,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-innnttekrl-int-ellaikllukku-ittaiyil-ullll-0f0e8b48.mp3",
+    "final_audio": "int-innnttekrl-int-ellaikllukku-ittaiyil-ullll-0f0e8b48.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!",
+    "input_data": {
+      "input_text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 575,
+        "text_offset": 0,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6375000,
+        "duration_milliseconds": 762,
+        "text_offset": 11,
+        "word_length": 11,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 450,
+        "text_offset": 23,
+        "word_length": 6,
+        "text": "\u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 475,
+        "text_offset": 30,
+        "word_length": 5,
+        "text": "\u0baa\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23625000,
+        "duration_milliseconds": 287,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\u0b87\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26625000,
+        "duration_milliseconds": 237,
+        "text_offset": 40,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29125000,
+        "duration_milliseconds": 325,
+        "text_offset": 44,
+        "word_length": 5,
+        "text": "\u0b9a\u0bbf\u0ba9\u0bcd\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32500000,
+        "duration_milliseconds": 950,
+        "text_offset": 50,
+        "word_length": 15,
+        "text": "\u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42125000,
+        "duration_milliseconds": 112,
+        "text_offset": 65,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3",
+    "final_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3"
+  },
+  {
+    "input_text": "\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!",
+    "input_data": {
+      "input_text": "\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 475,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "\u0b9a\u0bb0\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6250000,
+        "duration_milliseconds": 162,
+        "text_offset": 3,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 7875000,
+        "duration_milliseconds": 625,
+        "text_offset": 5,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14250000,
+        "duration_milliseconds": 587,
+        "text_offset": 16,
+        "word_length": 9,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20250000,
+        "duration_milliseconds": 350,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "\u0baa\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23875000,
+        "duration_milliseconds": 537,
+        "text_offset": 32,
+        "word_length": 7,
+        "text": "\u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29375000,
+        "duration_milliseconds": 437,
+        "text_offset": 40,
+        "word_length": 4,
+        "text": "\u0b86\u0bb4\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33875000,
+        "duration_milliseconds": 675,
+        "text_offset": 45,
+        "word_length": 9,
+        "text": "\u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40750000,
+        "duration_milliseconds": 100,
+        "text_offset": 54,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "cri-innnttekrl-kaalkuls-ptti-keaanycm-aalllmaa-d9e92c8f.mp3",
+    "final_audio": "cri-innnttekrl-kaalkuls-ptti-keaanycm-aalllmaa-d9e92c8f.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.",
+    "input_data": {
+      "input_text": "\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 362,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0b99\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4250000,
+        "duration_milliseconds": 250,
+        "text_offset": 5,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6875000,
+        "duration_milliseconds": 375,
+        "text_offset": 9,
+        "word_length": 5,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10750000,
+        "duration_milliseconds": 475,
+        "text_offset": 15,
+        "word_length": 9,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15625000,
+        "duration_milliseconds": 900,
+        "text_offset": 25,
+        "word_length": 12,
+        "text": "\u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25625000,
+        "duration_milliseconds": 87,
+        "text_offset": 37,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 26500000,
+        "duration_milliseconds": 200,
+        "text_offset": 39,
+        "word_length": 3,
+        "text": "\u0b87\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28625000,
+        "duration_milliseconds": 587,
+        "text_offset": 43,
+        "word_length": 6,
+        "text": "\u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34625000,
+        "duration_milliseconds": 100,
+        "text_offset": 49,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "ingk-oru-vllaivu-irukkunnnu-vccukkeeaangk-itu-947e8c35.mp3",
+    "final_audio": "ingk-oru-vllaivu-irukkunnnu-vccukkeeaangk-itu-947e8c35.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 337,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4000000,
+        "duration_milliseconds": 625,
+        "text_offset": 5,
+        "word_length": 9,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10375000,
+        "duration_milliseconds": 400,
+        "text_offset": 15,
+        "word_length": 3,
+        "text": "\u0b95\u0bc0\u0bb4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14500000,
+        "duration_milliseconds": 525,
+        "text_offset": 19,
+        "word_length": 8,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19875000,
+        "duration_milliseconds": 650,
+        "text_offset": 28,
+        "word_length": 7,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26500000,
+        "duration_milliseconds": 812,
+        "text_offset": 36,
+        "word_length": 12,
+        "text": "\u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34750000,
+        "duration_milliseconds": 625,
+        "text_offset": 49,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41125000,
+        "duration_milliseconds": 612,
+        "text_offset": 60,
+        "word_length": 9,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47375000,
+        "duration_milliseconds": 637,
+        "text_offset": 70,
+        "word_length": 6,
+        "text": "\u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53875000,
+        "duration_milliseconds": 112,
+        "text_offset": 76,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-vllaivukku-kiilll-irukkirr-prppllv-1cd7aca8.mp3",
+    "final_audio": "int-vllaivukku-kiilll-irukkirr-prppllv-1cd7aca8.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 762,
+        "text_offset": 5,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11625000,
+        "duration_milliseconds": 662,
+        "text_offset": 14,
+        "word_length": 11,
+        "text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18375000,
+        "duration_milliseconds": 725,
+        "text_offset": 26,
+        "word_length": 11,
+        "text": "\u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25750000,
+        "duration_milliseconds": 712,
+        "text_offset": 38,
+        "word_length": 7,
+        "text": "\u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33000000,
+        "duration_milliseconds": 812,
+        "text_offset": 46,
+        "word_length": 11,
+        "text": "\u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 100,
+        "text_offset": 57,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-prppllvai-cevvkngkllai-pynnnpttutti-64ddab55.mp3",
+    "final_audio": "int-prppllvai-cevvkngkllai-pynnnpttutti-64ddab55.mp3"
+  },
+  {
+    "input_text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 775,
+        "text_offset": 0,
+        "word_length": 11,
+        "text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8375000,
+        "duration_milliseconds": 562,
+        "text_offset": 12,
+        "word_length": 7,
+        "text": "\u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 712,
+        "text_offset": 20,
+        "word_length": 9,
+        "text": "\u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22250000,
+        "duration_milliseconds": 187,
+        "text_offset": 29,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 500,
+        "text_offset": 31,
+        "word_length": 7,
+        "text": "\u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29250000,
+        "duration_milliseconds": 662,
+        "text_offset": 39,
+        "word_length": 9,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36000000,
+        "duration_milliseconds": 337,
+        "text_offset": 49,
+        "word_length": 4,
+        "text": "\u0ba8\u0bae\u0bcd\u0bae",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39500000,
+        "duration_milliseconds": 537,
+        "text_offset": 54,
+        "word_length": 7,
+        "text": "\u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 537,
+        "text_offset": 62,
+        "word_length": 9,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50500000,
+        "duration_milliseconds": 112,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "cevvkngkll-evvllvu-melliyteeaa-avvllvu-tulliymaa-2ab47837.mp3",
+    "final_audio": "cevvkngkll-evvllvu-melliyteeaa-avvllvu-tulliymaa-2ab47837.mp3"
+  },
+  {
+    "input_text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 737,
+        "text_offset": 0,
+        "word_length": 10,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8000000,
+        "duration_milliseconds": 662,
+        "text_offset": 11,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14750000,
+        "duration_milliseconds": 925,
+        "text_offset": 20,
+        "word_length": 14,
+        "text": "\u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 325,
+        "text_offset": 35,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27500000,
+        "duration_milliseconds": 912,
+        "text_offset": 40,
+        "word_length": 13,
+        "text": "\u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36750000,
+        "duration_milliseconds": 562,
+        "text_offset": 54,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42500000,
+        "duration_milliseconds": 487,
+        "text_offset": 65,
+        "word_length": 9,
+        "text": "\u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 950,
+        "text_offset": 75,
+        "word_length": 15,
+        "text": "\u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57125000,
+        "duration_milliseconds": 100,
+        "text_offset": 90,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "tulliymaannn-prppllvai-knnttupittikkirr-int-ce9d641a.mp3",
+    "final_audio": "tulliymaannn-prppllvai-knnttupittikkirr-int-ce9d641a.mp3"
+  },
+  {
+    "input_text": "\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.",
+    "input_data": {
+      "input_text": "\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 450,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "\u0ba8\u0bbe\u0bae",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5125000,
+        "duration_milliseconds": 237,
+        "text_offset": 4,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7625000,
+        "duration_milliseconds": 475,
+        "text_offset": 8,
+        "word_length": 5,
+        "text": "\u0b9a\u0bbe\u0bb0\u0bcd\u0baa",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 925,
+        "text_offset": 14,
+        "word_length": 17,
+        "text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22750000,
+        "duration_milliseconds": 175,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24500000,
+        "duration_milliseconds": 375,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28375000,
+        "duration_milliseconds": 775,
+        "text_offset": 38,
+        "word_length": 9,
+        "text": "\u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37125000,
+        "duration_milliseconds": 125,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 38375000,
+        "duration_milliseconds": 312,
+        "text_offset": 49,
+        "word_length": 5,
+        "text": "\u0b8e\u0b95\u0bcd\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41625000,
+        "duration_milliseconds": 500,
+        "text_offset": 55,
+        "word_length": 9,
+        "text": "\u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46750000,
+        "duration_milliseconds": 100,
+        "text_offset": 64,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "naam-oru-caarp-orungkinnaikkirreeaam-int-vissyttul-66ec413c.mp3",
+    "final_audio": "naam-oru-caarp-orungkinnaikkirreeaam-int-vissyttul-66ec413c.mp3"
+  },
+  {
+    "input_text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 812,
+        "text_offset": 0,
+        "word_length": 13,
+        "text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8750000,
+        "duration_milliseconds": 600,
+        "text_offset": 14,
+        "word_length": 8,
+        "text": "\u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14875000,
+        "duration_milliseconds": 375,
+        "text_offset": 23,
+        "word_length": 1,
+        "text": "1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 562,
+        "text_offset": 25,
+        "word_length": 8,
+        "text": "\u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24500000,
+        "duration_milliseconds": 450,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": "4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29125000,
+        "duration_milliseconds": 250,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\u0bb5\u0bb0\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31750000,
+        "duration_milliseconds": 787,
+        "text_offset": 40,
+        "word_length": 14,
+        "text": "\u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39750000,
+        "duration_milliseconds": 112,
+        "text_offset": 54,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "orungkinnaippu-ellaikllai-1-liruntu-4-vrai-1de45ce7.mp3",
+    "final_audio": "orungkinnaippu-ellaikllai-1-liruntu-4-vrai-1de45ce7.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 687,
+        "text_offset": 5,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11750000,
+        "duration_milliseconds": 337,
+        "text_offset": 16,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15250000,
+        "duration_milliseconds": 837,
+        "text_offset": 21,
+        "word_length": 12,
+        "text": "\u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23750000,
+        "duration_milliseconds": 387,
+        "text_offset": 34,
+        "word_length": 6,
+        "text": "\u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 300,
+        "text_offset": 41,
+        "word_length": 4,
+        "text": "\u0b89\u0bb3\u0bcd\u0bb3",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30875000,
+        "duration_milliseconds": 650,
+        "text_offset": 46,
+        "word_length": 9,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37500000,
+        "duration_milliseconds": 462,
+        "text_offset": 56,
+        "word_length": 3,
+        "text": "\u0b95\u0bc0\u0bb4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42250000,
+        "duration_milliseconds": 737,
+        "text_offset": 60,
+        "word_length": 10,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 612,
+        "text_offset": 71,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56000000,
+        "duration_milliseconds": 575,
+        "text_offset": 80,
+        "word_length": 5,
+        "text": "\u0ba4\u0bb0\u0bc1\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61875000,
+        "duration_milliseconds": 112,
+        "text_offset": 85,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-innnttekrl-int-ellaikllukku-ittaiyil-ullll-0f0e8b48.mp3",
+    "final_audio": "int-innnttekrl-int-ellaikllukku-ittaiyil-ullll-0f0e8b48.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!",
+    "input_data": {
+      "input_text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 575,
+        "text_offset": 0,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6375000,
+        "duration_milliseconds": 762,
+        "text_offset": 11,
+        "word_length": 11,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 450,
+        "text_offset": 23,
+        "word_length": 6,
+        "text": "\u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 475,
+        "text_offset": 30,
+        "word_length": 5,
+        "text": "\u0baa\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23625000,
+        "duration_milliseconds": 287,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\u0b87\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26625000,
+        "duration_milliseconds": 237,
+        "text_offset": 40,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29125000,
+        "duration_milliseconds": 325,
+        "text_offset": 44,
+        "word_length": 5,
+        "text": "\u0b9a\u0bbf\u0ba9\u0bcd\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32500000,
+        "duration_milliseconds": 950,
+        "text_offset": 50,
+        "word_length": 15,
+        "text": "\u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42125000,
+        "duration_milliseconds": 112,
+        "text_offset": 65,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3",
+    "final_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3"
+  },
+  {
+    "input_text": "\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!",
+    "input_data": {
+      "input_text": "\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bb0\u0bbf, \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd \u0b86\u0bb4\u0bae\u0bbe \u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 475,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "\u0b9a\u0bb0\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6250000,
+        "duration_milliseconds": 162,
+        "text_offset": 3,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 7875000,
+        "duration_milliseconds": 625,
+        "text_offset": 5,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14250000,
+        "duration_milliseconds": 587,
+        "text_offset": 16,
+        "word_length": 9,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20250000,
+        "duration_milliseconds": 350,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "\u0baa\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23875000,
+        "duration_milliseconds": 537,
+        "text_offset": 32,
+        "word_length": 7,
+        "text": "\u0b95\u0bca\u0b9e\u0bcd\u0b9a\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29375000,
+        "duration_milliseconds": 437,
+        "text_offset": 40,
+        "word_length": 4,
+        "text": "\u0b86\u0bb4\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33875000,
+        "duration_milliseconds": 675,
+        "text_offset": 45,
+        "word_length": 9,
+        "text": "\u0baa\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bbe\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40750000,
+        "duration_milliseconds": 100,
+        "text_offset": 54,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "cri-innnttekrl-kaalkuls-ptti-keaanycm-aalllmaa-d9e92c8f.mp3",
+    "final_audio": "cri-innnttekrl-kaalkuls-ptti-keaanycm-aalllmaa-d9e92c8f.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.",
+    "input_data": {
+      "input_text": "\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0b99\u0bcd\u0b95 \u0b92\u0bb0\u0bc1 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1 \u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95, \u0b87\u0ba4\u0bc1 \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 362,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0b99\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4250000,
+        "duration_milliseconds": 250,
+        "text_offset": 5,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6875000,
+        "duration_milliseconds": 375,
+        "text_offset": 9,
+        "word_length": 5,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10750000,
+        "duration_milliseconds": 475,
+        "text_offset": 15,
+        "word_length": 9,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0ba9\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15625000,
+        "duration_milliseconds": 900,
+        "text_offset": 25,
+        "word_length": 12,
+        "text": "\u0bb5\u0b9a\u0bcd\u0b9a\u0bc1\u0b95\u0bcd\u0b95\u0bcb\u0b99\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25625000,
+        "duration_milliseconds": 87,
+        "text_offset": 37,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 26500000,
+        "duration_milliseconds": 200,
+        "text_offset": 39,
+        "word_length": 3,
+        "text": "\u0b87\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28625000,
+        "duration_milliseconds": 587,
+        "text_offset": 43,
+        "word_length": 6,
+        "text": "\u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34625000,
+        "duration_milliseconds": 100,
+        "text_offset": 49,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "ingk-oru-vllaivu-irukkunnnu-vccukkeeaangk-itu-947e8c35.mp3",
+    "final_audio": "ingk-oru-vllaivu-irukkunnnu-vccukkeeaangk-itu-947e8c35.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd \u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 337,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4000000,
+        "duration_milliseconds": 625,
+        "text_offset": 5,
+        "word_length": 9,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10375000,
+        "duration_milliseconds": 400,
+        "text_offset": 15,
+        "word_length": 3,
+        "text": "\u0b95\u0bc0\u0bb4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14500000,
+        "duration_milliseconds": 525,
+        "text_offset": 19,
+        "word_length": 8,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19875000,
+        "duration_milliseconds": 650,
+        "text_offset": 28,
+        "word_length": 7,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26500000,
+        "duration_milliseconds": 812,
+        "text_offset": 36,
+        "word_length": 12,
+        "text": "\u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34750000,
+        "duration_milliseconds": 625,
+        "text_offset": 49,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41125000,
+        "duration_milliseconds": 612,
+        "text_offset": 60,
+        "word_length": 9,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47375000,
+        "duration_milliseconds": 637,
+        "text_offset": 70,
+        "word_length": 6,
+        "text": "\u0b89\u0ba4\u0bb5\u0bc1\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53875000,
+        "duration_milliseconds": 112,
+        "text_offset": 76,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-vllaivukku-kiilll-irukkirr-prppllv-1cd7aca8.mp3",
+    "final_audio": "int-vllaivukku-kiilll-irukkirr-prppllv-1cd7aca8.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe \u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 762,
+        "text_offset": 5,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11625000,
+        "duration_milliseconds": 662,
+        "text_offset": 14,
+        "word_length": 11,
+        "text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18375000,
+        "duration_milliseconds": 725,
+        "text_offset": 26,
+        "word_length": 11,
+        "text": "\u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25750000,
+        "duration_milliseconds": 712,
+        "text_offset": 38,
+        "word_length": 7,
+        "text": "\u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33000000,
+        "duration_milliseconds": 812,
+        "text_offset": 46,
+        "word_length": 11,
+        "text": "\u0b95\u0ba3\u0b95\u0bcd\u0b95\u0bbf\u0b9f\u0bb2\u0bbe\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41250000,
+        "duration_milliseconds": 100,
+        "text_offset": 57,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-prppllvai-cevvkngkllai-pynnnpttutti-64ddab55.mp3",
+    "final_audio": "int-prppllvai-cevvkngkllai-pynnnpttutti-64ddab55.mp3"
+  },
+  {
+    "input_text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd \u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb, \u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe \u0ba8\u0bae\u0bcd\u0bae \u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 775,
+        "text_offset": 0,
+        "word_length": 11,
+        "text": "\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0b95\u0b99\u0bcd\u0b95\u0bb3\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8375000,
+        "duration_milliseconds": 562,
+        "text_offset": 12,
+        "word_length": 7,
+        "text": "\u0b8e\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 712,
+        "text_offset": 20,
+        "word_length": 9,
+        "text": "\u0bae\u0bc6\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0ba4\u0bcb",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22250000,
+        "duration_milliseconds": 187,
+        "text_offset": 29,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 500,
+        "text_offset": 31,
+        "word_length": 7,
+        "text": "\u0b85\u0bb5\u0bcd\u0bb5\u0bb3\u0bb5\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29250000,
+        "duration_milliseconds": 662,
+        "text_offset": 39,
+        "word_length": 9,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36000000,
+        "duration_milliseconds": 337,
+        "text_offset": 49,
+        "word_length": 4,
+        "text": "\u0ba8\u0bae\u0bcd\u0bae",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39500000,
+        "duration_milliseconds": 537,
+        "text_offset": 54,
+        "word_length": 7,
+        "text": "\u0ba4\u0bcb\u0bb0\u0bbe\u0baf\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 537,
+        "text_offset": 62,
+        "word_length": 9,
+        "text": "\u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50500000,
+        "duration_milliseconds": 112,
+        "text_offset": 71,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "cevvkngkll-evvllvu-melliyteeaa-avvllvu-tulliymaa-2ab47837.mp3",
+    "final_audio": "cevvkngkll-evvllvu-melliyteeaa-avvllvu-tulliymaa-2ab47837.mp3"
+  },
+  {
+    "input_text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1 \u0b87\u0ba8\u0bcd\u0ba4 \u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 737,
+        "text_offset": 0,
+        "word_length": 10,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8000000,
+        "duration_milliseconds": 662,
+        "text_offset": 11,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14750000,
+        "duration_milliseconds": 925,
+        "text_offset": 20,
+        "word_length": 14,
+        "text": "\u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 325,
+        "text_offset": 35,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27500000,
+        "duration_milliseconds": 912,
+        "text_offset": 40,
+        "word_length": 13,
+        "text": "\u0b9a\u0bc6\u0baf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36750000,
+        "duration_milliseconds": 562,
+        "text_offset": 54,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42500000,
+        "duration_milliseconds": 487,
+        "text_offset": 65,
+        "word_length": 9,
+        "text": "\u0b9a\u0bbf\u0ba9\u0bcd\u0ba9\u0ba4\u0bcd\u0ba4\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47500000,
+        "duration_milliseconds": 950,
+        "text_offset": 75,
+        "word_length": 15,
+        "text": "\u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57125000,
+        "duration_milliseconds": 100,
+        "text_offset": 90,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "tulliymaannn-prppllvai-knnttupittikkirr-int-ce9d641a.mp3",
+    "final_audio": "tulliymaannn-prppllvai-knnttupittikkirr-int-ce9d641a.mp3"
+  },
+  {
+    "input_text": "\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.",
+    "input_data": {
+      "input_text": "\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0ba8\u0bbe\u0bae \u0b92\u0bb0\u0bc1 \u0b9a\u0bbe\u0bb0\u0bcd\u0baa \u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd, \u0b87\u0ba8\u0bcd\u0ba4 \u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2, \u0b8e\u0b95\u0bcd\u0bb8\u0bcd \u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 450,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "\u0ba8\u0bbe\u0bae",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5125000,
+        "duration_milliseconds": 237,
+        "text_offset": 4,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7625000,
+        "duration_milliseconds": 475,
+        "text_offset": 8,
+        "word_length": 5,
+        "text": "\u0b9a\u0bbe\u0bb0\u0bcd\u0baa",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 925,
+        "text_offset": 14,
+        "word_length": 17,
+        "text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22750000,
+        "duration_milliseconds": 175,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24500000,
+        "duration_milliseconds": 375,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28375000,
+        "duration_milliseconds": 775,
+        "text_offset": 38,
+        "word_length": 9,
+        "text": "\u0bb5\u0bbf\u0bb7\u0baf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb2",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37125000,
+        "duration_milliseconds": 125,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 38375000,
+        "duration_milliseconds": 312,
+        "text_offset": 49,
+        "word_length": 5,
+        "text": "\u0b8e\u0b95\u0bcd\u0bb8\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41625000,
+        "duration_milliseconds": 500,
+        "text_offset": 55,
+        "word_length": 9,
+        "text": "\u0bb8\u0bcd\u0b95\u0bca\u0baf\u0bb0\u0bcd\u0b9f\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46750000,
+        "duration_milliseconds": 100,
+        "text_offset": 64,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "naam-oru-caarp-orungkinnaikkirreeaam-int-vissyttul-66ec413c.mp3",
+    "final_audio": "naam-oru-caarp-orungkinnaikkirreeaam-int-vissyttul-66ec413c.mp3"
+  },
+  {
+    "input_text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+    "input_data": {
+      "input_text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8 1 \u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1 4 \u0bb5\u0bb0\u0bc8 \u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 812,
+        "text_offset": 0,
+        "word_length": 13,
+        "text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8750000,
+        "duration_milliseconds": 600,
+        "text_offset": 14,
+        "word_length": 8,
+        "text": "\u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14875000,
+        "duration_milliseconds": 375,
+        "text_offset": 23,
+        "word_length": 1,
+        "text": "1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 562,
+        "text_offset": 25,
+        "word_length": 8,
+        "text": "\u0bb2\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24500000,
+        "duration_milliseconds": 450,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": "4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29125000,
+        "duration_milliseconds": 250,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\u0bb5\u0bb0\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31750000,
+        "duration_milliseconds": 787,
+        "text_offset": 40,
+        "word_length": 14,
+        "text": "\u0b95\u0bc1\u0bb1\u0bbf\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bb1\u0bcb\u0bae\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39750000,
+        "duration_milliseconds": 112,
+        "text_offset": 54,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "orungkinnaippu-ellaikllai-1-liruntu-4-vrai-1de45ce7.mp3",
+    "final_audio": "orungkinnaippu-ellaikllai-1-liruntu-4-vrai-1de45ce7.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.",
+    "input_data": {
+      "input_text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba8\u0bcd\u0ba4 \u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b87\u0ba8\u0bcd\u0ba4 \u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2 \u0b89\u0bb3\u0bcd\u0bb3 \u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0bc0\u0bb4 \u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9 \u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8 \u0ba4\u0bb0\u0bc1\u0ba4\u0bc1.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 412,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 687,
+        "text_offset": 5,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11750000,
+        "duration_milliseconds": 337,
+        "text_offset": 16,
+        "word_length": 4,
+        "text": "\u0b87\u0ba8\u0bcd\u0ba4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15250000,
+        "duration_milliseconds": 837,
+        "text_offset": 21,
+        "word_length": 12,
+        "text": "\u0b8e\u0bb2\u0bcd\u0bb2\u0bc8\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23750000,
+        "duration_milliseconds": 387,
+        "text_offset": 34,
+        "word_length": 6,
+        "text": "\u0b87\u0b9f\u0bc8\u0baf\u0bbf\u0bb2",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 300,
+        "text_offset": 41,
+        "word_length": 4,
+        "text": "\u0b89\u0bb3\u0bcd\u0bb3",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30875000,
+        "duration_milliseconds": 650,
+        "text_offset": 46,
+        "word_length": 9,
+        "text": "\u0bb5\u0bb3\u0bc8\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37500000,
+        "duration_milliseconds": 462,
+        "text_offset": 56,
+        "word_length": 3,
+        "text": "\u0b95\u0bc0\u0bb4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42250000,
+        "duration_milliseconds": 737,
+        "text_offset": 60,
+        "word_length": 10,
+        "text": "\u0ba4\u0bc1\u0bb2\u0bcd\u0bb2\u0bbf\u0baf\u0bae\u0bbe\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 612,
+        "text_offset": 71,
+        "word_length": 8,
+        "text": "\u0baa\u0bb0\u0baa\u0bcd\u0baa\u0bb3\u0bb5\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56000000,
+        "duration_milliseconds": 575,
+        "text_offset": 80,
+        "word_length": 5,
+        "text": "\u0ba4\u0bb0\u0bc1\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61875000,
+        "duration_milliseconds": 112,
+        "text_offset": 85,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "int-innnttekrl-int-ellaikllukku-ittaiyil-ullll-0f0e8b48.mp3",
+    "final_audio": "int-innnttekrl-int-ellaikllukku-ittaiyil-ullll-0f0e8b48.mp3"
+  },
+  {
+    "input_text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!",
+    "input_data": {
+      "input_text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "ta-IN-ValluvarNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"ta-IN-ValluvarNeural\">\n        <mstts:express-as style=\"newscast-casual\">\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd \u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd \u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8 \u0baa\u0ba4\u0bcd\u0ba4\u0bbf \u0b87\u0ba4\u0bc1 \u0b92\u0bb0\u0bc1 \u0b9a\u0bbf\u0ba9\u0bcd\u0ba9 \u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 575,
+        "text_offset": 0,
+        "word_length": 10,
+        "text": "\u0b87\u0ba9\u0bcd\u0b9f\u0bc6\u0b95\u0bcd\u0bb0\u0bb2\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6375000,
+        "duration_milliseconds": 762,
+        "text_offset": 11,
+        "word_length": 11,
+        "text": "\u0b95\u0bbe\u0bb2\u0bcd\u0b95\u0bc1\u0bb2\u0bb8\u0bbf\u0ba9\u0bcd",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 450,
+        "text_offset": 23,
+        "word_length": 6,
+        "text": "\u0b86\u0bb1\u0bcd\u0bb1\u0bb2\u0bc8",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 475,
+        "text_offset": 30,
+        "word_length": 5,
+        "text": "\u0baa\u0ba4\u0bcd\u0ba4\u0bbf",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23625000,
+        "duration_milliseconds": 287,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "\u0b87\u0ba4\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26625000,
+        "duration_milliseconds": 237,
+        "text_offset": 40,
+        "word_length": 3,
+        "text": "\u0b92\u0bb0\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29125000,
+        "duration_milliseconds": 325,
+        "text_offset": 44,
+        "word_length": 5,
+        "text": "\u0b9a\u0bbf\u0ba9\u0bcd\u0ba9",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32500000,
+        "duration_milliseconds": 950,
+        "text_offset": 50,
+        "word_length": 15,
+        "text": "\u0b8e\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42125000,
+        "duration_milliseconds": 112,
+        "text_offset": 65,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3",
+    "final_audio": "innnttekrl-kaalkulsinnn-aarrrrlai-ptti-itu-oru-5001742d.mp3"
   }
 ]
