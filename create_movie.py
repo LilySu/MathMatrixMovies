@@ -56,7 +56,7 @@ Please do not use any external dependencies like mp3s or svgs or graphics. Do no
 
 If you need to draw something, do so using exclusively manim. Always add a title and an outro. Narrate the title and outro.
 
-Please try to visually center or attractively lay out all content. Please also keep the margins in consideration.
+Please try to visually center or attractively lay out all content. Please also keep the margins in consideration. If a sentence is long please wrap it by splitting it into multiple lines. 
 
 Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math.
 
@@ -106,6 +106,8 @@ class AzureExample(VoiceoverScene):
 The voice for the "{language}" is "{voice_label}". Please use this voice for the narration. 
 
 Please do not use any external dependencies like svgs since they are not available. First write the script explicitly and refine the contents and then write the code.
+
+Describe illustrations explicitly and put them near the concepts.
 
 Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
 
@@ -283,6 +285,10 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     prompt = """
         Watch this video completely and make changes to make the video more appealing. Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response.
+        
+        Write out script and style changes explicitly and refine the contents and then write the code.
+
+        Describe illustrations explicitly and put them near the concepts. Describe everything and then finally write one block of code.
         
         Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing.
     """
