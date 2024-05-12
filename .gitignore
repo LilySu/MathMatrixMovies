@@ -162,3 +162,4 @@ cython_debug/
 
 client_secrets.json
 credentials.json
+MathMovie_*.py
