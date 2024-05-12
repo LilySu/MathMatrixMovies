@@ -27,23 +27,23 @@ GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
-def main():
+def parse_arguments():
     parser = argparse.ArgumentParser(
-        description="Generate a math movie based on the given problem, audience age, and language.")
-    parser.add_argument("math_problem", type=str,
-                        help="The math problem to be visualized in the movie.")
-    parser.add_argument("audience_type", type=int,
-                        help="The target audience age for the math movie.")
-    parser.add_argument("--language", type=str, default="English",
-                        help="The language for the movie narration (default is English).")
-    parser.add_argument("--voice_label", type=str, default="en-US-AriaNeural",
-                        help="The voice label for the narration (default is en-US-AriaNeural).")
-
+        description="Generate a math movie based on the given problem, audience age, and language."
+    )
+    parser.add_argument("--math_problem", type=str, default="Explain the pythagorean theorem", help="The math problem to be visualized in the movie.")
+    parser.add_argument("--audience_type", type=int, default=10, help="The target audience age for the math movie.")
+    parser.add_argument("--language", type=str, default="English", help="The language for the movie narration (default is English).")
+    parser.add_argument("--voice_label", type=str, default="en-US-AriaNeural", help="The voice label for the narration (default is en-US-AriaNeural).")
     args = parser.parse_args()
+    return args.math_problem, args.audience_type, args.language, args.voice_label
 
-    # Placeholder for the function that creates the math movie
-    create_math_matrix_movie(
-        args.math_problem, args.audience_type, args.language, args.voice_label)
+def main():
+    # math_problem, audience_type, language, voice_label = parse_arguments()
+    print(f"Math Problem: {math_problem}")
+    print(f"Audience Type: {audience_type}")
+    print(f"Language: {language}")
+    print(f"Voice Label: {voice_label}")
 
 
 MOVIE_PROMPT = """
