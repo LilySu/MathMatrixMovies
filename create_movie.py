@@ -56,6 +56,8 @@ Please do not use any external dependencies like mp3s or svgs or graphics. Do no
 
 If you need to draw something, do so using exclusively manim. Always add a title and an outro. Narrate the title and outro.
 
+Please try to visually center or attractively lay out all content. Please also keep the margins in consideration.
+
 Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math.
 
 Do use voiceovers to narrate the video. The following is an example of how to do that:
@@ -103,7 +105,9 @@ class AzureExample(VoiceoverScene):
 
 The voice for the "{language}" is "{voice_label}". Please use this voice for the narration. 
 
-Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
+Please do not use any external dependencies like svgs since they are not available. First write the script explicitly and refine the contents and then write the code.
+
+Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
 
 
 """
