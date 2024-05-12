@@ -258,7 +258,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     mp4_files = glob.glob(path_pattern)
 
     video_file_path = mp4_files[0]
-    # return {"stage": "initial", "video_url": video_file_path, "video_id": filename}
+    yield {"stage": "initial", "video_url": video_file_path, "video_id": filename}
 
     frame_extraction_directory = os.path.join(os.path.dirname(
         os.path.abspath(__file__)), f"media/frames/{filename}/")
@@ -340,7 +340,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     video_file_path = mp4_files[0]
 
-    return {"stage": "final", "video_url": video_file_path, "video_id": filename}
+    yield {"stage": "final", "video_url": video_file_path, "video_id": filename}
 
 
     # Write subprocess

@@ -64,11 +64,22 @@ with col3:
 
 if generate_pressed:
     st.session_state['video_generated'] = True
-    video_result = create_math_matrix_movie(prompt, option1, option2)
-    st.session_state['video_result'] = video_result
-    st.video(video_result["video_url"])
+    video_result_generator = create_math_matrix_movie(prompt, option1, option2)
+    for result in video_result_generator:
+        if result['stage'] == 'initial':
+            st.write("Initial Video:")
+            print(f"Initial movie generated: {result['video_url']}")
+            st.session_state['video_result'] = result
+            st.video(result["video_url"])
+        elif result['stage'] == 'final':
+            st.write("\n\n\n\n\n")
+            st.write("Final Video:")
+            print(f"Final movie generated: {result['video_url']}")
+            st.session_state['video_result'] = result
+            st.video(result["video_url"])
 
-if 'video_generated' in st.session_state and st.session_state['video_generated']:
+        
+if 'video_generated' in st.session_state and st.session_state['video_generated'] and st.session_state.get('video_result', {}).get('stage') == 'final':
     if st.button("Publish to Youtube"):
         print("LLAMA3 CALL")
         llama_result = llama3_call(
