@@ -110,23 +110,20 @@ Ok. now translate the text to {language}, and replace the voice_label for azures
 #       hindi_text = Text('नमस्ते', font='Lohit Devanagari')  # Replace 'Lohit Devanagari' with any available Hindi font
 #        tamil_text = Text('வணக்கம்', font='Lohit Tamil')  # Replace 'Lohit Tamil' with any available Tamil font
 # Create or cleanup existing extracted image frames directory.
-FRAME_EXTRACTION_DIRECTORY = os.path.join(os.path.dirname(
-    os.path.abspath(__file__)), 'f"media/videos/{filename}/')
-FRAME_PREFIX = "_frame"
 
 
 def create_frame_output_dir(output_dir):
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    else:
-        shutil.rmtree(output_dir)
-        os.makedirs(output_dir)
 
 
-def extract_frame_from_video(video_file_path):
+FRAME_PREFIX = "_frame"
+
+
+def extract_frame_from_video(video_file_path, frame_extraction_directory):
     print(
         f"Extracting {video_file_path} at 1 frame per second. This might take a bit...")
-    create_frame_output_dir(FRAME_EXTRACTION_DIRECTORY)
+    create_frame_output_dir(frame_extraction_directory)
     vidcap = cv2.VideoCapture(video_file_path)
     fps = vidcap.get(cv2.CAP_PROP_FPS)
     frame_duration = 1 / fps  # Time interval between frames (in seconds)
@@ -143,7 +140,7 @@ def extract_frame_from_video(video_file_path):
             time_string = f"{min:02d}:{sec:02d}"
             image_name = f"{output_file_prefix}{FRAME_PREFIX}{time_string}.jpg"
             output_filename = os.path.join(
-                FRAME_EXTRACTION_DIRECTORY, image_name)
+                frame_extraction_directory, image_name)
             cv2.imwrite(output_filename, frame)
             frame_count += 1
         count += 1
@@ -214,7 +211,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     next_prompt = filled_prompt
 
-    while attempt_count < 3 and not success:
+    while attempt_count < 5 and not success:
         print(f"attempt #{attempt_count+1} next_prompt: {next_prompt}")
         response = chat.send_message(next_prompt)
         print(response.text)
@@ -232,7 +229,9 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
             next_prompt = "\n\n" + error_prompt
 
     if not success:
-        print("Failed to generate a successful output after 3 attempts.")
+        print("Failed to generate a successful output after 5 attempts.")
+        raise Exception(
+            "Failed to generate a successful output after 5 attempts.")
 
     current_script_dir = os.path.dirname(os.path.abspath(__file__))
     path_pattern = os.path.join(
@@ -240,15 +239,19 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     mp4_files = glob.glob(path_pattern)
 
     video_file_path = mp4_files[0]
-    extract_frame_from_video(video_file_path)
+    frame_extraction_directory = os.path.join(os.path.dirname(
+        os.path.abspath(__file__)), f"media/frames/{filename}/")
+    extract_frame_from_video(video_file_path, frame_extraction_directory)
 
-    files = os.listdir(FRAME_EXTRACTION_DIRECTORY)
+    files = os.listdir(frame_extraction_directory)
     files = sorted(files)
     files_to_upload = []
     for file in files:
-        files_to_upload.append(
-            File(file_path=os.path.join(FRAME_EXTRACTION_DIRECTORY, file)))
+        if file:
+            files_to_upload.append(
+                File(file_path=os.path.join(frame_extraction_directory, file)))
 
+    print(files_to_upload)
     # Upload the files to the API
     # Only upload a 10 second slice of files to reduce upload time.
     # Change full_video to True to upload the whole video.
@@ -272,8 +275,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     # Make the LLM request.
     request = make_request(prompt, uploaded_files)
-    response = chat.send_message(request,
-                                 request_options={"timeout": 600})
+    response = chat.send_message(request)
     print(response.text)
     filename = create_python_file(response)
     # Assuming filename is already defined as shown previously

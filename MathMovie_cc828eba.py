@@ -1,0 +1,1 @@
+hypotenuse_angle = np.arctan(triangle.get_vertices()[0][1] / triangle.get_vertices()[1][0])
