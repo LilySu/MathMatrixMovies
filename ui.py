@@ -6,6 +6,8 @@ from google.oauth2.credentials import Credentials
 
 from create_yt_attr import llama3_call, upload_video_to_youtube
 
+st.set_page_config(page_title='MathMatrixMovies', page_icon='favicon.png')
+
 st.markdown("""
     <style>
     .title {
