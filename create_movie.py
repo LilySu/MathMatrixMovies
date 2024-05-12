@@ -56,8 +56,6 @@ Please do not use any external dependencies like mp3s or svgs or graphics. Do no
 
 If you need to draw something, do so using exclusively manim. Always add a title and an outro. Narrate the title and outro.
 
-Please try to visually center or attractively lay out all content.
-
 Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math.
 
 Do use voiceovers to narrate the video. The following is an example of how to do that:
