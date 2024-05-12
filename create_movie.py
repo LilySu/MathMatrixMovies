@@ -107,7 +107,7 @@ The voice for the "{language}" is "{voice_label}". Please use this voice for the
 
 Please do not use any external dependencies like svgs since they are not available. First write the script explicitly and refine the contents and then write the code.
 
-Describe illustrations explicitly and put them near the concepts. Please draw and animate things.
+Describe illustrations explicitly and put them near the concepts. Please draw and animate things, using the whole canvas. Use color in a restrained but elegant way, for educational purposes.
 
 Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
 
@@ -244,7 +244,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         print("Failed to generate a successful output after 8 attempts.")
         raise Exception(
             "Failed to generate a successful output after 8 attempts.")
-        
+
     # call llama3 with response.text, math_problem, audience_type and language ... to generate youtube metadata
 
     current_script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -288,7 +288,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         
         Write out script and style changes explicitly and refine the contents and then write the code.
 
-        Describe illustrations explicitly and put them near the concepts.  Please draw and animate things, using the whole screen. Describe everything and then finally write one block of code.
+        Describe illustrations explicitly and put them near the concepts.  Please draw and animate things, using the whole canvas. Describe everything you need to do and then finally write one block of code.
         
         Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing.
     """
