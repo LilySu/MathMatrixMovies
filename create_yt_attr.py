@@ -1,7 +1,6 @@
 import os
 from groq import Groq
 from dotenv import load_dotenv
-import argparse
 import re
 from create_movie import MOVIE_PROMPT, parse_arguments
 load_dotenv()
@@ -37,9 +36,15 @@ def trim_string(text):
     # Check if the text is at least 6 characters long
     if len(text) < 6:
         return "Error: The string is too short to remove six characters."
-    
     # Remove the first 3 and last 3 characters
     return text[3:-3]
+
+def remove_text_within_stars(text):
+    # Regex pattern to find content between double stars including the stars
+    pattern = r'\*\*[^*]+\*\*'
+    # Replace the found patterns with an empty string
+    cleaned_text = re.sub(pattern, '', text)
+    return cleaned_text
 
 math_problem, audience_type, language, voice_label = parse_arguments()
 
@@ -49,20 +54,24 @@ client = Groq(
 
 movie_prompt_no_code = remove_code_snippet(MOVIE_PROMPT)
 
-TITLE_PROMPT = f'''Provide a concise and trendy YouTube tutorial video title for \
-                the following prompt that generated a tutorial video: {movie_prompt_no_code}\
-                use the target audience math_problem, audience_type, language, \
+TITLE_PROMPT = f'''Provide a concise and trendy YouTube tutorial \
+                video title in less than 100 characters for \
+                the following topic of {math_problem} \
+                use the target audience of {audience_type} years old in the language of {language} \
                 voice_label to influence the title. Do not include the word 'manim' \
-                since every single video is using manim so it's redundant. output the \
-                title in double stars and just output the title and nothing else, do not \
+                since every single video is using manim so it's redundant. Do not \
+                output the title with special characters. \
                 repeat the content. Do not print out manim code. Make the title \
                 less than 100 characters. Do not return the title formatted in bold.\
                 Do not output any special characters in the title such as *  \
                 Do not return any additional explanations other than the title.\
-                Make sure the math_problem {math_problem} is part of the title''' 
+                Make sure the math_problem {math_problem} is part of the title \
+                Do not bold the title, do not put the title with two asterisks. \
+                Don't make the title too generic. Do not explain yourself. Just \ 
+                output the title and nothing else.''' 
 
 DESCRIPTION_PROMPT = f'''Provide a good YouTube video description for a video that has \
-                been generated via the following prompt: {movie_prompt_no_code} \
+                been generated via the following prompt: {math_problem} \
                 use the target audience math_problem, audience_type, language, \
                 voice_label to influence the description. Do not include the word 'manim' \
                 since every single video is using manim so it's redundant. Output the \
@@ -73,13 +82,14 @@ DESCRIPTION_PROMPT = f'''Provide a good YouTube video description for a video th
                 Generate a description between 1000 to 5000 characters. \
                 Make sure the math_problem {math_problem} is part of the description.
                 Make the tone and sophistication of the text appropriate for students \
-                at {audience_type} age.'''
+                at {audience_type} age. Just output the description and nothing else.'''
 
 TAG_PROMPT = f'''Provide tags related to the topic of {math_problem} \
-                with {movie_prompt_no_code} that are fitting to the \
+                that are fitting to the \
                 YouTube Data API that would help with SEO optimization. \
                 Make sure the math_problem {math_problem} is one of the tags. \
-                Output a list of strings. '''
+                Output a python list of strings. Do not include any other text \
+                outside a python list of strings.'''
 
 title_generated = client.chat.completions.create(
     messages=[
@@ -113,15 +123,20 @@ tags_generated = client.chat.completions.create(
 
 yt_title_not_cleaned = title_generated.choices[0].message.content
 yt_title = remove_symbols(yt_title_not_cleaned)
+yt_title = yt_title.replace("**", "")
 print(yt_title)
 
-print("\n\n\n")
+print("\n")
 
 yt_description = description_generated.choices[0].message.content
 yt_description = remove_code_snippet(yt_description)
+yt_description = remove_text_within_stars(yt_description)
 print(yt_description)
+
+print("\n")
 
 yt_category_id = 28
 
 yt_tags = tags_generated.choices[0].message.content
-print(yt_description)
+yt_tags = remove_code_snippet(yt_tags)
+print(yt_tags)
