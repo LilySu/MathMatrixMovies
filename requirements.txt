@@ -87,6 +87,3 @@ tzdata==2024.1
 uritemplate==4.1.1
 urllib3==2.2.1
 watchdog==4.0.0
-google-auth==2.11.0
-google-auth-oauthlib==0.5.1
-google-api-python-client==2.42.0
