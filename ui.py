@@ -41,7 +41,7 @@ st.markdown("<div class='title'>MathMatrixMovies</div>",
 prompt = st.text_input("Enter the topic you wanna generate video on", key="video_prompt")
 
 # Create columns for the dropdowns and the button
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns([1,1,1])
 
 # Dropdown 1 in the first column
 with col1:
@@ -57,15 +57,18 @@ with col2:
 
 # Button in the third column, spanning the third and fourth columns
 with col3:
-    if st.button("Generate", key="3"):
-        # This block will execute when the button is pressed
-        # Display the entered prompt and selections
-        st.write(f"You entered: {prompt}")
-        st.write(f"Option 1 selected: {option1}")
-        st.write(f"Option 2 selected: {option2}")
-        video_result = create_math_matrix_movie(prompt, option1, option2)
-        st.video(video_result["video_url"])
-
+    generate_pressed = st.button("Generate")
+    st.write(f"You entered: {prompt}")
+    st.write(f"Audience Age selected: {option1}")
+    st.write(f"Language selected: {option2}")
+    
+if generate_pressed:
+    st.write("\n\n\n\n\n\n")  # You can adjust the number of newlines based on your layout needs
+    video_result = create_math_matrix_movie(prompt, option1, option2)
+    st.video(video_result["video_url"])
+    if st.button("Publish to Youtube"):
+        #LLAMA3 calls
+        upload_video_to_youtube(credentials, video_result["video_url"],TITLE, DESCRIPTION, CATEGORY ID, TAGS)
 # Setup environment variable for Google credentials
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'client_secrets.json'
 
