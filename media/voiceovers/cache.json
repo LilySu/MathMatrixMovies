@@ -18207,5 +18207,2323 @@
     ],
     "original_audio": "that-s-a-quadratic-bezier-curve-by-adding-more-28a37a86.mp3",
     "final_audio": "that-s-a-quadratic-bezier-curve-by-adding-more-28a37a86.mp3"
+  },
+  {
+    "input_text": "Let's explore the world of Quadratic Equations!",
+    "input_data": {
+      "input_text": "Let's explore the world of Quadratic Equations!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's explore the world of Quadratic Equations!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's explore the world of Quadratic Equations!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 287,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3043478,
+        "duration_milliseconds": 500,
+        "text_offset": 6,
+        "word_length": 7,
+        "text": "explore",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7500000,
+        "duration_milliseconds": 112,
+        "text_offset": 14,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8586956,
+        "duration_milliseconds": 350,
+        "text_offset": 18,
+        "word_length": 5,
+        "text": "world",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11739130,
+        "duration_milliseconds": 87,
+        "text_offset": 24,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12608695,
+        "duration_milliseconds": 587,
+        "text_offset": 27,
+        "word_length": 9,
+        "text": "Quadratic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17826086,
+        "duration_milliseconds": 775,
+        "text_offset": 37,
+        "word_length": 9,
+        "text": "Equations",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24673913,
+        "duration_milliseconds": 100,
+        "text_offset": 46,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-explore-the-world-of-quadratic-equations-62727ed7.mp3",
+    "final_audio": "let-s-explore-the-world-of-quadratic-equations-62727ed7_adjusted.mp3"
+  },
+  {
+    "input_text": "They look a bit like this.",
+    "input_data": {
+      "input_text": "They look a bit like this.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">They look a bit like this.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">They look a bit like this.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 162,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "They",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1956521,
+        "duration_milliseconds": 212,
+        "text_offset": 5,
+        "word_length": 4,
+        "text": "look",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3913043,
+        "duration_milliseconds": 75,
+        "text_offset": 10,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4673913,
+        "duration_milliseconds": 225,
+        "text_offset": 12,
+        "word_length": 3,
+        "text": "bit",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6739130,
+        "duration_milliseconds": 212,
+        "text_offset": 16,
+        "word_length": 4,
+        "text": "like",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8695652,
+        "duration_milliseconds": 362,
+        "text_offset": 21,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11956521,
+        "duration_milliseconds": 100,
+        "text_offset": 25,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "they-look-a-bit-like-this-9144c4b1.mp3",
+    "final_audio": "they-look-a-bit-like-this-9144c4b1_adjusted.mp3"
+  },
+  {
+    "input_text": "The letters a, b, and c represent numbers called coefficients.",
+    "input_data": {
+      "input_text": "The letters a, b, and c represent numbers called coefficients.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The letters a, b, and c represent numbers called coefficients.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The letters a, b, and c represent numbers called coefficients.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1739130,
+        "duration_milliseconds": 387,
+        "text_offset": 4,
+        "word_length": 7,
+        "text": "letters",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5217391,
+        "duration_milliseconds": 262,
+        "text_offset": 12,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8369565,
+        "duration_milliseconds": 100,
+        "text_offset": 13,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 9347826,
+        "duration_milliseconds": 362,
+        "text_offset": 15,
+        "word_length": 1,
+        "text": "b",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13369565,
+        "duration_milliseconds": 150,
+        "text_offset": 16,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 14673913,
+        "duration_milliseconds": 187,
+        "text_offset": 18,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16413043,
+        "duration_milliseconds": 250,
+        "text_offset": 22,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19130434,
+        "duration_milliseconds": 487,
+        "text_offset": 24,
+        "word_length": 9,
+        "text": "represent",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23478260,
+        "duration_milliseconds": 450,
+        "text_offset": 34,
+        "word_length": 7,
+        "text": "numbers",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27934782,
+        "duration_milliseconds": 287,
+        "text_offset": 42,
+        "word_length": 6,
+        "text": "called",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30543478,
+        "duration_milliseconds": 875,
+        "text_offset": 49,
+        "word_length": 12,
+        "text": "coefficients",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38260869,
+        "duration_milliseconds": 112,
+        "text_offset": 61,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "the-letters-a-b-and-c-represent-numbers-called-b0766c3d.mp3",
+    "final_audio": "the-letters-a-b-and-c-represent-numbers-called-b0766c3d_adjusted.mp3"
+  },
+  {
+    "input_text": "They tell us how much each part of the equation matters.",
+    "input_data": {
+      "input_text": "They tell us how much each part of the equation matters.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">They tell us how much each part of the equation matters.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">They tell us how much each part of the equation matters.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 150,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "They",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1847826,
+        "duration_milliseconds": 262,
+        "text_offset": 5,
+        "word_length": 4,
+        "text": "tell",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4239130,
+        "duration_milliseconds": 137,
+        "text_offset": 10,
+        "word_length": 2,
+        "text": "us",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5543478,
+        "duration_milliseconds": 125,
+        "text_offset": 13,
+        "word_length": 3,
+        "text": "how",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6739130,
+        "duration_milliseconds": 262,
+        "text_offset": 17,
+        "word_length": 4,
+        "text": "much",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9782608,
+        "duration_milliseconds": 250,
+        "text_offset": 22,
+        "word_length": 4,
+        "text": "each",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12065217,
+        "duration_milliseconds": 287,
+        "text_offset": 27,
+        "word_length": 4,
+        "text": "part",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14673913,
+        "duration_milliseconds": 75,
+        "text_offset": 32,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15434782,
+        "duration_milliseconds": 87,
+        "text_offset": 35,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16304347,
+        "duration_milliseconds": 550,
+        "text_offset": 39,
+        "word_length": 8,
+        "text": "equation",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21195652,
+        "duration_milliseconds": 550,
+        "text_offset": 48,
+        "word_length": 7,
+        "text": "matters",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26086956,
+        "duration_milliseconds": 112,
+        "text_offset": 55,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "they-tell-us-how-much-each-part-of-the-equation-04f5aa59.mp3",
+    "final_audio": "they-tell-us-how-much-each-part-of-the-equation-04f5aa59_adjusted.mp3"
+  },
+  {
+    "input_text": "Here's an example. Can you spot the coefficients?",
+    "input_data": {
+      "input_text": "Here's an example. Can you spot the coefficients?",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Here's an example. Can you spot the coefficients?</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Here's an example. Can you spot the coefficients?</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 325,
+        "text_offset": 0,
+        "word_length": 6,
+        "text": "Here's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3369565,
+        "duration_milliseconds": 100,
+        "text_offset": 7,
+        "word_length": 2,
+        "text": "an",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4347826,
+        "duration_milliseconds": 650,
+        "text_offset": 10,
+        "word_length": 7,
+        "text": "example",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10108695,
+        "duration_milliseconds": 100,
+        "text_offset": 17,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 17500000,
+        "duration_milliseconds": 175,
+        "text_offset": 19,
+        "word_length": 3,
+        "text": "Can",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19130434,
+        "duration_milliseconds": 112,
+        "text_offset": 23,
+        "word_length": 3,
+        "text": "you",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20217391,
+        "duration_milliseconds": 337,
+        "text_offset": 27,
+        "word_length": 4,
+        "text": "spot",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23260869,
+        "duration_milliseconds": 100,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24239130,
+        "duration_milliseconds": 825,
+        "text_offset": 36,
+        "word_length": 12,
+        "text": "coefficients",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31521739,
+        "duration_milliseconds": 100,
+        "text_offset": 48,
+        "word_length": 1,
+        "text": "?",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "here-s-an-example-can-you-spot-the-coefficients-0e78fc86.mp3",
+    "final_audio": "here-s-an-example-can-you-spot-the-coefficients-0e78fc86_adjusted.mp3"
+  },
+  {
+    "input_text": "Here's a hint: The coefficient of x\u00b2 is 2",
+    "input_data": {
+      "input_text": "Here's a hint: The coefficient of x\u00b2 is 2",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Here's a hint: The coefficient of x\u00b2 is 2</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Here's a hint: The coefficient of x\u00b2 is 2</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 312,
+        "text_offset": 0,
+        "word_length": 6,
+        "text": "Here's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3260869,
+        "duration_milliseconds": 62,
+        "text_offset": 7,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3913043,
+        "duration_milliseconds": 362,
+        "text_offset": 9,
+        "word_length": 4,
+        "text": "hint",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7934782,
+        "duration_milliseconds": 100,
+        "text_offset": 13,
+        "word_length": 1,
+        "text": ":",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 8913043,
+        "duration_milliseconds": 112,
+        "text_offset": 15,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10000000,
+        "duration_milliseconds": 675,
+        "text_offset": 19,
+        "word_length": 11,
+        "text": "coefficient",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15978260,
+        "duration_milliseconds": 100,
+        "text_offset": 31,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16956521,
+        "duration_milliseconds": 0,
+        "text_offset": 34,
+        "word_length": 2,
+        "text": "x\u00b2",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26195652,
+        "duration_milliseconds": 175,
+        "text_offset": 37,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27826086,
+        "duration_milliseconds": 425,
+        "text_offset": 40,
+        "word_length": 1,
+        "text": "2",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "here-s-a-hint-the-coefficient-of-x2-is-2-81b77d9a.mp3",
+    "final_audio": "here-s-a-hint-the-coefficient-of-x2-is-2-81b77d9a_adjusted.mp3"
+  },
+  {
+    "input_text": "The coefficient of x is 5",
+    "input_data": {
+      "input_text": "The coefficient of x is 5",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The coefficient of x is 5</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The coefficient of x is 5</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 125,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1630434,
+        "duration_milliseconds": 712,
+        "text_offset": 4,
+        "word_length": 11,
+        "text": "coefficient",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7934782,
+        "duration_milliseconds": 87,
+        "text_offset": 16,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8804347,
+        "duration_milliseconds": 250,
+        "text_offset": 19,
+        "word_length": 1,
+        "text": "x",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11521739,
+        "duration_milliseconds": 150,
+        "text_offset": 21,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12934782,
+        "duration_milliseconds": 500,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "5",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "the-coefficient-of-x-is-5-80818837.mp3",
+    "final_audio": "the-coefficient-of-x-is-5-80818837_adjusted.mp3"
+  },
+  {
+    "input_text": "and the constant term is -3",
+    "input_data": {
+      "input_text": "and the constant term is -3",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">and the constant term is -3</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">and the constant term is -3</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 162,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1956521,
+        "duration_milliseconds": 100,
+        "text_offset": 4,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2934782,
+        "duration_milliseconds": 537,
+        "text_offset": 8,
+        "word_length": 8,
+        "text": "constant",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7717391,
+        "duration_milliseconds": 350,
+        "text_offset": 17,
+        "word_length": 4,
+        "text": "term",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11413043,
+        "duration_milliseconds": 162,
+        "text_offset": 22,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12934782,
+        "duration_milliseconds": 900,
+        "text_offset": 25,
+        "word_length": 2,
+        "text": "-3",
+        "boundary_type": "Word"
+      }
+    ],
+    "original_audio": "and-the-constant-term-is-3-de3d9d29.mp3",
+    "final_audio": "and-the-constant-term-is-3-de3d9d29_adjusted.mp3"
+  },
+  {
+    "input_text": "Imagine you're throwing a ball straight up in the air.",
+    "input_data": {
+      "input_text": "Imagine you're throwing a ball straight up in the air.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine you're throwing a ball straight up in the air.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine you're throwing a ball straight up in the air.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 550,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "Imagine",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5326086,
+        "duration_milliseconds": 162,
+        "text_offset": 8,
+        "word_length": 6,
+        "text": "you're",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6847826,
+        "duration_milliseconds": 437,
+        "text_offset": 15,
+        "word_length": 8,
+        "text": "throwing",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10760869,
+        "duration_milliseconds": 62,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11413043,
+        "duration_milliseconds": 325,
+        "text_offset": 26,
+        "word_length": 4,
+        "text": "ball",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14347826,
+        "duration_milliseconds": 337,
+        "text_offset": 31,
+        "word_length": 8,
+        "text": "straight",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17391304,
+        "duration_milliseconds": 137,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "up",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18695652,
+        "duration_milliseconds": 75,
+        "text_offset": 43,
+        "word_length": 2,
+        "text": "in",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19456521,
+        "duration_milliseconds": 100,
+        "text_offset": 46,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20434782,
+        "duration_milliseconds": 375,
+        "text_offset": 50,
+        "word_length": 3,
+        "text": "air",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23804347,
+        "duration_milliseconds": 100,
+        "text_offset": 53,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "imagine-you-re-throwing-a-ball-straight-up-in-the-99c166ad.mp3",
+    "final_audio": "imagine-you-re-throwing-a-ball-straight-up-in-the-99c166ad_adjusted.mp3"
+  },
+  {
+    "input_text": "It goes up, slows down, stops for a moment, and then falls back down.",
+    "input_data": {
+      "input_text": "It goes up, slows down, stops for a moment, and then falls back down.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">It goes up, slows down, stops for a moment, and then falls back down.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">It goes up, slows down, stops for a moment, and then falls back down.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "It",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1739130,
+        "duration_milliseconds": 312,
+        "text_offset": 3,
+        "word_length": 4,
+        "text": "goes",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4565217,
+        "duration_milliseconds": 250,
+        "text_offset": 8,
+        "word_length": 2,
+        "text": "up",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7608695,
+        "duration_milliseconds": 25,
+        "text_offset": 10,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 7934782,
+        "duration_milliseconds": 400,
+        "text_offset": 12,
+        "word_length": 5,
+        "text": "slows",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11521739,
+        "duration_milliseconds": 412,
+        "text_offset": 18,
+        "word_length": 4,
+        "text": "down",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15978260,
+        "duration_milliseconds": 100,
+        "text_offset": 22,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 16847826,
+        "duration_milliseconds": 400,
+        "text_offset": 24,
+        "word_length": 5,
+        "text": "stops",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20434782,
+        "duration_milliseconds": 175,
+        "text_offset": 30,
+        "word_length": 3,
+        "text": "for",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22065217,
+        "duration_milliseconds": 37,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22500000,
+        "duration_milliseconds": 425,
+        "text_offset": 36,
+        "word_length": 6,
+        "text": "moment",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27065217,
+        "duration_milliseconds": 150,
+        "text_offset": 42,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28369565,
+        "duration_milliseconds": 112,
+        "text_offset": 44,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29456521,
+        "duration_milliseconds": 187,
+        "text_offset": 48,
+        "word_length": 4,
+        "text": "then",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31195652,
+        "duration_milliseconds": 375,
+        "text_offset": 53,
+        "word_length": 5,
+        "text": "falls",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34565217,
+        "duration_milliseconds": 250,
+        "text_offset": 59,
+        "word_length": 4,
+        "text": "back",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36847826,
+        "duration_milliseconds": 425,
+        "text_offset": 64,
+        "word_length": 4,
+        "text": "down",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40652173,
+        "duration_milliseconds": 100,
+        "text_offset": 68,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "it-goes-up-slows-down-stops-for-a-moment-and-then-16e1c5db.mp3",
+    "final_audio": "it-goes-up-slows-down-stops-for-a-moment-and-then-16e1c5db_adjusted.mp3"
+  },
+  {
+    "input_text": "The path the ball takes makes a curve, kind of like a smile.",
+    "input_data": {
+      "input_text": "The path the ball takes makes a curve, kind of like a smile.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The path the ball takes makes a curve, kind of like a smile.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The path the ball takes makes a curve, kind of like a smile.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 112,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1521739,
+        "duration_milliseconds": 275,
+        "text_offset": 4,
+        "word_length": 4,
+        "text": "path",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4021739,
+        "duration_milliseconds": 100,
+        "text_offset": 9,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5000000,
+        "duration_milliseconds": 300,
+        "text_offset": 13,
+        "word_length": 4,
+        "text": "ball",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7717391,
+        "duration_milliseconds": 287,
+        "text_offset": 18,
+        "word_length": 5,
+        "text": "takes",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10326086,
+        "duration_milliseconds": 237,
+        "text_offset": 24,
+        "word_length": 5,
+        "text": "makes",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12500000,
+        "duration_milliseconds": 62,
+        "text_offset": 30,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13152173,
+        "duration_milliseconds": 412,
+        "text_offset": 32,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17500000,
+        "duration_milliseconds": 112,
+        "text_offset": 37,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 18478260,
+        "duration_milliseconds": 275,
+        "text_offset": 39,
+        "word_length": 4,
+        "text": "kind",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20978260,
+        "duration_milliseconds": 75,
+        "text_offset": 44,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21739130,
+        "duration_milliseconds": 200,
+        "text_offset": 47,
+        "word_length": 4,
+        "text": "like",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23586956,
+        "duration_milliseconds": 62,
+        "text_offset": 52,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24239130,
+        "duration_milliseconds": 587,
+        "text_offset": 54,
+        "word_length": 5,
+        "text": "smile",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29456521,
+        "duration_milliseconds": 100,
+        "text_offset": 59,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "the-path-the-ball-takes-makes-a-curve-kind-of-like-ff959229.mp3",
+    "final_audio": "the-path-the-ball-takes-makes-a-curve-kind-of-like-ff959229_adjusted.mp3"
+  },
+  {
+    "input_text": "This curve is called a parabola, and it's described by a type of equation called a quadratic equation.",
+    "input_data": {
+      "input_text": "This curve is called a parabola, and it's described by a type of equation called a quadratic equation.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">This curve is called a parabola, and it's described by a type of equation called a quadratic equation.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">This curve is called a parabola, and it's described by a type of equation called a quadratic equation.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 250,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "This",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2717391,
+        "duration_milliseconds": 337,
+        "text_offset": 5,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5760869,
+        "duration_milliseconds": 125,
+        "text_offset": 11,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6956521,
+        "duration_milliseconds": 262,
+        "text_offset": 14,
+        "word_length": 6,
+        "text": "called",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9347826,
+        "duration_milliseconds": 50,
+        "text_offset": 21,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9891304,
+        "duration_milliseconds": 650,
+        "text_offset": 23,
+        "word_length": 8,
+        "text": "parabola",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16413043,
+        "duration_milliseconds": 237,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 18478260,
+        "duration_milliseconds": 150,
+        "text_offset": 33,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19891304,
+        "duration_milliseconds": 150,
+        "text_offset": 37,
+        "word_length": 4,
+        "text": "it's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21304347,
+        "duration_milliseconds": 600,
+        "text_offset": 42,
+        "word_length": 9,
+        "text": "described",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26630434,
+        "duration_milliseconds": 187,
+        "text_offset": 52,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28369565,
+        "duration_milliseconds": 62,
+        "text_offset": 55,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29021739,
+        "duration_milliseconds": 300,
+        "text_offset": 57,
+        "word_length": 4,
+        "text": "type",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31739130,
+        "duration_milliseconds": 87,
+        "text_offset": 62,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32608695,
+        "duration_milliseconds": 612,
+        "text_offset": 65,
+        "word_length": 8,
+        "text": "equation",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38586956,
+        "duration_milliseconds": 287,
+        "text_offset": 74,
+        "word_length": 6,
+        "text": "called",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41195652,
+        "duration_milliseconds": 50,
+        "text_offset": 81,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 41739130,
+        "duration_milliseconds": 600,
+        "text_offset": 83,
+        "word_length": 9,
+        "text": "quadratic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47065217,
+        "duration_milliseconds": 637,
+        "text_offset": 93,
+        "word_length": 8,
+        "text": "equation",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 52717391,
+        "duration_milliseconds": 112,
+        "text_offset": 101,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "this-curve-is-called-a-parabola-and-it-s-described-84ce53c7.mp3",
+    "final_audio": "this-curve-is-called-a-parabola-and-it-s-described-84ce53c7_adjusted.mp3"
+  },
+  {
+    "input_text": "A basic quadratic equation looks like this: y equals ax squared plus bx plus c.",
+    "input_data": {
+      "input_text": "A basic quadratic equation looks like this: y equals ax squared plus bx plus c.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">A basic quadratic equation looks like this: y equals ax squared plus bx plus c.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">A basic quadratic equation looks like this: y equals ax squared plus bx plus c.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 125,
+        "text_offset": 0,
+        "word_length": 1,
+        "text": "A",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1630434,
+        "duration_milliseconds": 387,
+        "text_offset": 2,
+        "word_length": 5,
+        "text": "basic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5108695,
+        "duration_milliseconds": 537,
+        "text_offset": 8,
+        "word_length": 9,
+        "text": "quadratic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9891304,
+        "duration_milliseconds": 562,
+        "text_offset": 18,
+        "word_length": 8,
+        "text": "equation",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14891304,
+        "duration_milliseconds": 212,
+        "text_offset": 27,
+        "word_length": 5,
+        "text": "looks",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16847826,
+        "duration_milliseconds": 200,
+        "text_offset": 33,
+        "word_length": 4,
+        "text": "like",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18695652,
+        "duration_milliseconds": 375,
+        "text_offset": 38,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22826086,
+        "duration_milliseconds": 37,
+        "text_offset": 42,
+        "word_length": 1,
+        "text": ":",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 23260869,
+        "duration_milliseconds": 225,
+        "text_offset": 44,
+        "word_length": 1,
+        "text": "y",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25326086,
+        "duration_milliseconds": 537,
+        "text_offset": 46,
+        "word_length": 6,
+        "text": "equals",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30108695,
+        "duration_milliseconds": 262,
+        "text_offset": 53,
+        "word_length": 2,
+        "text": "ax",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33043478,
+        "duration_milliseconds": 387,
+        "text_offset": 56,
+        "word_length": 7,
+        "text": "squared",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36521739,
+        "duration_milliseconds": 300,
+        "text_offset": 64,
+        "word_length": 4,
+        "text": "plus",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39239130,
+        "duration_milliseconds": 400,
+        "text_offset": 69,
+        "word_length": 2,
+        "text": "bx",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43478260,
+        "duration_milliseconds": 275,
+        "text_offset": 72,
+        "word_length": 4,
+        "text": "plus",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45978260,
+        "duration_milliseconds": 350,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49130434,
+        "duration_milliseconds": 112,
+        "text_offset": 78,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "a-basic-quadratic-equation-looks-like-this-y-bb35c0c7.mp3",
+    "final_audio": "a-basic-quadratic-equation-looks-like-this-y-bb35c0c7_adjusted.mp3"
+  },
+  {
+    "input_text": "The letters a, b, and c are like knobs we can turn to change the shape and position of our parabola.",
+    "input_data": {
+      "input_text": "The letters a, b, and c are like knobs we can turn to change the shape and position of our parabola.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The letters a, b, and c are like knobs we can turn to change the shape and position of our parabola.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">The letters a, b, and c are like knobs we can turn to change the shape and position of our parabola.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "The",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1739130,
+        "duration_milliseconds": 412,
+        "text_offset": 4,
+        "word_length": 7,
+        "text": "letters",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5434782,
+        "duration_milliseconds": 112,
+        "text_offset": 12,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7282608,
+        "duration_milliseconds": 175,
+        "text_offset": 13,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 8804347,
+        "duration_milliseconds": 287,
+        "text_offset": 15,
+        "word_length": 1,
+        "text": "b",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12173913,
+        "duration_milliseconds": 175,
+        "text_offset": 16,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 13695652,
+        "duration_milliseconds": 200,
+        "text_offset": 18,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15543478,
+        "duration_milliseconds": 225,
+        "text_offset": 22,
+        "word_length": 1,
+        "text": "c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18152173,
+        "duration_milliseconds": 137,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "are",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19456521,
+        "duration_milliseconds": 250,
+        "text_offset": 28,
+        "word_length": 4,
+        "text": "like",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21739130,
+        "duration_milliseconds": 450,
+        "text_offset": 33,
+        "word_length": 5,
+        "text": "knobs",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25760869,
+        "duration_milliseconds": 112,
+        "text_offset": 39,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26847826,
+        "duration_milliseconds": 150,
+        "text_offset": 42,
+        "word_length": 3,
+        "text": "can",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28260869,
+        "duration_milliseconds": 262,
+        "text_offset": 46,
+        "word_length": 4,
+        "text": "turn",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30652173,
+        "duration_milliseconds": 100,
+        "text_offset": 51,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31630434,
+        "duration_milliseconds": 400,
+        "text_offset": 54,
+        "word_length": 6,
+        "text": "change",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35217391,
+        "duration_milliseconds": 87,
+        "text_offset": 61,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36086956,
+        "duration_milliseconds": 362,
+        "text_offset": 65,
+        "word_length": 5,
+        "text": "shape",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39673913,
+        "duration_milliseconds": 125,
+        "text_offset": 71,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40869565,
+        "duration_milliseconds": 550,
+        "text_offset": 75,
+        "word_length": 8,
+        "text": "position",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46086956,
+        "duration_milliseconds": 112,
+        "text_offset": 84,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47173913,
+        "duration_milliseconds": 150,
+        "text_offset": 87,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 48586956,
+        "duration_milliseconds": 625,
+        "text_offset": 91,
+        "word_length": 8,
+        "text": "parabola",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 54130434,
+        "duration_milliseconds": 100,
+        "text_offset": 99,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "the-letters-a-b-and-c-are-like-knobs-we-can-turn-afdfc54c.mp3",
+    "final_audio": "the-letters-a-b-and-c-are-like-knobs-we-can-turn-afdfc54c_adjusted.mp3"
+  },
+  {
+    "input_text": "For example, changing 'a' makes the parabola wider or narrower.",
+    "input_data": {
+      "input_text": "For example, changing 'a' makes the parabola wider or narrower.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">For example, changing 'a' makes the parabola wider or narrower.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">For example, changing 'a' makes the parabola wider or narrower.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 225,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "For",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2500000,
+        "duration_milliseconds": 625,
+        "text_offset": 4,
+        "word_length": 7,
+        "text": "example",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8804347,
+        "duration_milliseconds": 162,
+        "text_offset": 11,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 10217391,
+        "duration_milliseconds": 512,
+        "text_offset": 13,
+        "word_length": 8,
+        "text": "changing",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14782608,
+        "duration_milliseconds": 37,
+        "text_offset": 22,
+        "word_length": 2,
+        "text": "'a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15217391,
+        "duration_milliseconds": 287,
+        "text_offset": 24,
+        "word_length": 7,
+        "text": "' makes",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17826086,
+        "duration_milliseconds": 100,
+        "text_offset": 32,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18804347,
+        "duration_milliseconds": 587,
+        "text_offset": 36,
+        "word_length": 8,
+        "text": "parabola",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24021739,
+        "duration_milliseconds": 475,
+        "text_offset": 45,
+        "word_length": 5,
+        "text": "wider",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28913043,
+        "duration_milliseconds": 125,
+        "text_offset": 51,
+        "word_length": 2,
+        "text": "or",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30108695,
+        "duration_milliseconds": 587,
+        "text_offset": 54,
+        "word_length": 8,
+        "text": "narrower",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35326086,
+        "duration_milliseconds": 100,
+        "text_offset": 62,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "for-example-changing-a-makes-the-parabola-wider-or-cb9e95a6.mp3",
+    "final_audio": "for-example-changing-a-makes-the-parabola-wider-or-cb9e95a6_adjusted.mp3"
+  },
+  {
+    "input_text": "Changing 'c' moves the whole parabola up or down.",
+    "input_data": {
+      "input_text": "Changing 'c' moves the whole parabola up or down.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Changing 'c' moves the whole parabola up or down.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Changing 'c' moves the whole parabola up or down.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 512,
+        "text_offset": 0,
+        "word_length": 8,
+        "text": "Changing",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5000000,
+        "duration_milliseconds": 225,
+        "text_offset": 9,
+        "word_length": 2,
+        "text": "'c",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7500000,
+        "duration_milliseconds": 287,
+        "text_offset": 11,
+        "word_length": 7,
+        "text": "' moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10108695,
+        "duration_milliseconds": 112,
+        "text_offset": 19,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11195652,
+        "duration_milliseconds": 275,
+        "text_offset": 23,
+        "word_length": 5,
+        "text": "whole",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13695652,
+        "duration_milliseconds": 625,
+        "text_offset": 29,
+        "word_length": 8,
+        "text": "parabola",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19673913,
+        "duration_milliseconds": 162,
+        "text_offset": 38,
+        "word_length": 2,
+        "text": "up",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21195652,
+        "duration_milliseconds": 125,
+        "text_offset": 41,
+        "word_length": 2,
+        "text": "or",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22391304,
+        "duration_milliseconds": 462,
+        "text_offset": 44,
+        "word_length": 4,
+        "text": "down",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26521739,
+        "duration_milliseconds": 100,
+        "text_offset": 48,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "changing-c-moves-the-whole-parabola-up-or-down-cbff646d.mp3",
+    "final_audio": "changing-c-moves-the-whole-parabola-up-or-down-cbff646d_adjusted.mp3"
+  },
+  {
+    "input_text": "So, quadratic equations are a powerful tool for describing curves and arcs, like the path of a ball or the shape of a bridge.",
+    "input_data": {
+      "input_text": "So, quadratic equations are a powerful tool for describing curves and arcs, like the path of a ball or the shape of a bridge.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">So, quadratic equations are a powerful tool for describing curves and arcs, like the path of a ball or the shape of a bridge.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">So, quadratic equations are a powerful tool for describing curves and arcs, like the path of a ball or the shape of a bridge.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 462,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "So",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5217391,
+        "duration_milliseconds": 25,
+        "text_offset": 2,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 5543478,
+        "duration_milliseconds": 562,
+        "text_offset": 4,
+        "word_length": 9,
+        "text": "quadratic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10543478,
+        "duration_milliseconds": 612,
+        "text_offset": 14,
+        "word_length": 9,
+        "text": "equations",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16413043,
+        "duration_milliseconds": 150,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "are",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17826086,
+        "duration_milliseconds": 50,
+        "text_offset": 28,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18369565,
+        "duration_milliseconds": 562,
+        "text_offset": 30,
+        "word_length": 8,
+        "text": "powerful",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23369565,
+        "duration_milliseconds": 387,
+        "text_offset": 39,
+        "word_length": 4,
+        "text": "tool",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27282608,
+        "duration_milliseconds": 112,
+        "text_offset": 44,
+        "word_length": 3,
+        "text": "for",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28369565,
+        "duration_milliseconds": 575,
+        "text_offset": 48,
+        "word_length": 10,
+        "text": "describing",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33478260,
+        "duration_milliseconds": 400,
+        "text_offset": 59,
+        "word_length": 6,
+        "text": "curves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37391304,
+        "duration_milliseconds": 112,
+        "text_offset": 66,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38478260,
+        "duration_milliseconds": 462,
+        "text_offset": 70,
+        "word_length": 4,
+        "text": "arcs",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43369565,
+        "duration_milliseconds": 175,
+        "text_offset": 74,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 45000000,
+        "duration_milliseconds": 187,
+        "text_offset": 76,
+        "word_length": 4,
+        "text": "like",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46739130,
+        "duration_milliseconds": 87,
+        "text_offset": 81,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47608695,
+        "duration_milliseconds": 350,
+        "text_offset": 85,
+        "word_length": 4,
+        "text": "path",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50760869,
+        "duration_milliseconds": 62,
+        "text_offset": 90,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51413043,
+        "duration_milliseconds": 87,
+        "text_offset": 93,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 52282608,
+        "duration_milliseconds": 412,
+        "text_offset": 95,
+        "word_length": 4,
+        "text": "ball",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56521739,
+        "duration_milliseconds": 100,
+        "text_offset": 100,
+        "word_length": 2,
+        "text": "or",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57500000,
+        "duration_milliseconds": 87,
+        "text_offset": 103,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58369565,
+        "duration_milliseconds": 300,
+        "text_offset": 107,
+        "word_length": 5,
+        "text": "shape",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61086956,
+        "duration_milliseconds": 87,
+        "text_offset": 113,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61956521,
+        "duration_milliseconds": 75,
+        "text_offset": 116,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62717391,
+        "duration_milliseconds": 525,
+        "text_offset": 118,
+        "word_length": 6,
+        "text": "bridge",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67391304,
+        "duration_milliseconds": 100,
+        "text_offset": 124,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "so-quadratic-equations-are-a-powerful-tool-for-a4fba721.mp3",
+    "final_audio": "so-quadratic-equations-are-a-powerful-tool-for-a4fba721_adjusted.mp3"
+  },
+  {
+    "input_text": "They pop up all over in math and science, so understanding them opens up a whole world of possibilities.",
+    "input_data": {
+      "input_text": "They pop up all over in math and science, so understanding them opens up a whole world of possibilities.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">They pop up all over in math and science, so understanding them opens up a whole world of possibilities.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">They pop up all over in math and science, so understanding them opens up a whole world of possibilities.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 434782,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 4,
+        "text": "They",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1739130,
+        "duration_milliseconds": 300,
+        "text_offset": 5,
+        "word_length": 3,
+        "text": "pop",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4456521,
+        "duration_milliseconds": 162,
+        "text_offset": 9,
+        "word_length": 2,
+        "text": "up",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5978260,
+        "duration_milliseconds": 237,
+        "text_offset": 12,
+        "word_length": 3,
+        "text": "all",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8152173,
+        "duration_milliseconds": 250,
+        "text_offset": 16,
+        "word_length": 4,
+        "text": "over",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10434782,
+        "duration_milliseconds": 112,
+        "text_offset": 21,
+        "word_length": 2,
+        "text": "in",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11521739,
+        "duration_milliseconds": 275,
+        "text_offset": 24,
+        "word_length": 4,
+        "text": "math",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14021739,
+        "duration_milliseconds": 125,
+        "text_offset": 29,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15217391,
+        "duration_milliseconds": 525,
+        "text_offset": 33,
+        "word_length": 7,
+        "text": "science",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20652173,
+        "duration_milliseconds": 162,
+        "text_offset": 40,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 22065217,
+        "duration_milliseconds": 150,
+        "text_offset": 42,
+        "word_length": 2,
+        "text": "so",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23478260,
+        "duration_milliseconds": 700,
+        "text_offset": 45,
+        "word_length": 13,
+        "text": "understanding",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29673913,
+        "duration_milliseconds": 200,
+        "text_offset": 59,
+        "word_length": 4,
+        "text": "them",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31521739,
+        "duration_milliseconds": 425,
+        "text_offset": 64,
+        "word_length": 5,
+        "text": "opens",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35326086,
+        "duration_milliseconds": 125,
+        "text_offset": 70,
+        "word_length": 2,
+        "text": "up",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36521739,
+        "duration_milliseconds": 50,
+        "text_offset": 73,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37065217,
+        "duration_milliseconds": 350,
+        "text_offset": 75,
+        "word_length": 5,
+        "text": "whole",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40217391,
+        "duration_milliseconds": 337,
+        "text_offset": 81,
+        "word_length": 5,
+        "text": "world",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43260869,
+        "duration_milliseconds": 62,
+        "text_offset": 87,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43913043,
+        "duration_milliseconds": 925,
+        "text_offset": 90,
+        "word_length": 13,
+        "text": "possibilities",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 52065217,
+        "duration_milliseconds": 100,
+        "text_offset": 103,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "they-pop-up-all-over-in-math-and-science-so-596d2bfe.mp3",
+    "final_audio": "they-pop-up-all-over-in-math-and-science-so-596d2bfe_adjusted.mp3"
   }
 ]
