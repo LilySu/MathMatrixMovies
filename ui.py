@@ -75,26 +75,30 @@ def authenticate_user():
     flow = Flow.from_client_secrets_file(
         'client_secrets.json',
         scopes=scopes,
-        redirect_uri='https://math.auto.movie')  # Update this URI as necessary
-    auth_url, _ = flow.authorization_url(prompt='consent')
-    return flow, auth_url
+        redirect_uri='https://math.auto.movie')  # Ensure this is correctly registered in Google Cloud Console
+    auth_url, state = flow.authorization_url(prompt='consent', include_granted_scopes='true')
+    return flow, auth_url, state
 
 # Sidebar for connecting to YouTube OAuth
 with st.sidebar:
     st.write("Connect to Services")
     if st.button('Connect to YouTube'):
-        flow, auth_url = authenticate_user()
+        flow, auth_url, state = authenticate_user()
+        st.session_state['auth_state'] = state  # Save the state token in session state
+        st.session_state['auth_url'] = auth_url
         st.write('Please go to this URL: ', auth_url)
-        # Use session state to remember the flow across reruns
-        st.session_state['flow'] = flow
 
     # Text input for authorization code
     code = st.text_input('Enter the authorization code here', key="auth_code")
-    if st.button('Authenticate', key="authenticate"):  # Button to submit the authorization code
-        if 'flow' in st.session_state and code:
+    if st.button('Authenticate', key="authenticate"):
+        if 'auth_state' in st.session_state and code:
             try:
-                # Fetch the token with the code provided by the user
-                flow = st.session_state['flow']
+                # Rebuild the flow object using saved state
+                flow = Flow.from_client_secrets_file(
+                    'client_secrets.json',
+                    scopes=['https://www.googleapis.com/auth/youtube'],
+                    state=st.session_state['auth_state'],
+                    redirect_uri='https://math.auto.movie')
                 flow.fetch_token(code=code)
                 credentials = flow.credentials
 
@@ -104,11 +108,10 @@ with st.sidebar:
                     cred_file.write(credentials_json)
 
                 st.success('You are now authenticated!')
-                print(credentials.to_json())  # Optional: Print credentials to console for debugging
             except Exception as e:
                 st.error(f"Failed to authenticate: {str(e)}")
         else:
-            st.error("Please provide a valid authorization code.")
+            st.error("Please reconnect and provide a valid authorization code.")
 
 
 
