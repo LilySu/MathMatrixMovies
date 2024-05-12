@@ -85,17 +85,30 @@ with st.sidebar:
     if st.button('Connect to YouTube'):
         flow, auth_url = authenticate_user()
         st.write('Please go to this URL: ', auth_url)
-        # Text input for authorization code
-        code = st.text_input('Enter the authorization code', key="auth_code")
-        if code:
-            flow.fetch_token(code=code)
-            credentials = flow.credentials
-            st.write('You are now authenticated!')
-            print(credentials.to_json())  # Print credentials to console for debugging
-            with open('credentials.json', 'w') as cred_file:
-                cred_file.write(credentials_json)
+        # Use session state to remember the flow across reruns
+        st.session_state['flow'] = flow
 
-            st.write('Credentials saved successfully.')
+    # Text input for authorization code
+    code = st.text_input('Enter the authorization code here', key="auth_code")
+    if st.button('Authenticate', key="authenticate"):  # Button to submit the authorization code
+        if 'flow' in st.session_state and code:
+            try:
+                # Fetch the token with the code provided by the user
+                flow = st.session_state['flow']
+                flow.fetch_token(code=code)
+                credentials = flow.credentials
+
+                # Saving the credentials for later use
+                credentials_json = credentials.to_json()
+                with open('credentials.json', 'w') as cred_file:
+                    cred_file.write(credentials_json)
+
+                st.success('You are now authenticated!')
+                print(credentials.to_json())  # Optional: Print credentials to console for debugging
+            except Exception as e:
+                st.error(f"Failed to authenticate: {str(e)}")
+        else:
+            st.error("Please provide a valid authorization code.")
 
 
 
