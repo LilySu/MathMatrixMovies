@@ -46,7 +46,7 @@ def main():
 
 MOVIE_PROMPT = """
 
-Can you explain {math_problem} to a {audience_type}? Please create python code for a manim video for the same. 
+Can you explain {math_problem} to a {audience_type}? Be visual and creative please. Please create python code for a manim video for the same. 
 
 Please do not use any external dependencies like mp3s or svgs or graphics. If you need to draw something, do so using exclusively manim. 
 

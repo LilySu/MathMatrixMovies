@@ -14835,5 +14835,856 @@
     ],
     "original_audio": "that-s-why-chess-is-so-amazing-it-s-a-game-of-near-b8f434dc.mp3",
     "final_audio": "that-s-why-chess-is-so-amazing-it-s-a-game-of-near-b8f434dc.mp3"
+  },
+  {
+    "input_text": "Let's learn about multiplication!",
+    "input_data": {
+      "input_text": "Let's learn about multiplication!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's learn about multiplication!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's learn about multiplication!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 325,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 300,
+        "text_offset": 6,
+        "word_length": 5,
+        "text": "learn",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7000000,
+        "duration_milliseconds": 287,
+        "text_offset": 12,
+        "word_length": 5,
+        "text": "about",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10000000,
+        "duration_milliseconds": 962,
+        "text_offset": 18,
+        "word_length": 14,
+        "text": "multiplication",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19750000,
+        "duration_milliseconds": 100,
+        "text_offset": 32,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-learn-about-multiplication-d8b42e5a.mp3",
+    "final_audio": "let-s-learn-about-multiplication-d8b42e5a.mp3"
+  },
+  {
+    "input_text": "Imagine you have 3 baskets.",
+    "input_data": {
+      "input_text": "Imagine you have 3 baskets.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine you have 3 baskets.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine you have 3 baskets.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 537,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "Imagine",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6000000,
+        "duration_milliseconds": 125,
+        "text_offset": 8,
+        "word_length": 3,
+        "text": "you",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7375000,
+        "duration_milliseconds": 200,
+        "text_offset": 12,
+        "word_length": 4,
+        "text": "have",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9500000,
+        "duration_milliseconds": 262,
+        "text_offset": 17,
+        "word_length": 1,
+        "text": "3",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12250000,
+        "duration_milliseconds": 750,
+        "text_offset": 19,
+        "word_length": 7,
+        "text": "baskets",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19875000,
+        "duration_milliseconds": 100,
+        "text_offset": 26,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "imagine-you-have-3-baskets-25140110.mp3",
+    "final_audio": "imagine-you-have-3-baskets-25140110.mp3"
+  },
+  {
+    "input_text": "And each basket has 4 apples.",
+    "input_data": {
+      "input_text": "And each basket has 4 apples.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">And each basket has 4 apples.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">And each basket has 4 apples.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 175,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "And",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2375000,
+        "duration_milliseconds": 275,
+        "text_offset": 4,
+        "word_length": 4,
+        "text": "each",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5250000,
+        "duration_milliseconds": 487,
+        "text_offset": 9,
+        "word_length": 6,
+        "text": "basket",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10250000,
+        "duration_milliseconds": 275,
+        "text_offset": 16,
+        "word_length": 3,
+        "text": "has",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13625000,
+        "duration_milliseconds": 300,
+        "text_offset": 20,
+        "word_length": 1,
+        "text": "4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16750000,
+        "duration_milliseconds": 575,
+        "text_offset": 22,
+        "word_length": 6,
+        "text": "apples",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22625000,
+        "duration_milliseconds": 112,
+        "text_offset": 28,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "and-each-basket-has-4-apples-37ac1010.mp3",
+    "final_audio": "and-each-basket-has-4-apples-37ac1010.mp3"
+  },
+  {
+    "input_text": "We can count all the apples one by one.",
+    "input_data": {
+      "input_text": "We can count all the apples one by one.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We can count all the apples one by one.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We can count all the apples one by one.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 137,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2000000,
+        "duration_milliseconds": 175,
+        "text_offset": 3,
+        "word_length": 3,
+        "text": "can",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 275,
+        "text_offset": 7,
+        "word_length": 5,
+        "text": "count",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6750000,
+        "duration_milliseconds": 187,
+        "text_offset": 13,
+        "word_length": 3,
+        "text": "all",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8750000,
+        "duration_milliseconds": 125,
+        "text_offset": 17,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10125000,
+        "duration_milliseconds": 425,
+        "text_offset": 21,
+        "word_length": 6,
+        "text": "apples",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14500000,
+        "duration_milliseconds": 237,
+        "text_offset": 28,
+        "word_length": 3,
+        "text": "one",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17000000,
+        "duration_milliseconds": 162,
+        "text_offset": 32,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 362,
+        "text_offset": 35,
+        "word_length": 3,
+        "text": "one",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22500000,
+        "duration_milliseconds": 100,
+        "text_offset": 38,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-can-count-all-the-apples-one-by-one-99c0cb8d.mp3",
+    "final_audio": "we-can-count-all-the-apples-one-by-one-99c0cb8d.mp3"
+  },
+  {
+    "input_text": "But there's a faster way: multiplication!",
+    "input_data": {
+      "input_text": "But there's a faster way: multiplication!",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">But there's a faster way: multiplication!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">But there's a faster way: multiplication!</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 125,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "But",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 1875000,
+        "duration_milliseconds": 187,
+        "text_offset": 4,
+        "word_length": 7,
+        "text": "there's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3875000,
+        "duration_milliseconds": 75,
+        "text_offset": 12,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4750000,
+        "duration_milliseconds": 500,
+        "text_offset": 14,
+        "word_length": 6,
+        "text": "faster",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9875000,
+        "duration_milliseconds": 262,
+        "text_offset": 21,
+        "word_length": 3,
+        "text": "way",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13500000,
+        "duration_milliseconds": 62,
+        "text_offset": 24,
+        "word_length": 1,
+        "text": ":",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 14250000,
+        "duration_milliseconds": 962,
+        "text_offset": 26,
+        "word_length": 14,
+        "text": "multiplication",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24000000,
+        "duration_milliseconds": 112,
+        "text_offset": 40,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "but-there-s-a-faster-way-multiplication-2aa2a37e.mp3",
+    "final_audio": "but-there-s-a-faster-way-multiplication-2aa2a37e.mp3"
+  },
+  {
+    "input_text": "We have 3 baskets, and each basket has 4 apples.",
+    "input_data": {
+      "input_text": "We have 3 baskets, and each basket has 4 apples.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We have 3 baskets, and each basket has 4 apples.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">We have 3 baskets, and each basket has 4 apples.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 150,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2125000,
+        "duration_milliseconds": 212,
+        "text_offset": 3,
+        "word_length": 4,
+        "text": "have",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4375000,
+        "duration_milliseconds": 275,
+        "text_offset": 8,
+        "word_length": 1,
+        "text": "3",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7250000,
+        "duration_milliseconds": 650,
+        "text_offset": 10,
+        "word_length": 7,
+        "text": "baskets",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14750000,
+        "duration_milliseconds": 87,
+        "text_offset": 17,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 15750000,
+        "duration_milliseconds": 162,
+        "text_offset": 19,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17500000,
+        "duration_milliseconds": 275,
+        "text_offset": 23,
+        "word_length": 4,
+        "text": "each",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20375000,
+        "duration_milliseconds": 487,
+        "text_offset": 28,
+        "word_length": 6,
+        "text": "basket",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25375000,
+        "duration_milliseconds": 275,
+        "text_offset": 35,
+        "word_length": 3,
+        "text": "has",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28875000,
+        "duration_milliseconds": 250,
+        "text_offset": 39,
+        "word_length": 1,
+        "text": "4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31500000,
+        "duration_milliseconds": 575,
+        "text_offset": 41,
+        "word_length": 6,
+        "text": "apples",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37375000,
+        "duration_milliseconds": 100,
+        "text_offset": 47,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "we-have-3-baskets-and-each-basket-has-4-apples-899e4efa.mp3",
+    "final_audio": "we-have-3-baskets-and-each-basket-has-4-apples-899e4efa.mp3"
+  },
+  {
+    "input_text": "So, we can write this as 3 times 4.",
+    "input_data": {
+      "input_text": "So, we can write this as 3 times 4.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">So, we can write this as 3 times 4.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">So, we can write this as 3 times 4.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 375,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "So",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5250000,
+        "duration_milliseconds": 112,
+        "text_offset": 2,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 6375000,
+        "duration_milliseconds": 112,
+        "text_offset": 4,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7625000,
+        "duration_milliseconds": 162,
+        "text_offset": 7,
+        "word_length": 3,
+        "text": "can",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9375000,
+        "duration_milliseconds": 250,
+        "text_offset": 11,
+        "word_length": 5,
+        "text": "write",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12000000,
+        "duration_milliseconds": 250,
+        "text_offset": 17,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15000000,
+        "duration_milliseconds": 150,
+        "text_offset": 22,
+        "word_length": 2,
+        "text": "as",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16625000,
+        "duration_milliseconds": 237,
+        "text_offset": 25,
+        "word_length": 1,
+        "text": "3",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19125000,
+        "duration_milliseconds": 437,
+        "text_offset": 27,
+        "word_length": 5,
+        "text": "times",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23625000,
+        "duration_milliseconds": 362,
+        "text_offset": 33,
+        "word_length": 1,
+        "text": "4",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27375000,
+        "duration_milliseconds": 100,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "so-we-can-write-this-as-3-times-4-597de336.mp3",
+    "final_audio": "so-we-can-write-this-as-3-times-4-597de336.mp3"
+  },
+  {
+    "input_text": "Which equals 12! We have 12 apples in total.",
+    "input_data": {
+      "input_text": "Which equals 12! We have 12 apples in total.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Which equals 12! We have 12 apples in total.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Which equals 12! We have 12 apples in total.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 300,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Which",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3625000,
+        "duration_milliseconds": 387,
+        "text_offset": 6,
+        "word_length": 6,
+        "text": "equals",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7625000,
+        "duration_milliseconds": 562,
+        "text_offset": 13,
+        "word_length": 2,
+        "text": "12",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13375000,
+        "duration_milliseconds": 100,
+        "text_offset": 15,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 21875000,
+        "duration_milliseconds": 137,
+        "text_offset": 17,
+        "word_length": 2,
+        "text": "We",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23375000,
+        "duration_milliseconds": 212,
+        "text_offset": 20,
+        "word_length": 4,
+        "text": "have",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25625000,
+        "duration_milliseconds": 412,
+        "text_offset": 25,
+        "word_length": 2,
+        "text": "12",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29875000,
+        "duration_milliseconds": 450,
+        "text_offset": 28,
+        "word_length": 6,
+        "text": "apples",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34750000,
+        "duration_milliseconds": 150,
+        "text_offset": 35,
+        "word_length": 2,
+        "text": "in",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36375000,
+        "duration_milliseconds": 437,
+        "text_offset": 38,
+        "word_length": 5,
+        "text": "total",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40875000,
+        "duration_milliseconds": 100,
+        "text_offset": 43,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "which-equals-12-we-have-12-apples-in-total-a5c04f0b.mp3",
+    "final_audio": "which-equals-12-we-have-12-apples-in-total-a5c04f0b.mp3"
+  },
+  {
+    "input_text": "That's multiplication! It's a quick way to add the same number many times.",
+    "input_data": {
+      "input_text": "That's multiplication! It's a quick way to add the same number many times.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's multiplication! It's a quick way to add the same number many times.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's multiplication! It's a quick way to add the same number many times.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 300,
+        "text_offset": 0,
+        "word_length": 6,
+        "text": "That's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3625000,
+        "duration_milliseconds": 12,
+        "text_offset": 7,
+        "word_length": 14,
+        "text": "multiplication",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13875000,
+        "duration_milliseconds": 112,
+        "text_offset": 21,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 22500000,
+        "duration_milliseconds": 200,
+        "text_offset": 23,
+        "word_length": 4,
+        "text": "It's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24625000,
+        "duration_milliseconds": 62,
+        "text_offset": 28,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25375000,
+        "duration_milliseconds": 275,
+        "text_offset": 30,
+        "word_length": 5,
+        "text": "quick",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28250000,
+        "duration_milliseconds": 262,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "way",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31125000,
+        "duration_milliseconds": 112,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32375000,
+        "duration_milliseconds": 300,
+        "text_offset": 43,
+        "word_length": 3,
+        "text": "add",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35500000,
+        "duration_milliseconds": 87,
+        "text_offset": 47,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36500000,
+        "duration_milliseconds": 300,
+        "text_offset": 51,
+        "word_length": 4,
+        "text": "same",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39625000,
+        "duration_milliseconds": 337,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "number",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43500000,
+        "duration_milliseconds": 250,
+        "text_offset": 63,
+        "word_length": 4,
+        "text": "many",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46125000,
+        "duration_milliseconds": 625,
+        "text_offset": 68,
+        "word_length": 5,
+        "text": "times",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 52500000,
+        "duration_milliseconds": 100,
+        "text_offset": 73,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "that-s-multiplication-it-s-a-quick-way-to-add-the-0cb278e2.mp3",
+    "final_audio": "that-s-multiplication-it-s-a-quick-way-to-add-the-0cb278e2.mp3"
   }
 ]
