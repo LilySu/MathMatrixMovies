@@ -6,6 +6,7 @@ import json
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
+from create_yt_attr import llama3_call
 
 st.markdown("""
     <style>
@@ -68,7 +69,8 @@ if generate_pressed:
     st.video(video_result["video_url"])
     if st.button("Publish to Youtube"):
         #LLAMA3 calls
-        upload_video_to_youtube(credentials, video_result["video_url"],TITLE, DESCRIPTION, CATEGORY ID, TAGS)
+        llama_result = llama3_call(filled_prompt, option1, option2, "en-US-AriaNeural")
+        upload_video_to_youtube(credentials, video_result["video_url"],llama_result['title'], llama_result['description'], llama_result['category_id'], llama_result['tags'])
 # Setup environment variable for Google credentials
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'client_secrets.json'
 
