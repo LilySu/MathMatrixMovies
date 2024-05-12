@@ -48,7 +48,7 @@ def main():
 
 MOVIE_PROMPT = """
 
-Can you explain {math_problem} to a {audience_type}? Be visual and creative please. Please create python code for a manim video for the same. 
+Can you explain {math_problem} to a {audience_type}? Please create python code for a manim video for the same. 
 
 Please do not use any external dependencies like mp3s or svgs or graphics. If you need to draw something, do so using exclusively manim. 
 
@@ -110,59 +110,68 @@ Ok. now translate the text to {language}, and replace the voice_label for azures
 #       hindi_text = Text('नमस्ते', font='Lohit Devanagari')  # Replace 'Lohit Devanagari' with any available Hindi font
 #        tamil_text = Text('வணக்கம்', font='Lohit Tamil')  # Replace 'Lohit Tamil' with any available Tamil font
 # Create or cleanup existing extracted image frames directory.
-FRAME_EXTRACTION_DIRECTORY = os.path.join(os.path.dirname(os.path.abspath(__file__)),'f"media/videos/{filename}/')
+FRAME_EXTRACTION_DIRECTORY = os.path.join(os.path.dirname(
+    os.path.abspath(__file__)), 'f"media/videos/{filename}/')
 FRAME_PREFIX = "_frame"
+
+
 def create_frame_output_dir(output_dir):
-  if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
-  else:
-    shutil.rmtree(output_dir)
-    os.makedirs(output_dir)
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    else:
+        shutil.rmtree(output_dir)
+        os.makedirs(output_dir)
+
 
 def extract_frame_from_video(video_file_path):
-  print(f"Extracting {video_file_path} at 1 frame per second. This might take a bit...")
-  create_frame_output_dir(FRAME_EXTRACTION_DIRECTORY)
-  vidcap = cv2.VideoCapture(video_file_path)
-  fps = vidcap.get(cv2.CAP_PROP_FPS)
-  frame_duration = 1 / fps  # Time interval between frames (in seconds)
-  output_file_prefix = os.path.basename(video_file_path).replace('.', '_')
-  frame_count = 0
-  count = 0
-  while vidcap.isOpened():
-      success, frame = vidcap.read()
-      if not success: # End of video
-          break
-      if int(count / fps) == frame_count: # Extract a frame every second
-          min = frame_count // 60
-          sec = frame_count % 60
-          time_string = f"{min:02d}:{sec:02d}"
-          image_name = f"{output_file_prefix}{FRAME_PREFIX}{time_string}.jpg"
-          output_filename = os.path.join(FRAME_EXTRACTION_DIRECTORY, image_name)
-          cv2.imwrite(output_filename, frame)
-          frame_count += 1
-      count += 1
-  vidcap.release() # Release the capture object\n",
-  print(f"Completed video frame extraction!\n\nExtracted: {frame_count} frames")
+    print(
+        f"Extracting {video_file_path} at 1 frame per second. This might take a bit...")
+    create_frame_output_dir(FRAME_EXTRACTION_DIRECTORY)
+    vidcap = cv2.VideoCapture(video_file_path)
+    fps = vidcap.get(cv2.CAP_PROP_FPS)
+    frame_duration = 1 / fps  # Time interval between frames (in seconds)
+    output_file_prefix = os.path.basename(video_file_path).replace('.', '_')
+    frame_count = 0
+    count = 0
+    while vidcap.isOpened():
+        success, frame = vidcap.read()
+        if not success:  # End of video
+            break
+        if int(count / fps) == frame_count:  # Extract a frame every second
+            min = frame_count // 60
+            sec = frame_count % 60
+            time_string = f"{min:02d}:{sec:02d}"
+            image_name = f"{output_file_prefix}{FRAME_PREFIX}{time_string}.jpg"
+            output_filename = os.path.join(
+                FRAME_EXTRACTION_DIRECTORY, image_name)
+            cv2.imwrite(output_filename, frame)
+            frame_count += 1
+        count += 1
+    vidcap.release()  # Release the capture object\n",
+    print(
+        f"Completed video frame extraction!\n\nExtracted: {frame_count} frames")
 
 
 class File:
-  def __init__(self, file_path: str, display_name: str = None):
-    self.file_path = file_path
-    if display_name:
-      self.display_name = display_name
-    self.timestamp = get_timestamp(file_path)
+    def __init__(self, file_path: str, display_name: str = None):
+        self.file_path = file_path
+        if display_name:
+            self.display_name = display_name
+        self.timestamp = get_timestamp(file_path)
 
-  def set_file_response(self, response):
-    self.response = response
+    def set_file_response(self, response):
+        self.response = response
+
 
 def get_timestamp(filename):
-  """Extracts the frame count (as an integer) from a filename with the format
-     'output_file_prefix_frame00:00.jpg'.
-  """
-  parts = filename.split(FRAME_PREFIX)
-  if len(parts) != 2:
-      return None  # Indicates the filename might be incorrectly formatted
-  return parts[1].split('.')[0]
+    """Extracts the frame count (as an integer) from a filename with the format
+       'output_file_prefix_frame00:00.jpg'.
+    """
+    parts = filename.split(FRAME_PREFIX)
+    if len(parts) != 2:
+        return None  # Indicates the filename might be incorrectly formatted
+    return parts[1].split('.')[0]
+
 
 def create_python_file(response):
     code_blocks = extract_code_blocks(response.text)
@@ -178,12 +187,14 @@ def create_python_file(response):
         file.write(code)
     return filename
 
+
 def make_request(prompt, files):
-        request = [prompt]
-        for file in files:
-            request.append(file.timestamp)
-            request.append(file.response)
-        return request
+    request = [prompt]
+    for file in files:
+        request.append(file.timestamp)
+        request.append(file.response)
+    return request
+
 
 def create_math_matrix_movie(math_problem, audience_type, language="English", voice_label="en-US-AriaNeural"):
     # Check if audience_type is a digit and format it as "x years old", otherwise leave as is
@@ -195,13 +206,34 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         math_problem=math_problem, audience_type=audience_type, language=language, voice_label=voice_label)
 
     # Print the filled prompt to the console
-    print(filled_prompt)
     model = genai.GenerativeModel('gemini-1.5-pro-latest')
-    response = model.generate_content(filled_prompt)
-    filename = create_python_file(response)
-    # Assuming filename is already defined as shown previously
-    command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
-    subprocess.run(command, shell=True)
+    chat = model.start_chat(history=[])
+
+    attempt_count = 0
+    success = False
+
+    next_prompt = filled_prompt
+
+    while attempt_count < 3 and not success:
+        print(f"attempt #{attempt_count+1} next_prompt: {next_prompt}")
+        response = chat.send_message(next_prompt)
+        print(response.text)
+        filename = create_python_file(response)
+        command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
+        result = subprocess.run(command, shell=True,
+                                capture_output=True, text=True)
+        print(f"result: {result.returncode}")
+
+        if result.returncode == 0:
+            success = True
+        else:
+            attempt_count += 1
+            error_prompt = f"Your last code iteration created an error, this is the text of the error: {result.stderr}\nPlease write ALL the code in one go so that it can be extracted and run directly."
+            next_prompt = "\n\n" + error_prompt
+
+    if not success:
+        print("Failed to generate a successful output after 3 attempts.")
+
     current_script_dir = os.path.dirname(os.path.abspath(__file__))
     path_pattern = os.path.join(
         current_script_dir, f"media/videos/{filename}/480p15/*.mp4")
@@ -223,7 +255,8 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     full_video = True
 
     uploaded_files = []
-    print(f'Uploading {len(files_to_upload) if full_video else 10} files. This might take a bit...')
+    print(
+        f'Uploading {len(files_to_upload) if full_video else 10} files. This might take a bit...')
 
     for file in files_to_upload if full_video else files_to_upload[40:50]:
         print(f'Uploading: {file.file_path}...')
@@ -232,16 +265,15 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         uploaded_files.append(file)
 
     print(f"Completed file uploads!\n\nUploaded: {len(uploaded_files)} files")
-    
+
     prompt = "Watch this video completely and make changes to make the video more appealing. Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response."
 
     # Make GenerateContent request with the structure described above.
-    
 
     # Make the LLM request.
     request = make_request(prompt, uploaded_files)
-    response = model.generate_content(request,
-                                    request_options={"timeout": 600})
+    response = chat.send_message(request,
+                                 request_options={"timeout": 600})
     print(response.text)
     filename = create_python_file(response)
     # Assuming filename is already defined as shown previously
@@ -259,10 +291,10 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     # genai.delete_file(file.response.name)
     # print(f'Deleted {file.file_path} at URI {file.response.uri}')
     # print(f"Completed deleting files!\n\nDeleted: {len(uploaded_files)} files")
-    
+
     return {"video_url": mp4_files[0], "video_id": filename}
 
-    
+
     # Write subprocess
 if __name__ == "__main__":
     main()
