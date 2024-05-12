@@ -82,11 +82,20 @@ if generate_pressed:
 if 'video_generated' in st.session_state and st.session_state['video_generated'] and st.session_state.get('video_result', {}).get('stage') == 'final':
     if st.button("Publish to Youtube"):
         print("LLAMA3 CALL")
+        if st.session_state['video_result']['stage'] == 'final':
+            st.write("Final movie generated:")
+            st.video(st.session_state['video_result']["video_url"])
+
         llama_result = llama3_call(
             prompt, option1, option2, "en-US-AriaNeural")
         print("UPLOADING VIDEO")
-        upload_video_to_youtube(st.session_state['video_result']["video_url"], llama_result['title'],
+        response = upload_video_to_youtube(st.session_state['video_result']["video_url"], llama_result['title'],
                                 llama_result['description'], llama_result['category_id'], llama_result['tags'])
+        link = "https://www.youtube.com/watch?v=" + response['id']
+        st.markdown(
+            f'<a href="{link}" target="_blank">Watch on YouTube</a>',
+            unsafe_allow_html=True
+        )
 # Setup environment variable for Google credentials
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'client_secrets.json'
 
