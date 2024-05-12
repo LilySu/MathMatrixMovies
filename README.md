@@ -72,10 +72,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or would like to contribute to the project, feel free to reach out to us individually:
 
-Aditya Advani - on twitter [@adityaadvani](https://twitter.com/adityaadvani)
-Baladhurgesh B - on twitter [@baladhurgesh97](https://twitter.com/baladhurgesh97)
-Lily X Su - on twitter [@excelsiorpred](https://twitter.com/excelsiorpred)
-Justin B Strong - on twitter [@gptjustin](https://twitter.com/gptjustin)
+- Aditya Advani - on twitter [@adityaadvani](https://twitter.com/adityaadvani)
+- Baladhurgesh B - on twitter [@baladhurgesh97](https://twitter.com/baladhurgesh97)
+- Lily X Su - on twitter [@excelsiorpred](https://twitter.com/excelsiorpred)
+- Justin B Strong - on twitter [@gptjustin](https://twitter.com/gptjustin)
 
 Happy math video generating!
 
