@@ -31,12 +31,17 @@ def parse_arguments():
     parser = argparse.ArgumentParser(
         description="Generate a math movie based on the given problem, audience age, and language."
     )
-    parser.add_argument("--math_problem", type=str, default="Explain the pythagorean theorem", help="The math problem to be visualized in the movie.")
-    parser.add_argument("--audience_type", type=int, default=10, help="The target audience age for the math movie.")
-    parser.add_argument("--language", type=str, default="English", help="The language for the movie narration (default is English).")
-    parser.add_argument("--voice_label", type=str, default="en-US-AriaNeural", help="The voice label for the narration (default is en-US-AriaNeural).")
+    parser.add_argument("--math_problem", type=str, default="Explain the pythagorean theorem",
+                        help="The math problem to be visualized in the movie.")
+    parser.add_argument("--audience_type", type=int, default=10,
+                        help="The target audience age for the math movie.")
+    parser.add_argument("--language", type=str, default="English",
+                        help="The language for the movie narration (default is English).")
+    parser.add_argument("--voice_label", type=str, default="en-US-AriaNeural",
+                        help="The voice label for the narration (default is en-US-AriaNeural).")
     args = parser.parse_args()
     return args.math_problem, args.audience_type, args.language, args.voice_label
+
 
 def main():
     # math_problem, audience_type, language, voice_label = parse_arguments()
@@ -253,6 +258,8 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     mp4_files = glob.glob(path_pattern)
 
     video_file_path = mp4_files[0]
+    # return {"stage": "initial", "video_url": video_file_path, "video_id": filename}
+
     frame_extraction_directory = os.path.join(os.path.dirname(
         os.path.abspath(__file__)), f"media/frames/{filename}/")
     extract_frame_from_video(video_file_path, frame_extraction_directory)
@@ -333,13 +340,8 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     video_file_path = mp4_files[0]
 
-    # print(f'Deleting {len(uploaded_files)} images. This might take a bit...')
-    # for file in uploaded_files:
-    # genai.delete_file(file.response.name)
-    # print(f'Deleted {file.file_path} at URI {file.response.uri}')
-    # print(f"Completed deleting files!\n\nDeleted: {len(uploaded_files)} files")
+    return {"stage": "final", "video_url": video_file_path, "video_id": filename}
 
-    return {"video_url": mp4_files[0], "video_id": filename}
 
     # Write subprocess
 if __name__ == "__main__":

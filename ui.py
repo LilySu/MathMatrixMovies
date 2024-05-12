@@ -2,11 +2,9 @@ from google_auth_oauthlib.flow import Flow
 import os
 import streamlit as st
 from create_movie import create_math_matrix_movie
-import json
 from google.oauth2.credentials import Credentials
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
-from create_yt_attr import llama3_call
+
+from create_yt_attr import llama3_call, upload_video_to_youtube
 
 st.markdown("""
     <style>
@@ -39,10 +37,11 @@ st.markdown("<div class='title'>MathMatrixMovies</div>",
             unsafe_allow_html=True)
 
 # Text input for the prompt
-prompt = st.text_input("Enter the topic you wanna generate video on", key="video_prompt")
+prompt = st.text_input(
+    "Enter the topic you wanna generate video on", key="video_prompt")
 
 # Create columns for the dropdowns and the button
-col1, col2, col3 = st.columns([1,1,1])
+col1, col2, col3 = st.columns([1, 1, 1])
 
 # Dropdown 1 in the first column
 with col1:
@@ -62,34 +61,45 @@ with col3:
     st.write(f"You entered: {prompt}")
     st.write(f"Audience Age selected: {option1}")
     st.write(f"Language selected: {option2}")
-    
+
 if generate_pressed:
-    st.write("\n\n\n\n\n\n")  # You can adjust the number of newlines based on your layout needs
+    st.session_state['video_generated'] = True
     video_result = create_math_matrix_movie(prompt, option1, option2)
+    st.session_state['video_result'] = video_result
     st.video(video_result["video_url"])
+
+if 'video_generated' in st.session_state and st.session_state['video_generated']:
     if st.button("Publish to Youtube"):
-        #LLAMA3 calls
-        llama_result = llama3_call(filled_prompt, option1, option2, "en-US-AriaNeural")
-        upload_video_to_youtube(credentials, video_result["video_url"],llama_result['title'], llama_result['description'], llama_result['category_id'], llama_result['tags'])
+        print("LLAMA3 CALL")
+        llama_result = llama3_call(
+            prompt, option1, option2, "en-US-AriaNeural")
+        print("UPLOADING VIDEO")
+        upload_video_to_youtube(st.session_state['video_result']["video_url"], llama_result['title'],
+                                llama_result['description'], llama_result['category_id'], llama_result['tags'])
 # Setup environment variable for Google credentials
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'client_secrets.json'
 
 # Define the OAuth flow function
+
+
 def authenticate_user():
     scopes = ['https://www.googleapis.com/auth/youtube']
     flow = Flow.from_client_secrets_file(
         'client_secrets.json',
         scopes=scopes,
         redirect_uri='https://math.auto.movie')  # Ensure this is correctly registered in Google Cloud Console
-    auth_url, state = flow.authorization_url(prompt='consent', include_granted_scopes='true')
+    auth_url, state = flow.authorization_url(
+        prompt='consent', include_granted_scopes='true')
     return flow, auth_url, state
+
 
 # Sidebar for connecting to YouTube OAuth
 with st.sidebar:
     st.write("Connect to Services")
     if st.button('Connect to YouTube'):
         flow, auth_url, state = authenticate_user()
-        st.session_state['auth_state'] = state  # Save the state token in session state
+        # Save the state token in session state
+        st.session_state['auth_state'] = state
         st.session_state['auth_url'] = auth_url
         st.write('Please go to this URL: ', auth_url)
 
@@ -117,55 +127,3 @@ with st.sidebar:
                 st.error(f"Failed to authenticate: {str(e)}")
         else:
             st.error("Please reconnect and provide a valid authorization code.")
-
-
-
-# Now 'credentials' is ready to be used with Google API client libraries
-def upload_video_to_youtube(credentials, file_path, title, description, category_id, tags):
-    """
-    Uploads a video to YouTube.
-
-    Args:
-    credentials (google.oauth2.credentials.Credentials): The authenticated Google OAuth credentials
-    file_path (str): Path to the video file
-    title (str): Title of the video
-    description (str): Description of the video
-    category_id (str): YouTube category ID
-    tags (list): List of tags for the video
-
-    Returns:
-    dict: Response from the YouTube API
-    """
-    # Load credentials from file
-    with open('credentials.json', 'r') as cred_file:
-        credentials_json = cred_file.read()
-        credentials = Credentials.from_authorized_user_info(json.loads(credentials_json))
-    youtube = build('youtube', 'v3', credentials=credentials)
-
-    # Define the body of the request
-    body = {
-        'snippet': {
-            'title': title,
-            'description': description,
-            'tags': tags,
-            'categoryId': category_id
-        },
-        'status': {
-            'privacyStatus': 'public'  # or 'private' or 'unlisted'
-        }
-    }
-
-    # Define the media file to upload
-    media = MediaFileUpload(file_path, mimetype='video/*', resumable=True)
-
-    # Create the YouTube video insert request
-    request = youtube.videos().insert(
-        part='snippet,status',
-        body=body,
-        media_body=media
-    )
-
-    # Execute the upload
-    response = request.execute()
-
-    return response

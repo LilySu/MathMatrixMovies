@@ -1,3 +1,7 @@
+from googleapiclient.http import MediaFileUpload
+from googleapiclient.discovery import build
+import json
+from google.oauth2.credentials import Credentials
 import os
 from groq import Groq
 from dotenv import load_dotenv
@@ -5,21 +9,20 @@ import re
 load_dotenv()
 
 
-
 def remove_code_snippet(prompt):
     # Regular expression pattern to match the code snippet between ``` ```
     pattern = r'```.*?```'
-    
+
     # Replace the code snippet with an empty string
     cleaned_prompt = re.sub(pattern, '', prompt, flags=re.DOTALL)
-    
+
     return cleaned_prompt.strip()
-    
+
 
 def format_prompt(prompt, variables):
     # Format the prompt string with the extracted variables
     formatted_prompt = prompt.format(**{var: var for var in variables})
-    
+
     return formatted_prompt
 
 
@@ -38,6 +41,7 @@ def trim_string(text):
     # Remove the first 3 and last 3 characters
     return text[3:-3]
 
+
 def remove_text_within_stars(text):
     # Regex pattern to find content between double stars including the stars
     pattern = r'\*\*[^*]+\*\*'
@@ -46,6 +50,7 @@ def remove_text_within_stars(text):
     return cleaned_text
 
 # math_problem, audience_type, language, voice_label = parse_arguments()
+
 
 def llama3_call(math_problem, audience_type, language, voice_label):
     client = Groq(
@@ -66,7 +71,7 @@ def llama3_call(math_problem, audience_type, language, voice_label):
                     Make sure the math_problem {math_problem} is part of the title \
                     Do not bold the title, do not put the title with two asterisks. \
                     Don't make the title too generic. Do not explain yourself. Just \ 
-                    output the title and nothing else.''' 
+                    output the title and nothing else.'''
 
     DESCRIPTION_PROMPT = f'''Provide a good YouTube video description for a video that has \
                     been generated via the following prompt: {math_problem} \
@@ -138,4 +143,59 @@ def llama3_call(math_problem, audience_type, language, voice_label):
     yt_tags = tags_generated.choices[0].message.content
     yt_tags = remove_code_snippet(yt_tags)
     print(yt_tags)
-    return {"title": yt_title,"description":yt_description,"category_id":yt_category_id,"tags":yt_tags}
+    return {"title": yt_title, "description": yt_description, "category_id": yt_category_id, "tags": yt_tags}
+
+
+# Now 'credentials' is ready to be used with Google API client libraries
+
+
+def upload_video_to_youtube(file_path, title, description, category_id, tags):
+    """
+    Uploads a video to YouTube.
+
+    Args:
+    credentials (google.oauth2.credentials.Credentials): The authenticated Google OAuth credentials
+    file_path (str): Path to the video file
+    title (str): Title of the video
+    description (str): Description of the video
+    category_id (str): YouTube category ID
+    tags (list): List of tags for the video
+
+    Returns:
+    dict: Response from the YouTube API
+    """
+    # Load credentials from file
+    with open('credentials.json', 'r') as cred_file:
+        credentials_json = cred_file.read()
+        credentials = Credentials.from_authorized_user_info(
+            json.loads(credentials_json))
+    youtube = build('youtube', 'v3', credentials=credentials)
+
+    # Define the body of the request
+    body = {
+        'snippet': {
+            'title': title,
+            'description': description,
+            'tags': tags,
+            'categoryId': category_id
+        },
+        'status': {
+            'privacyStatus': 'public'  # or 'private' or 'unlisted'
+        }
+    }
+
+    # Define the media file to upload
+    media = MediaFileUpload(file_path, mimetype='video/*', resumable=True)
+
+    # Create the YouTube video insert request
+    request = youtube.videos().insert(
+        part='snippet,status',
+        body=body,
+        media_body=media
+    )
+
+    # Execute the upload
+    response = request.execute()
+    print(response)
+
+    return response
