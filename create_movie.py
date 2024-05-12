@@ -48,11 +48,15 @@ def main():
 
 MOVIE_PROMPT = """
 
-Can you explain {math_problem} to a {audience_type}? Please create python code for a manim video for the same. 
+Can you explain {math_problem} to a {audience_type}? Please be visual and interesting. Consider using a meme if the audience is younger.
+
+Please create python code for a manim video for the same. 
 
 Please do not use any external dependencies like mp3s or svgs or graphics. Do not create any sound effects. 
 
-If you need to draw something, do so using exclusively manim. 
+If you need to draw something, do so using exclusively manim. Always add a title and an outro.
+
+Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math.
 
 Do use voiceovers to narrate the video. The following is an example of how to do that:
 
@@ -274,7 +278,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     prompt = """
         Watch this video completely and make changes to make the video more appealing. Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response.
         
-        Remember, your goal is to explain {math_problem} to {audience_type}.
+        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing.
     """
 
     # Make GenerateContent request with the structure described above.
