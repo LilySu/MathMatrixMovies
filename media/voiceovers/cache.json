@@ -15686,5 +15686,2526 @@
     ],
     "original_audio": "that-s-multiplication-it-s-a-quick-way-to-add-the-0cb278e2.mp3",
     "final_audio": "that-s-multiplication-it-s-a-quick-way-to-add-the-0cb278e2.mp3"
+  },
+  {
+    "input_text": "Imagine you're drawing a smooth curve, but instead of using a single line, you're using special points to guide the curve's shape. These points are called control points, and they're the key to understanding Bezier curves.",
+    "input_data": {
+      "input_text": "Imagine you're drawing a smooth curve, but instead of using a single line, you're using special points to guide the curve's shape. These points are called control points, and they're the key to understanding Bezier curves.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine you're drawing a smooth curve, but instead of using a single line, you're using special points to guide the curve's shape. These points are called control points, and they're the key to understanding Bezier curves.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Imagine you're drawing a smooth curve, but instead of using a single line, you're using special points to guide the curve's shape. These points are called control points, and they're the key to understanding Bezier curves.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 537,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "Imagine",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6125000,
+        "duration_milliseconds": 112,
+        "text_offset": 8,
+        "word_length": 6,
+        "text": "you're",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7375000,
+        "duration_milliseconds": 412,
+        "text_offset": 15,
+        "word_length": 7,
+        "text": "drawing",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11625000,
+        "duration_milliseconds": 50,
+        "text_offset": 23,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12250000,
+        "duration_milliseconds": 387,
+        "text_offset": 25,
+        "word_length": 6,
+        "text": "smooth",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16250000,
+        "duration_milliseconds": 437,
+        "text_offset": 32,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21625000,
+        "duration_milliseconds": 175,
+        "text_offset": 37,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 23375000,
+        "duration_milliseconds": 150,
+        "text_offset": 39,
+        "word_length": 3,
+        "text": "but",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25000000,
+        "duration_milliseconds": 375,
+        "text_offset": 43,
+        "word_length": 7,
+        "text": "instead",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28875000,
+        "duration_milliseconds": 62,
+        "text_offset": 51,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29625000,
+        "duration_milliseconds": 337,
+        "text_offset": 54,
+        "word_length": 5,
+        "text": "using",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33125000,
+        "duration_milliseconds": 62,
+        "text_offset": 60,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33875000,
+        "duration_milliseconds": 362,
+        "text_offset": 62,
+        "word_length": 6,
+        "text": "single",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37625000,
+        "duration_milliseconds": 350,
+        "text_offset": 69,
+        "word_length": 4,
+        "text": "line",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42125000,
+        "duration_milliseconds": 137,
+        "text_offset": 73,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 43625000,
+        "duration_milliseconds": 137,
+        "text_offset": 75,
+        "word_length": 6,
+        "text": "you're",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45125000,
+        "duration_milliseconds": 362,
+        "text_offset": 82,
+        "word_length": 5,
+        "text": "using",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 48875000,
+        "duration_milliseconds": 412,
+        "text_offset": 88,
+        "word_length": 7,
+        "text": "special",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53125000,
+        "duration_milliseconds": 437,
+        "text_offset": 96,
+        "word_length": 6,
+        "text": "points",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58000000,
+        "duration_milliseconds": 112,
+        "text_offset": 103,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 59250000,
+        "duration_milliseconds": 300,
+        "text_offset": 106,
+        "word_length": 5,
+        "text": "guide",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62375000,
+        "duration_milliseconds": 75,
+        "text_offset": 112,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 63250000,
+        "duration_milliseconds": 362,
+        "text_offset": 116,
+        "word_length": 7,
+        "text": "curve's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67000000,
+        "duration_milliseconds": 462,
+        "text_offset": 124,
+        "word_length": 5,
+        "text": "shape",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 71750000,
+        "duration_milliseconds": 100,
+        "text_offset": 129,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 80250000,
+        "duration_milliseconds": 287,
+        "text_offset": 131,
+        "word_length": 5,
+        "text": "These",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 83250000,
+        "duration_milliseconds": 412,
+        "text_offset": 137,
+        "word_length": 6,
+        "text": "points",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 88250000,
+        "duration_milliseconds": 150,
+        "text_offset": 144,
+        "word_length": 3,
+        "text": "are",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 89875000,
+        "duration_milliseconds": 300,
+        "text_offset": 148,
+        "word_length": 6,
+        "text": "called",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 93000000,
+        "duration_milliseconds": 450,
+        "text_offset": 155,
+        "word_length": 7,
+        "text": "control",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 97625000,
+        "duration_milliseconds": 475,
+        "text_offset": 163,
+        "word_length": 6,
+        "text": "points",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 103375000,
+        "duration_milliseconds": 250,
+        "text_offset": 169,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 105875000,
+        "duration_milliseconds": 125,
+        "text_offset": 171,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 107250000,
+        "duration_milliseconds": 125,
+        "text_offset": 175,
+        "word_length": 7,
+        "text": "they're",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 108625000,
+        "duration_milliseconds": 87,
+        "text_offset": 183,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 109625000,
+        "duration_milliseconds": 325,
+        "text_offset": 187,
+        "word_length": 3,
+        "text": "key",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 113000000,
+        "duration_milliseconds": 137,
+        "text_offset": 191,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 114500000,
+        "duration_milliseconds": 712,
+        "text_offset": 194,
+        "word_length": 13,
+        "text": "understanding",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 121750000,
+        "duration_milliseconds": 425,
+        "text_offset": 208,
+        "word_length": 6,
+        "text": "Bezier",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 126125000,
+        "duration_milliseconds": 562,
+        "text_offset": 215,
+        "word_length": 6,
+        "text": "curves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 131875000,
+        "duration_milliseconds": 100,
+        "text_offset": 221,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "imagine-you-re-drawing-a-smooth-curve-but-instead-a25c87ae.mp3",
+    "final_audio": "imagine-you-re-drawing-a-smooth-curve-but-instead-a25c87ae.mp3"
+  },
+  {
+    "input_text": "Let's start with the simplest form: a linear Bezier curve. We'll need two control points, which we'll mark as A and B.",
+    "input_data": {
+      "input_text": "Let's start with the simplest form: a linear Bezier curve. We'll need two control points, which we'll mark as A and B.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's start with the simplest form: a linear Bezier curve. We'll need two control points, which we'll mark as A and B.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's start with the simplest form: a linear Bezier curve. We'll need two control points, which we'll mark as A and B.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 287,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3500000,
+        "duration_milliseconds": 287,
+        "text_offset": 6,
+        "word_length": 5,
+        "text": "start",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6500000,
+        "duration_milliseconds": 125,
+        "text_offset": 12,
+        "word_length": 4,
+        "text": "with",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7875000,
+        "duration_milliseconds": 100,
+        "text_offset": 17,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9000000,
+        "duration_milliseconds": 475,
+        "text_offset": 21,
+        "word_length": 8,
+        "text": "simplest",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 13875000,
+        "duration_milliseconds": 387,
+        "text_offset": 30,
+        "word_length": 4,
+        "text": "form",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18750000,
+        "duration_milliseconds": 75,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": ":",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 19625000,
+        "duration_milliseconds": 50,
+        "text_offset": 36,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20250000,
+        "duration_milliseconds": 437,
+        "text_offset": 38,
+        "word_length": 6,
+        "text": "linear",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24750000,
+        "duration_milliseconds": 400,
+        "text_offset": 45,
+        "word_length": 6,
+        "text": "Bezier",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28875000,
+        "duration_milliseconds": 462,
+        "text_offset": 52,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33625000,
+        "duration_milliseconds": 100,
+        "text_offset": 57,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 42125000,
+        "duration_milliseconds": 200,
+        "text_offset": 59,
+        "word_length": 5,
+        "text": "We'll",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44250000,
+        "duration_milliseconds": 250,
+        "text_offset": 65,
+        "word_length": 4,
+        "text": "need",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46875000,
+        "duration_milliseconds": 187,
+        "text_offset": 70,
+        "word_length": 3,
+        "text": "two",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 48875000,
+        "duration_milliseconds": 425,
+        "text_offset": 74,
+        "word_length": 7,
+        "text": "control",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53250000,
+        "duration_milliseconds": 425,
+        "text_offset": 82,
+        "word_length": 6,
+        "text": "points",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58500000,
+        "duration_milliseconds": 25,
+        "text_offset": 88,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 58875000,
+        "duration_milliseconds": 175,
+        "text_offset": 90,
+        "word_length": 5,
+        "text": "which",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60750000,
+        "duration_milliseconds": 137,
+        "text_offset": 96,
+        "word_length": 5,
+        "text": "we'll",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62250000,
+        "duration_milliseconds": 312,
+        "text_offset": 102,
+        "word_length": 4,
+        "text": "mark",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 65500000,
+        "duration_milliseconds": 150,
+        "text_offset": 107,
+        "word_length": 2,
+        "text": "as",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67125000,
+        "duration_milliseconds": 100,
+        "text_offset": 110,
+        "word_length": 1,
+        "text": "A",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 68750000,
+        "duration_milliseconds": 75,
+        "text_offset": 112,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 69625000,
+        "duration_milliseconds": 312,
+        "text_offset": 116,
+        "word_length": 1,
+        "text": "B",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 72875000,
+        "duration_milliseconds": 112,
+        "text_offset": 117,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-start-with-the-simplest-form-a-linear-bezier-a2e59999.mp3",
+    "final_audio": "let-s-start-with-the-simplest-form-a-linear-bezier-a2e59999.mp3"
+  },
+  {
+    "input_text": "Now, imagine a line connecting points A and B. This line represents our curve, but it's not very interesting yet.",
+    "input_data": {
+      "input_text": "Now, imagine a line connecting points A and B. This line represents our curve, but it's not very interesting yet.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Now, imagine a line connecting points A and B. This line represents our curve, but it's not very interesting yet.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Now, imagine a line connecting points A and B. This line represents our curve, but it's not very interesting yet.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 425,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "Now",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5750000,
+        "duration_milliseconds": 87,
+        "text_offset": 3,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 6750000,
+        "duration_milliseconds": 450,
+        "text_offset": 5,
+        "word_length": 7,
+        "text": "imagine",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11375000,
+        "duration_milliseconds": 62,
+        "text_offset": 13,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12125000,
+        "duration_milliseconds": 312,
+        "text_offset": 15,
+        "word_length": 4,
+        "text": "line",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15375000,
+        "duration_milliseconds": 462,
+        "text_offset": 20,
+        "word_length": 10,
+        "text": "connecting",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20125000,
+        "duration_milliseconds": 387,
+        "text_offset": 31,
+        "word_length": 6,
+        "text": "points",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 24125000,
+        "duration_milliseconds": 200,
+        "text_offset": 38,
+        "word_length": 1,
+        "text": "A",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 87,
+        "text_offset": 40,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27750000,
+        "duration_milliseconds": 350,
+        "text_offset": 44,
+        "word_length": 1,
+        "text": "B",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31375000,
+        "duration_milliseconds": 112,
+        "text_offset": 45,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 40000000,
+        "duration_milliseconds": 225,
+        "text_offset": 47,
+        "word_length": 4,
+        "text": "This",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42375000,
+        "duration_milliseconds": 375,
+        "text_offset": 52,
+        "word_length": 4,
+        "text": "line",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46250000,
+        "duration_milliseconds": 500,
+        "text_offset": 57,
+        "word_length": 10,
+        "text": "represents",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51375000,
+        "duration_milliseconds": 150,
+        "text_offset": 68,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53000000,
+        "duration_milliseconds": 462,
+        "text_offset": 72,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58625000,
+        "duration_milliseconds": 137,
+        "text_offset": 77,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 60000000,
+        "duration_milliseconds": 150,
+        "text_offset": 79,
+        "word_length": 3,
+        "text": "but",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61625000,
+        "duration_milliseconds": 150,
+        "text_offset": 83,
+        "word_length": 4,
+        "text": "it's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 63250000,
+        "duration_milliseconds": 237,
+        "text_offset": 88,
+        "word_length": 3,
+        "text": "not",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 65750000,
+        "duration_milliseconds": 375,
+        "text_offset": 92,
+        "word_length": 4,
+        "text": "very",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 69625000,
+        "duration_milliseconds": 625,
+        "text_offset": 97,
+        "word_length": 11,
+        "text": "interesting",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 76000000,
+        "duration_milliseconds": 350,
+        "text_offset": 109,
+        "word_length": 3,
+        "text": "yet",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 79625000,
+        "duration_milliseconds": 100,
+        "text_offset": 112,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "now-imagine-a-line-connecting-points-a-and-b-this-f8399430.mp3",
+    "final_audio": "now-imagine-a-line-connecting-points-a-and-b-this-f8399430.mp3"
+  },
+  {
+    "input_text": "Here's where the magic happens. Let's introduce a moving dot that travels from point A to point B. As this dot moves, it traces out our Bezier curve.",
+    "input_data": {
+      "input_text": "Here's where the magic happens. Let's introduce a moving dot that travels from point A to point B. As this dot moves, it traces out our Bezier curve.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Here's where the magic happens. Let's introduce a moving dot that travels from point A to point B. As this dot moves, it traces out our Bezier curve.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Here's where the magic happens. Let's introduce a moving dot that travels from point A to point B. As this dot moves, it traces out our Bezier curve.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 350,
+        "text_offset": 0,
+        "word_length": 6,
+        "text": "Here's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4125000,
+        "duration_milliseconds": 212,
+        "text_offset": 7,
+        "word_length": 5,
+        "text": "where",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6375000,
+        "duration_milliseconds": 87,
+        "text_offset": 13,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 7375000,
+        "duration_milliseconds": 425,
+        "text_offset": 17,
+        "word_length": 5,
+        "text": "magic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11750000,
+        "duration_milliseconds": 637,
+        "text_offset": 23,
+        "word_length": 7,
+        "text": "happens",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18250000,
+        "duration_milliseconds": 100,
+        "text_offset": 30,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 312,
+        "text_offset": 32,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30000000,
+        "duration_milliseconds": 525,
+        "text_offset": 38,
+        "word_length": 9,
+        "text": "introduce",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35375000,
+        "duration_milliseconds": 62,
+        "text_offset": 48,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36125000,
+        "duration_milliseconds": 437,
+        "text_offset": 50,
+        "word_length": 6,
+        "text": "moving",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40625000,
+        "duration_milliseconds": 162,
+        "text_offset": 57,
+        "word_length": 3,
+        "text": "dot",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42375000,
+        "duration_milliseconds": 200,
+        "text_offset": 61,
+        "word_length": 4,
+        "text": "that",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 44500000,
+        "duration_milliseconds": 450,
+        "text_offset": 66,
+        "word_length": 7,
+        "text": "travels",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49125000,
+        "duration_milliseconds": 137,
+        "text_offset": 74,
+        "word_length": 4,
+        "text": "from",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 50625000,
+        "duration_milliseconds": 362,
+        "text_offset": 79,
+        "word_length": 5,
+        "text": "point",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 54375000,
+        "duration_milliseconds": 137,
+        "text_offset": 85,
+        "word_length": 1,
+        "text": "A",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55875000,
+        "duration_milliseconds": 150,
+        "text_offset": 87,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57500000,
+        "duration_milliseconds": 375,
+        "text_offset": 90,
+        "word_length": 5,
+        "text": "point",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61375000,
+        "duration_milliseconds": 325,
+        "text_offset": 96,
+        "word_length": 1,
+        "text": "B",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64750000,
+        "duration_milliseconds": 112,
+        "text_offset": 97,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 73375000,
+        "duration_milliseconds": 212,
+        "text_offset": 99,
+        "word_length": 2,
+        "text": "As",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 75625000,
+        "duration_milliseconds": 212,
+        "text_offset": 102,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 77875000,
+        "duration_milliseconds": 250,
+        "text_offset": 107,
+        "word_length": 3,
+        "text": "dot",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 80500000,
+        "duration_milliseconds": 512,
+        "text_offset": 111,
+        "word_length": 5,
+        "text": "moves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 86625000,
+        "duration_milliseconds": 37,
+        "text_offset": 116,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 87125000,
+        "duration_milliseconds": 150,
+        "text_offset": 118,
+        "word_length": 2,
+        "text": "it",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 88750000,
+        "duration_milliseconds": 475,
+        "text_offset": 121,
+        "word_length": 6,
+        "text": "traces",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 93625000,
+        "duration_milliseconds": 212,
+        "text_offset": 128,
+        "word_length": 3,
+        "text": "out",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 95875000,
+        "duration_milliseconds": 112,
+        "text_offset": 132,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 97125000,
+        "duration_milliseconds": 437,
+        "text_offset": 136,
+        "word_length": 6,
+        "text": "Bezier",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 101625000,
+        "duration_milliseconds": 487,
+        "text_offset": 143,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 106625000,
+        "duration_milliseconds": 100,
+        "text_offset": 148,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "here-s-where-the-magic-happens-let-s-introduce-a-f2b70b2c.mp3",
+    "final_audio": "here-s-where-the-magic-happens-let-s-introduce-a-f2b70b2c.mp3"
+  },
+  {
+    "input_text": "In this case, the curve is simply a straight line, as the moving dot follows the direct path from A to B.",
+    "input_data": {
+      "input_text": "In this case, the curve is simply a straight line, as the moving dot follows the direct path from A to B.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">In this case, the curve is simply a straight line, as the moving dot follows the direct path from A to B.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">In this case, the curve is simply a straight line, as the moving dot follows the direct path from A to B.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 162,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "In",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2250000,
+        "duration_milliseconds": 200,
+        "text_offset": 3,
+        "word_length": 4,
+        "text": "this",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4375000,
+        "duration_milliseconds": 425,
+        "text_offset": 8,
+        "word_length": 4,
+        "text": "case",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 87,
+        "text_offset": 12,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 10625000,
+        "duration_milliseconds": 112,
+        "text_offset": 14,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11875000,
+        "duration_milliseconds": 350,
+        "text_offset": 18,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15875000,
+        "duration_milliseconds": 137,
+        "text_offset": 24,
+        "word_length": 2,
+        "text": "is",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 17375000,
+        "duration_milliseconds": 350,
+        "text_offset": 27,
+        "word_length": 6,
+        "text": "simply",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21000000,
+        "duration_milliseconds": 62,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 21750000,
+        "duration_milliseconds": 362,
+        "text_offset": 36,
+        "word_length": 8,
+        "text": "straight",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25500000,
+        "duration_milliseconds": 412,
+        "text_offset": 45,
+        "word_length": 4,
+        "text": "line",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 30625000,
+        "duration_milliseconds": 112,
+        "text_offset": 49,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 31875000,
+        "duration_milliseconds": 112,
+        "text_offset": 51,
+        "word_length": 2,
+        "text": "as",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33125000,
+        "duration_milliseconds": 75,
+        "text_offset": 54,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34000000,
+        "duration_milliseconds": 412,
+        "text_offset": 58,
+        "word_length": 6,
+        "text": "moving",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38250000,
+        "duration_milliseconds": 312,
+        "text_offset": 65,
+        "word_length": 3,
+        "text": "dot",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42000000,
+        "duration_milliseconds": 412,
+        "text_offset": 69,
+        "word_length": 7,
+        "text": "follows",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46250000,
+        "duration_milliseconds": 87,
+        "text_offset": 77,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47250000,
+        "duration_milliseconds": 387,
+        "text_offset": 81,
+        "word_length": 6,
+        "text": "direct",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51250000,
+        "duration_milliseconds": 350,
+        "text_offset": 88,
+        "word_length": 4,
+        "text": "path",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55375000,
+        "duration_milliseconds": 175,
+        "text_offset": 93,
+        "word_length": 4,
+        "text": "from",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57250000,
+        "duration_milliseconds": 150,
+        "text_offset": 98,
+        "word_length": 1,
+        "text": "A",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58875000,
+        "duration_milliseconds": 137,
+        "text_offset": 100,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 60375000,
+        "duration_milliseconds": 337,
+        "text_offset": 103,
+        "word_length": 1,
+        "text": "B",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 63875000,
+        "duration_milliseconds": 112,
+        "text_offset": 104,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "in-this-case-the-curve-is-simply-a-straight-line-5d922665.mp3",
+    "final_audio": "in-this-case-the-curve-is-simply-a-straight-line-5d922665.mp3"
+  },
+  {
+    "input_text": "Let's add another control point, C, and see how it changes our curve. This becomes a quadratic Bezier curve.",
+    "input_data": {
+      "input_text": "Let's add another control point, C, and see how it changes our curve. This becomes a quadratic Bezier curve.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's add another control point, C, and see how it changes our curve. This becomes a quadratic Bezier curve.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's add another control point, C, and see how it changes our curve. This becomes a quadratic Bezier curve.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 312,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3750000,
+        "duration_milliseconds": 237,
+        "text_offset": 6,
+        "word_length": 3,
+        "text": "add",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 6250000,
+        "duration_milliseconds": 325,
+        "text_offset": 10,
+        "word_length": 7,
+        "text": "another",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 437,
+        "text_offset": 18,
+        "word_length": 7,
+        "text": "control",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 337,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "point",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 18500000,
+        "duration_milliseconds": 100,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 19500000,
+        "duration_milliseconds": 337,
+        "text_offset": 33,
+        "word_length": 1,
+        "text": "C",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23875000,
+        "duration_milliseconds": 100,
+        "text_offset": 34,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24875000,
+        "duration_milliseconds": 175,
+        "text_offset": 36,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 212,
+        "text_offset": 40,
+        "word_length": 3,
+        "text": "see",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29000000,
+        "duration_milliseconds": 200,
+        "text_offset": 44,
+        "word_length": 3,
+        "text": "how",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31125000,
+        "duration_milliseconds": 87,
+        "text_offset": 48,
+        "word_length": 2,
+        "text": "it",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32125000,
+        "duration_milliseconds": 400,
+        "text_offset": 51,
+        "word_length": 7,
+        "text": "changes",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36250000,
+        "duration_milliseconds": 137,
+        "text_offset": 59,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37750000,
+        "duration_milliseconds": 437,
+        "text_offset": 63,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 42250000,
+        "duration_milliseconds": 100,
+        "text_offset": 68,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 50750000,
+        "duration_milliseconds": 212,
+        "text_offset": 70,
+        "word_length": 4,
+        "text": "This",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 53000000,
+        "duration_milliseconds": 437,
+        "text_offset": 75,
+        "word_length": 7,
+        "text": "becomes",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 57500000,
+        "duration_milliseconds": 62,
+        "text_offset": 83,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58250000,
+        "duration_milliseconds": 637,
+        "text_offset": 85,
+        "word_length": 9,
+        "text": "quadratic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64750000,
+        "duration_milliseconds": 425,
+        "text_offset": 95,
+        "word_length": 6,
+        "text": "Bezier",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 69125000,
+        "duration_milliseconds": 450,
+        "text_offset": 102,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73750000,
+        "duration_milliseconds": 100,
+        "text_offset": 107,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-add-another-control-point-c-and-see-how-it-29d215bc.mp3",
+    "final_audio": "let-s-add-another-control-point-c-and-see-how-it-29d215bc.mp3"
+  },
+  {
+    "input_text": "Instead of one line, we now have two: A to C and C to B.",
+    "input_data": {
+      "input_text": "Instead of one line, we now have two: A to C and C to B.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Instead of one line, we now have two: A to C and C to B.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Instead of one line, we now have two: A to C and C to B.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 375,
+        "text_offset": 0,
+        "word_length": 7,
+        "text": "Instead",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4375000,
+        "duration_milliseconds": 100,
+        "text_offset": 8,
+        "word_length": 2,
+        "text": "of",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 5500000,
+        "duration_milliseconds": 250,
+        "text_offset": 11,
+        "word_length": 3,
+        "text": "one",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8125000,
+        "duration_milliseconds": 325,
+        "text_offset": 15,
+        "word_length": 4,
+        "text": "line",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12375000,
+        "duration_milliseconds": 50,
+        "text_offset": 19,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 13000000,
+        "duration_milliseconds": 100,
+        "text_offset": 21,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14125000,
+        "duration_milliseconds": 212,
+        "text_offset": 24,
+        "word_length": 3,
+        "text": "now",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16375000,
+        "duration_milliseconds": 262,
+        "text_offset": 28,
+        "word_length": 4,
+        "text": "have",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19125000,
+        "duration_milliseconds": 337,
+        "text_offset": 33,
+        "word_length": 3,
+        "text": "two",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 23500000,
+        "duration_milliseconds": 125,
+        "text_offset": 36,
+        "word_length": 1,
+        "text": ":",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 24750000,
+        "duration_milliseconds": 212,
+        "text_offset": 38,
+        "word_length": 1,
+        "text": "A",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27000000,
+        "duration_milliseconds": 137,
+        "text_offset": 40,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28500000,
+        "duration_milliseconds": 300,
+        "text_offset": 43,
+        "word_length": 1,
+        "text": "C",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 32000000,
+        "duration_milliseconds": 112,
+        "text_offset": 45,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33250000,
+        "duration_milliseconds": 200,
+        "text_offset": 49,
+        "word_length": 1,
+        "text": "C",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36000000,
+        "duration_milliseconds": 100,
+        "text_offset": 51,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 37125000,
+        "duration_milliseconds": 325,
+        "text_offset": 54,
+        "word_length": 1,
+        "text": "B",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40500000,
+        "duration_milliseconds": 112,
+        "text_offset": 55,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "instead-of-one-line-we-now-have-two-a-to-c-and-c-dac043bf.mp3",
+    "final_audio": "instead-of-one-line-we-now-have-two-a-to-c-and-c-dac043bf.mp3"
+  },
+  {
+    "input_text": "Now imagine two moving dots, one on each line. These dots move simultaneously from A to C and C to B.",
+    "input_data": {
+      "input_text": "Now imagine two moving dots, one on each line. These dots move simultaneously from A to C and C to B.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Now imagine two moving dots, one on each line. These dots move simultaneously from A to C and C to B.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Now imagine two moving dots, one on each line. These dots move simultaneously from A to C and C to B.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 337,
+        "text_offset": 0,
+        "word_length": 3,
+        "text": "Now",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4000000,
+        "duration_milliseconds": 475,
+        "text_offset": 4,
+        "word_length": 7,
+        "text": "imagine",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 8875000,
+        "duration_milliseconds": 225,
+        "text_offset": 12,
+        "word_length": 3,
+        "text": "two",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 11250000,
+        "duration_milliseconds": 375,
+        "text_offset": 16,
+        "word_length": 6,
+        "text": "moving",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15125000,
+        "duration_milliseconds": 462,
+        "text_offset": 23,
+        "word_length": 4,
+        "text": "dots",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20750000,
+        "duration_milliseconds": 187,
+        "text_offset": 27,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 22625000,
+        "duration_milliseconds": 237,
+        "text_offset": 29,
+        "word_length": 3,
+        "text": "one",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25125000,
+        "duration_milliseconds": 187,
+        "text_offset": 33,
+        "word_length": 2,
+        "text": "on",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 27125000,
+        "duration_milliseconds": 212,
+        "text_offset": 36,
+        "word_length": 4,
+        "text": "each",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29375000,
+        "duration_milliseconds": 462,
+        "text_offset": 41,
+        "word_length": 4,
+        "text": "line",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 34125000,
+        "duration_milliseconds": 100,
+        "text_offset": 45,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 42625000,
+        "duration_milliseconds": 262,
+        "text_offset": 47,
+        "word_length": 5,
+        "text": "These",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 45375000,
+        "duration_milliseconds": 300,
+        "text_offset": 53,
+        "word_length": 4,
+        "text": "dots",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 48500000,
+        "duration_milliseconds": 325,
+        "text_offset": 58,
+        "word_length": 4,
+        "text": "move",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 52000000,
+        "duration_milliseconds": 50,
+        "text_offset": 63,
+        "word_length": 14,
+        "text": "simultaneously",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 62625000,
+        "duration_milliseconds": 212,
+        "text_offset": 78,
+        "word_length": 4,
+        "text": "from",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64875000,
+        "duration_milliseconds": 150,
+        "text_offset": 83,
+        "word_length": 1,
+        "text": "A",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 66500000,
+        "duration_milliseconds": 137,
+        "text_offset": 85,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 68000000,
+        "duration_milliseconds": 362,
+        "text_offset": 88,
+        "word_length": 1,
+        "text": "C",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 72250000,
+        "duration_milliseconds": 175,
+        "text_offset": 90,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 74125000,
+        "duration_milliseconds": 200,
+        "text_offset": 94,
+        "word_length": 1,
+        "text": "C",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 76750000,
+        "duration_milliseconds": 112,
+        "text_offset": 96,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 78000000,
+        "duration_milliseconds": 325,
+        "text_offset": 99,
+        "word_length": 1,
+        "text": "B",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 81375000,
+        "duration_milliseconds": 112,
+        "text_offset": 100,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "now-imagine-two-moving-dots-one-on-each-line-these-fa8cb7fc.mp3",
+    "final_audio": "now-imagine-two-moving-dots-one-on-each-line-these-fa8cb7fc.mp3"
+  },
+  {
+    "input_text": "As they move, we draw a line connecting them. This line's movement traces out our quadratic Bezier curve.",
+    "input_data": {
+      "input_text": "As they move, we draw a line connecting them. This line's movement traces out our quadratic Bezier curve.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">As they move, we draw a line connecting them. This line's movement traces out our quadratic Bezier curve.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">As they move, we draw a line connecting them. This line's movement traces out our quadratic Bezier curve.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 212,
+        "text_offset": 0,
+        "word_length": 2,
+        "text": "As",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 2750000,
+        "duration_milliseconds": 137,
+        "text_offset": 3,
+        "word_length": 4,
+        "text": "they",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4250000,
+        "duration_milliseconds": 437,
+        "text_offset": 8,
+        "word_length": 4,
+        "text": "move",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 137,
+        "text_offset": 12,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 11000000,
+        "duration_milliseconds": 150,
+        "text_offset": 14,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 12625000,
+        "duration_milliseconds": 312,
+        "text_offset": 17,
+        "word_length": 4,
+        "text": "draw",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 15875000,
+        "duration_milliseconds": 75,
+        "text_offset": 22,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 16750000,
+        "duration_milliseconds": 350,
+        "text_offset": 24,
+        "word_length": 4,
+        "text": "line",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 20375000,
+        "duration_milliseconds": 500,
+        "text_offset": 29,
+        "word_length": 10,
+        "text": "connecting",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 25500000,
+        "duration_milliseconds": 275,
+        "text_offset": 40,
+        "word_length": 4,
+        "text": "them",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 28375000,
+        "duration_milliseconds": 112,
+        "text_offset": 44,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 37000000,
+        "duration_milliseconds": 225,
+        "text_offset": 46,
+        "word_length": 4,
+        "text": "This",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39375000,
+        "duration_milliseconds": 400,
+        "text_offset": 51,
+        "word_length": 6,
+        "text": "line's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43500000,
+        "duration_milliseconds": 487,
+        "text_offset": 58,
+        "word_length": 8,
+        "text": "movement",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49125000,
+        "duration_milliseconds": 487,
+        "text_offset": 67,
+        "word_length": 6,
+        "text": "traces",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 54125000,
+        "duration_milliseconds": 250,
+        "text_offset": 74,
+        "word_length": 3,
+        "text": "out",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 56750000,
+        "duration_milliseconds": 112,
+        "text_offset": 78,
+        "word_length": 3,
+        "text": "our",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58000000,
+        "duration_milliseconds": 587,
+        "text_offset": 82,
+        "word_length": 9,
+        "text": "quadratic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 64000000,
+        "duration_milliseconds": 412,
+        "text_offset": 92,
+        "word_length": 6,
+        "text": "Bezier",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 68250000,
+        "duration_milliseconds": 462,
+        "text_offset": 99,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 73000000,
+        "duration_milliseconds": 100,
+        "text_offset": 104,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "as-they-move-we-draw-a-line-connecting-them-this-caea5d3a.mp3",
+    "final_audio": "as-they-move-we-draw-a-line-connecting-them-this-caea5d3a.mp3"
+  },
+  {
+    "input_text": "Let's visualize the final curve, the smooth path created by the moving line.",
+    "input_data": {
+      "input_text": "Let's visualize the final curve, the smooth path created by the moving line.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's visualize the final curve, the smooth path created by the moving line.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">Let's visualize the final curve, the smooth path created by the moving line.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 300,
+        "text_offset": 0,
+        "word_length": 5,
+        "text": "Let's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3625000,
+        "duration_milliseconds": 587,
+        "text_offset": 6,
+        "word_length": 9,
+        "text": "visualize",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 9625000,
+        "duration_milliseconds": 100,
+        "text_offset": 16,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10750000,
+        "duration_milliseconds": 375,
+        "text_offset": 20,
+        "word_length": 5,
+        "text": "final",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14625000,
+        "duration_milliseconds": 387,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19500000,
+        "duration_milliseconds": 200,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 21500000,
+        "duration_milliseconds": 100,
+        "text_offset": 33,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 22625000,
+        "duration_milliseconds": 400,
+        "text_offset": 37,
+        "word_length": 6,
+        "text": "smooth",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 26750000,
+        "duration_milliseconds": 400,
+        "text_offset": 44,
+        "word_length": 4,
+        "text": "path",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 31625000,
+        "duration_milliseconds": 462,
+        "text_offset": 49,
+        "word_length": 7,
+        "text": "created",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 36375000,
+        "duration_milliseconds": 150,
+        "text_offset": 57,
+        "word_length": 2,
+        "text": "by",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 38000000,
+        "duration_milliseconds": 100,
+        "text_offset": 60,
+        "word_length": 3,
+        "text": "the",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 39125000,
+        "duration_milliseconds": 400,
+        "text_offset": 64,
+        "word_length": 6,
+        "text": "moving",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 43250000,
+        "duration_milliseconds": 400,
+        "text_offset": 71,
+        "word_length": 4,
+        "text": "line",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 47375000,
+        "duration_milliseconds": 100,
+        "text_offset": 75,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "let-s-visualize-the-final-curve-the-smooth-path-c13b4952.mp3",
+    "final_audio": "let-s-visualize-the-final-curve-the-smooth-path-c13b4952.mp3"
+  },
+  {
+    "input_text": "That's a quadratic Bezier curve! By adding more control points, we can create even more complex and interesting curves. These curves are used in everything from computer graphics and animation to font design and computer-aided design.",
+    "input_data": {
+      "input_text": "That's a quadratic Bezier curve! By adding more control points, we can create even more complex and interesting curves. These curves are used in everything from computer graphics and animation to font design and computer-aided design.",
+      "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's a quadratic Bezier curve! By adding more control points, we can create even more complex and interesting curves. These curves are used in everything from computer graphics and animation to font design and computer-aided design.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+      "service": "azure",
+      "config": {
+        "voice": "en-US-AriaNeural",
+        "style": "newscast-casual",
+        "output_format": "Audio48Khz192KBitRateMonoMp3",
+        "prosody": null
+      }
+    },
+    "ssml": "<speak version=\"1.0\" xmlns=\"http://www.w3.org/2001/10/synthesis\"\n    xmlns:mstts=\"https://www.w3.org/2001/mstts\" xml:lang=\"en-US\">\n    <voice name=\"en-US-AriaNeural\">\n        <mstts:express-as style=\"newscast-casual\">That's a quadratic Bezier curve! By adding more control points, we can create even more complex and interesting curves. These curves are used in everything from computer graphics and animation to font design and computer-aided design.</mstts:express-as>\n    </voice>\n</speak>\n        ",
+    "word_boundaries": [
+      {
+        "audio_offset": 500000,
+        "duration_milliseconds": 262,
+        "text_offset": 0,
+        "word_length": 6,
+        "text": "That's",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 3250000,
+        "duration_milliseconds": 75,
+        "text_offset": 7,
+        "word_length": 1,
+        "text": "a",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 4125000,
+        "duration_milliseconds": 575,
+        "text_offset": 9,
+        "word_length": 9,
+        "text": "quadratic",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 10000000,
+        "duration_milliseconds": 425,
+        "text_offset": 19,
+        "word_length": 6,
+        "text": "Bezier",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 14375000,
+        "duration_milliseconds": 500,
+        "text_offset": 26,
+        "word_length": 5,
+        "text": "curve",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 19500000,
+        "duration_milliseconds": 100,
+        "text_offset": 31,
+        "word_length": 1,
+        "text": "!",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 28000000,
+        "duration_milliseconds": 162,
+        "text_offset": 33,
+        "word_length": 2,
+        "text": "By",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 29750000,
+        "duration_milliseconds": 362,
+        "text_offset": 36,
+        "word_length": 6,
+        "text": "adding",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 33500000,
+        "duration_milliseconds": 225,
+        "text_offset": 43,
+        "word_length": 4,
+        "text": "more",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 35875000,
+        "duration_milliseconds": 437,
+        "text_offset": 48,
+        "word_length": 7,
+        "text": "control",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 40375000,
+        "duration_milliseconds": 462,
+        "text_offset": 56,
+        "word_length": 6,
+        "text": "points",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 46000000,
+        "duration_milliseconds": 225,
+        "text_offset": 62,
+        "word_length": 1,
+        "text": ",",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 48375000,
+        "duration_milliseconds": 125,
+        "text_offset": 64,
+        "word_length": 2,
+        "text": "we",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 49750000,
+        "duration_milliseconds": 175,
+        "text_offset": 67,
+        "word_length": 3,
+        "text": "can",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 51625000,
+        "duration_milliseconds": 412,
+        "text_offset": 71,
+        "word_length": 6,
+        "text": "create",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 55875000,
+        "duration_milliseconds": 250,
+        "text_offset": 78,
+        "word_length": 4,
+        "text": "even",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 58500000,
+        "duration_milliseconds": 250,
+        "text_offset": 83,
+        "word_length": 4,
+        "text": "more",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 61125000,
+        "duration_milliseconds": 550,
+        "text_offset": 88,
+        "word_length": 7,
+        "text": "complex",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 67125000,
+        "duration_milliseconds": 75,
+        "text_offset": 96,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 68000000,
+        "duration_milliseconds": 600,
+        "text_offset": 100,
+        "word_length": 11,
+        "text": "interesting",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 74125000,
+        "duration_milliseconds": 575,
+        "text_offset": 112,
+        "word_length": 6,
+        "text": "curves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 80000000,
+        "duration_milliseconds": 100,
+        "text_offset": 118,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      },
+      {
+        "audio_offset": 88500000,
+        "duration_milliseconds": 275,
+        "text_offset": 120,
+        "word_length": 5,
+        "text": "These",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 91375000,
+        "duration_milliseconds": 387,
+        "text_offset": 126,
+        "word_length": 6,
+        "text": "curves",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 95375000,
+        "duration_milliseconds": 112,
+        "text_offset": 133,
+        "word_length": 3,
+        "text": "are",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 96625000,
+        "duration_milliseconds": 312,
+        "text_offset": 137,
+        "word_length": 4,
+        "text": "used",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 99875000,
+        "duration_milliseconds": 162,
+        "text_offset": 142,
+        "word_length": 2,
+        "text": "in",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 101625000,
+        "duration_milliseconds": 525,
+        "text_offset": 145,
+        "word_length": 10,
+        "text": "everything",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 107625000,
+        "duration_milliseconds": 175,
+        "text_offset": 156,
+        "word_length": 4,
+        "text": "from",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 109500000,
+        "duration_milliseconds": 500,
+        "text_offset": 161,
+        "word_length": 8,
+        "text": "computer",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 114625000,
+        "duration_milliseconds": 575,
+        "text_offset": 170,
+        "word_length": 8,
+        "text": "graphics",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 120625000,
+        "duration_milliseconds": 125,
+        "text_offset": 179,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 122000000,
+        "duration_milliseconds": 712,
+        "text_offset": 183,
+        "word_length": 9,
+        "text": "animation",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 129875000,
+        "duration_milliseconds": 150,
+        "text_offset": 193,
+        "word_length": 2,
+        "text": "to",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 131500000,
+        "duration_milliseconds": 325,
+        "text_offset": 196,
+        "word_length": 4,
+        "text": "font",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 134875000,
+        "duration_milliseconds": 512,
+        "text_offset": 201,
+        "word_length": 6,
+        "text": "design",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 140500000,
+        "duration_milliseconds": 125,
+        "text_offset": 208,
+        "word_length": 3,
+        "text": "and",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 141875000,
+        "duration_milliseconds": 737,
+        "text_offset": 212,
+        "word_length": 14,
+        "text": "computer-aided",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 149375000,
+        "duration_milliseconds": 562,
+        "text_offset": 227,
+        "word_length": 6,
+        "text": "design",
+        "boundary_type": "Word"
+      },
+      {
+        "audio_offset": 155125000,
+        "duration_milliseconds": 100,
+        "text_offset": 233,
+        "word_length": 1,
+        "text": ".",
+        "boundary_type": "Punctuation"
+      }
+    ],
+    "original_audio": "that-s-a-quadratic-bezier-curve-by-adding-more-28a37a86.mp3",
+    "final_audio": "that-s-a-quadratic-bezier-curve-by-adding-more-28a37a86.mp3"
   }
 ]

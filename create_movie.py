@@ -64,6 +64,7 @@ class AzureExample(VoiceoverScene):
             AzureService(
                 voice="en-US-AriaNeural",
                 style="newscast-casual",
+                global_speed=1.15
             )
         )
 
@@ -92,7 +93,7 @@ class AzureExample(VoiceoverScene):
         self.wait()
 ```
 
-The voice for the "{language}" is "{voice_label}". Please use this voice for the narration.
+The voice for the "{language}" is "{voice_label}". Please use this voice for the narration. Always keep the global speed as 1.15, like the example provided.
 
 Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
 
