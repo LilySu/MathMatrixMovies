@@ -50,7 +50,9 @@ MOVIE_PROMPT = """
 
 Can you explain {math_problem} to a {audience_type}? Please create python code for a manim video for the same. 
 
-Please do not use any external dependencies like mp3s or svgs or graphics. If you need to draw something, do so using exclusively manim. 
+Please do not use any external dependencies like mp3s or svgs or graphics. Do not create any sound effects. 
+
+If you need to draw something, do so using exclusively manim. 
 
 Do use voiceovers to narrate the video. The following is an example of how to do that:
 
@@ -95,7 +97,7 @@ class AzureExample(VoiceoverScene):
         self.wait()
 ```
 
-The voice for the "{language}" is "{voice_label}". Please use this voice for the narration. Always keep the global speed as 1.15, like the example provided.
+The voice for the "{language}" is "{voice_label}". Please use this voice for the narration. 
 
 Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
 
@@ -211,7 +213,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     next_prompt = filled_prompt
 
-    while attempt_count < 5 and not success:
+    while attempt_count < 8 and not success:
         print(f"attempt #{attempt_count+1} next_prompt: {next_prompt}")
         response = chat.send_message(next_prompt)
         print(response.text)
@@ -229,9 +231,9 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
             next_prompt = "\n\n" + error_prompt
 
     if not success:
-        print("Failed to generate a successful output after 5 attempts.")
+        print("Failed to generate a successful output after 8 attempts.")
         raise Exception(
-            "Failed to generate a successful output after 5 attempts.")
+            "Failed to generate a successful output after 8 attempts.")
 
     current_script_dir = os.path.dirname(os.path.abspath(__file__))
     path_pattern = os.path.join(
@@ -269,7 +271,11 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     print(f"Completed file uploads!\n\nUploaded: {len(uploaded_files)} files")
 
-    prompt = "Watch this video completely and make changes to make the video more appealing. Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response."
+    prompt = """
+        Watch this video completely and make changes to make the video more appealing. Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response.
+        
+        Remember, your goal is to explain {math_problem} to {audience_type}.
+    """
 
     # Make GenerateContent request with the structure described above.
 
@@ -280,7 +286,30 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     filename = create_python_file(response)
     # Assuming filename is already defined as shown previously
     command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
-    subprocess.run(command, shell=True)
+    result = subprocess.run(command, shell=True)
+
+    if result.returncode != 0:
+        attempt_count = 0
+        success = False
+        error_prompt = f"Your last code iteration created an error, this is the text of the error: {result.stderr}\nPlease write ALL the code in one go so that it can be extracted and run directly."
+        next_prompt = "\n\n" + error_prompt
+        while attempt_count < 8 and not success:
+            print(f"attempt #{attempt_count+1} next_prompt: {next_prompt}")
+            response = chat.send_message(next_prompt)
+            print(response.text)
+            filename = create_python_file(response)
+            command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
+            result = subprocess.run(command, shell=True,
+                                    capture_output=True, text=True)
+            print(f"result: {result.returncode}")
+
+            if result.returncode == 0:
+                success = True
+            else:
+                attempt_count += 1
+                error_prompt = f"Your last code iteration created an error, this is the text of the error: {result.stderr}\nPlease write ALL the code in one go so that it can be extracted and run directly."
+                next_prompt = "\n\n" + error_prompt
+
     current_script_dir = os.path.dirname(os.path.abspath(__file__))
     path_pattern = os.path.join(
         current_script_dir, f"media/videos/{filename}/480p15/*.mp4")
@@ -295,7 +324,6 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     # print(f"Completed deleting files!\n\nDeleted: {len(uploaded_files)} files")
 
     return {"video_url": mp4_files[0], "video_id": filename}
-
 
     # Write subprocess
 if __name__ == "__main__":
