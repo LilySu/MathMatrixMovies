@@ -4,6 +4,8 @@ import uuid
 import argparse
 import re
 import os
+import cv2
+import shutil
 import google.generativeai as genai
 from dotenv import load_dotenv
 load_dotenv()
@@ -107,7 +109,81 @@ Ok. now translate the text to {language}, and replace the voice_label for azures
 
 #       hindi_text = Text('नमस्ते', font='Lohit Devanagari')  # Replace 'Lohit Devanagari' with any available Hindi font
 #        tamil_text = Text('வணக்கம்', font='Lohit Tamil')  # Replace 'Lohit Tamil' with any available Tamil font
+# Create or cleanup existing extracted image frames directory.
+FRAME_EXTRACTION_DIRECTORY = os.path.join(os.path.dirname(os.path.abspath(__file__)),'f"media/videos/{filename}/')
+FRAME_PREFIX = "_frame"
+def create_frame_output_dir(output_dir):
+  if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+  else:
+    shutil.rmtree(output_dir)
+    os.makedirs(output_dir)
 
+def extract_frame_from_video(video_file_path):
+  print(f"Extracting {video_file_path} at 1 frame per second. This might take a bit...")
+  create_frame_output_dir(FRAME_EXTRACTION_DIRECTORY)
+  vidcap = cv2.VideoCapture(video_file_path)
+  fps = vidcap.get(cv2.CAP_PROP_FPS)
+  frame_duration = 1 / fps  # Time interval between frames (in seconds)
+  output_file_prefix = os.path.basename(video_file_path).replace('.', '_')
+  frame_count = 0
+  count = 0
+  while vidcap.isOpened():
+      success, frame = vidcap.read()
+      if not success: # End of video
+          break
+      if int(count / fps) == frame_count: # Extract a frame every second
+          min = frame_count // 60
+          sec = frame_count % 60
+          time_string = f"{min:02d}:{sec:02d}"
+          image_name = f"{output_file_prefix}{FRAME_PREFIX}{time_string}.jpg"
+          output_filename = os.path.join(FRAME_EXTRACTION_DIRECTORY, image_name)
+          cv2.imwrite(output_filename, frame)
+          frame_count += 1
+      count += 1
+  vidcap.release() # Release the capture object\n",
+  print(f"Completed video frame extraction!\n\nExtracted: {frame_count} frames")
+
+
+class File:
+  def __init__(self, file_path: str, display_name: str = None):
+    self.file_path = file_path
+    if display_name:
+      self.display_name = display_name
+    self.timestamp = get_timestamp(file_path)
+
+  def set_file_response(self, response):
+    self.response = response
+
+def get_timestamp(filename):
+  """Extracts the frame count (as an integer) from a filename with the format
+     'output_file_prefix_frame00:00.jpg'.
+  """
+  parts = filename.split(FRAME_PREFIX)
+  if len(parts) != 2:
+      return None  # Indicates the filename might be incorrectly formatted
+  return parts[1].split('.')[0]
+
+def create_python_file(response):
+    code_blocks = extract_code_blocks(response.text)
+    for block in code_blocks:
+        print("Found code block:")
+        print(block.strip())
+        code = block.strip()
+    # exec(code)
+    filename = f"MathMovie_{uuid.uuid4().hex[:8]}"
+
+    # Open the file in write mode ('w') which will overwrite the file if it already exists
+    with open(f"{filename}.py", 'w') as file:
+        file.write(code)
+    return filename
+
+def make_request(prompt, files):
+        request = [prompt]
+        for file in files:
+            request.append(file.timestamp)
+            request.append(file.response)
+        return request
 
 def create_math_matrix_movie(math_problem, audience_type, language="English", voice_label="en-US-AriaNeural"):
     # Check if audience_type is a digit and format it as "x years old", otherwise leave as is
@@ -122,17 +198,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     print(filled_prompt)
     model = genai.GenerativeModel('gemini-1.5-pro-latest')
     response = model.generate_content(filled_prompt)
-    code_blocks = extract_code_blocks(response.text)
-    for block in code_blocks:
-        print("Found code block:")
-        print(block.strip())
-        code = block.strip()
-    # exec(code)
-    filename = f"MathMovie_{uuid.uuid4().hex[:8]}"
-
-    # Open the file in write mode ('w') which will overwrite the file if it already exists
-    with open(f"{filename}.py", 'w') as file:
-        file.write(code)
+    filename = create_python_file(response)
     # Assuming filename is already defined as shown previously
     command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
     subprocess.run(command, shell=True)
@@ -140,8 +206,63 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     path_pattern = os.path.join(
         current_script_dir, f"media/videos/{filename}/480p15/*.mp4")
     mp4_files = glob.glob(path_pattern)
+
+    video_file_path = mp4_files[0]
+    extract_frame_from_video(video_file_path)
+
+    files = os.listdir(FRAME_EXTRACTION_DIRECTORY)
+    files = sorted(files)
+    files_to_upload = []
+    for file in files:
+        files_to_upload.append(
+            File(file_path=os.path.join(FRAME_EXTRACTION_DIRECTORY, file)))
+
+    # Upload the files to the API
+    # Only upload a 10 second slice of files to reduce upload time.
+    # Change full_video to True to upload the whole video.
+    full_video = True
+
+    uploaded_files = []
+    print(f'Uploading {len(files_to_upload) if full_video else 10} files. This might take a bit...')
+
+    for file in files_to_upload if full_video else files_to_upload[40:50]:
+        print(f'Uploading: {file.file_path}...')
+        response = genai.upload_file(path=file.file_path)
+        file.set_file_response(response)
+        uploaded_files.append(file)
+
+    print(f"Completed file uploads!\n\nUploaded: {len(uploaded_files)} files")
+    
+    prompt = "Watch this video completely and make changes to make the video more appealing. Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response."
+
+    # Make GenerateContent request with the structure described above.
+    
+
+    # Make the LLM request.
+    request = make_request(prompt, uploaded_files)
+    response = model.generate_content(request,
+                                    request_options={"timeout": 600})
+    print(response.text)
+    filename = create_python_file(response)
+    # Assuming filename is already defined as shown previously
+    command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
+    subprocess.run(command, shell=True)
+    current_script_dir = os.path.dirname(os.path.abspath(__file__))
+    path_pattern = os.path.join(
+        current_script_dir, f"media/videos/{filename}/480p15/*.mp4")
+    mp4_files = glob.glob(path_pattern)
+
+    video_file_path = mp4_files[0]
+
+    # print(f'Deleting {len(uploaded_files)} images. This might take a bit...')
+    # for file in uploaded_files:
+    # genai.delete_file(file.response.name)
+    # print(f'Deleted {file.file_path} at URI {file.response.uri}')
+    # print(f"Completed deleting files!\n\nDeleted: {len(uploaded_files)} files")
+    
     return {"video_url": mp4_files[0], "video_id": filename}
 
+    
     # Write subprocess
 if __name__ == "__main__":
     main()
