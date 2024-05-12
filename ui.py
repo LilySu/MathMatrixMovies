@@ -75,7 +75,7 @@ def authenticate_user():
     flow = Flow.from_client_secrets_file(
         'client_secrets.json',
         scopes=scopes,
-        redirect_uri='urn:ietf:wg:oauth:2.0:oob')
+        redirect_uri='https://math.auto.movie')  # Update this URI as necessary
     auth_url, _ = flow.authorization_url(prompt='consent')
     return flow, auth_url
 
