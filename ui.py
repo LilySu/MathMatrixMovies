@@ -1,3 +1,4 @@
+import json
 from google_auth_oauthlib.flow import Flow
 import os
 import streamlit as st
@@ -70,34 +71,55 @@ if generate_pressed:
     for result in video_result_generator:
         if result['stage'] == 'initial':
             st.write("Initial Video:")
-            print(f"Initial movie generated: {result['video_url']}")
+            print(f"Initial movie generated: {result['video_path']}")
             st.session_state['video_result'] = result
-            st.video(result["video_url"])
+            st.video(result["video_path"])
+            st.write(result["video_url"])
         elif result['stage'] == 'final':
             st.write("\n\n\n\n\n")
             st.write("Final Video:")
-            print(f"Final movie generated: {result['video_url']}")
+            print(f"Final movie generated: {result['video_path']}")
             st.session_state['video_result'] = result
-            st.video(result["video_url"])
+            st.video(result["video_path"])
+            st.write(result["video_url"])
 
-        
+
+def log_fine_tune_entry(result):
+    with open('fine-tune/dataset.jsonl', 'a') as file:
+        # Define the new entry with the actual filled prompt and the assistant's response
+        new_fine_tune_entry = {
+            "messages": [
+                {"role": "system", "content": "You are a helpful assistant"},
+                {"role": "user", "content": result['original_prompt']},
+                {"role": "assistant", "content": result['final_code']}
+            ]
+        }
+        file.write(json.dumps(result) + '\n')
+
+
 if 'video_generated' in st.session_state and st.session_state['video_generated'] and st.session_state.get('video_result', {}).get('stage') == 'final':
-    if st.button("Publish to Youtube"):
+    # we paused updating to YouTube while we figure out prod Oauth
+    if st.button("Generate YouTube Metadata"):
         print("LLAMA3 CALL")
         if st.session_state['video_result']['stage'] == 'final':
             st.write("Final movie generated:")
-            st.video(st.session_state['video_result']["video_url"])
+            st.video(st.session_state['video_result']["video_path"])
 
         llama_result = llama3_call(
             prompt, option1, option2, "en-US-AriaNeural")
-        print("UPLOADING VIDEO")
-        response = upload_video_to_youtube(st.session_state['video_result']["video_url"], llama_result['title'],
-                                llama_result['description'], llama_result['category_id'], llama_result['tags'])
-        link = "https://www.youtube.com/watch?v=" + response['id']
-        st.markdown(
-            f'<a href="{link}" target="_blank">Watch on YouTube</a>',
-            unsafe_allow_html=True
-        )
+        st.write("LLAMA3 RESULT: YouTube Metadata")
+        st.write(llama_result)
+
+        st.write("Logging fine-tune dataset entry")
+        log_fine_tune_entry(st.session_state['video_result'])
+        # print("UPLOADING VIDEO")
+        # response = upload_video_to_youtube(st.session_state['video_result']["video_url"], llama_result['title'],
+        #                         llama_result['description'], llama_result['category_id'], llama_result['tags'])
+        # link = "https://www.youtube.com/watch?v=" + response['id']
+        # st.markdown(
+        #     f'<a href="{link}" target="_blank">Watch on YouTube</a>',
+        #     unsafe_allow_html=True
+        # )
 # Setup environment variable for Google credentials
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'client_secrets.json'
 

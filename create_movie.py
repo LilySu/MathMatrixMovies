@@ -1,3 +1,4 @@
+import json
 import glob
 import subprocess
 import uuid
@@ -110,9 +111,11 @@ class AzureExample(VoiceoverScene):
 
 The voice for the "{language}" is "{voice_label}". Please use this voice for the narration. 
 
-Please do not use any external dependencies like svgs since they are not available. First write the script explicitly and refine the contents and then write the code.
+Please do not use any external dependencies like svgs or mp3s or grpahics since they are not available. First write the script explicitly and refine the contents and then write the code.
 
 Describe illustrations explicitly and put them near the concepts. Please draw and animate things, using the whole canvas. Use color in a restrained but elegant way, for educational purposes.
+
+Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting.
 
 Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
 
@@ -145,7 +148,7 @@ def extract_frame_from_video(video_file_path, frame_extraction_directory):
     fps = vidcap.get(cv2.CAP_PROP_FPS)
     total_frames = int(vidcap.get(cv2.CAP_PROP_FRAME_COUNT))
     duration = total_frames / fps
-    
+
     # Determine the frame extraction rate
     if duration <= 30:
         frame_extraction_rate = 1  # 1 fps
@@ -267,7 +270,18 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     mp4_files = glob.glob(path_pattern)
 
     video_file_path = mp4_files[0]
-    yield {"stage": "initial", "video_url": video_file_path, "video_id": filename}
+    with open(filename, 'r') as file:
+        initial_code = file.read()
+    video_url = os.getenv('BASE_URL') + video_file_path.split("media")[1]
+
+    yield {
+        "stage": "initial",
+        "video_path": video_file_path,
+        "video_id": filename,
+        "video_url": video_url,
+        "original_prompt": filled_prompt,
+        "initial_code": initial_code
+    }
 
     frame_extraction_directory = os.path.join(os.path.dirname(
         os.path.abspath(__file__)), f"media/frames/{filename}/")
@@ -300,13 +314,13 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     print(f"Completed file uploads!\n\nUploaded: {len(uploaded_files)} files")
 
     prompt = """
-        Watch this video completely and make changes to make the video more appealing. Please do not use any external dependencies like svgs since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response.
+        Watch this video completely and make changes to make the video more appealing. Look at the video like a human viewer would. Is the space on the screen well-used? Are the colors and animations appealing? Is everything annotated well?
         
-        Write out script and style changes explicitly and refine the contents and then write the code.
+        Please do not use any external dependencies like svgs or sound effects since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response.
 
-        Describe illustrations explicitly and put them near the concepts.  Please draw and animate things, using the whole canvas. Describe everything you need to do and then finally write one block of code.
+        First, describe everything you need to do and then finally write one block of code that includes ALL the code needed since it will be extracted directly and run from your response.
         
-        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing.
+        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept.
     """
 
     # Make GenerateContent request with the structure described above.
@@ -349,7 +363,19 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     video_file_path = mp4_files[0]
 
-    yield {"stage": "final", "video_url": video_file_path, "video_id": filename}
+    with open(filename, 'r') as file:
+        final_code = file.read()
+
+    video_url = os.getenv('BASE_URL') + video_file_path.split("media")[1]
+
+    yield {
+        "stage": "final",
+        "video_path": video_file_path,
+        "video_id": filename,
+        "video_url": video_url,
+        "original_prompt": filled_prompt,
+        "final_code": final_code,
+    }
 
 
     # Write subprocess
