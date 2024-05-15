@@ -111,11 +111,15 @@ class AzureExample(VoiceoverScene):
 
 The voice for the "{language}" is "{voice_label}". Please use this voice for the narration. 
 
-Please do not use any external dependencies like svgs or mp3s or grpahics since they are not available. First write the script explicitly and refine the contents and then write the code.
+Please do not use any external dependencies like svgs or mp3s or grpahics since they are not available. Draw with shapes and use colored letters, but keep it simple. There are no external assets. Constraints can be liberating. 
 
-Describe illustrations explicitly and put them near the concepts. Please draw and animate things, using the whole canvas. Use color in a restrained but elegant way, for educational purposes.
+First write the script explicitly and refine the contents and then write the code.
+
+Please draw and animate things, using the whole canvas. Use color in a restrained but elegant way, for educational purposes.
 
 Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting.
+
+If the input is math that is obviously wrong, do not generate any code.
 
 Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
 
@@ -270,7 +274,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     mp4_files = glob.glob(path_pattern)
 
     video_file_path = mp4_files[0]
-    with open(filename, 'r') as file:
+    with open(f"{filename}.py", 'r') as file:
         initial_code = file.read()
     video_url = os.getenv('BASE_URL') + video_file_path.split("media")[1]
 
@@ -314,9 +318,9 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     print(f"Completed file uploads!\n\nUploaded: {len(uploaded_files)} files")
 
     prompt = """
-        Watch this video completely and make changes to make the video more appealing. Look at the video like a human viewer would. Is the space on the screen well-used? Are the colors and animations appealing? Is everything annotated well?
+        Watch this video completely and make changes to make the video more appealing. Look at the video like a human viewer would. Is the space on the screen well-used? Are the colors and animations appealing? Is everything annotated well? Do elements appear and disappear on the right time? They should not be overlaid.
         
-        Please do not use any external dependencies like svgs or sound effects since they are not available. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response.
+        Please do not use any external dependencies like svgs or sound effects since they are not available. There are no external assets. Constraints can be liberating. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response.
 
         First, describe everything you need to do and then finally write one block of code that includes ALL the code needed since it will be extracted directly and run from your response.
         
@@ -363,7 +367,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     video_file_path = mp4_files[0]
 
-    with open(filename, 'r') as file:
+    with open(f"{filename}.py", 'r') as file:
         final_code = file.read()
 
     video_url = os.getenv('BASE_URL') + video_file_path.split("media")[1]

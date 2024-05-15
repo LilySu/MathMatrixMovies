@@ -94,7 +94,7 @@ def log_fine_tune_entry(result):
                 {"role": "assistant", "content": result['final_code']}
             ]
         }
-        file.write(json.dumps(result) + '\n')
+        file.write(json.dumps(new_fine_tune_entry) + '\n')
 
 
 if 'video_generated' in st.session_state and st.session_state['video_generated'] and st.session_state.get('video_result', {}).get('stage') == 'final':
