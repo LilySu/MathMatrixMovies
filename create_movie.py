@@ -1,3 +1,4 @@
+import time
 import json
 import glob
 import subprocess
@@ -153,11 +154,14 @@ def extract_frame_from_video(video_file_path, frame_extraction_directory):
     total_frames = int(vidcap.get(cv2.CAP_PROP_FRAME_COUNT))
     duration = total_frames / fps
 
-    # Determine the frame extraction rate
-    if duration <= 30:
-        frame_extraction_rate = 1  # 1 fps
+    # Calculate the ideal number of frames to extract
+    max_frames = 60  # Maximum number of frames to extract
+    if duration <= 60:
+        frame_extraction_rate = 1  # 1 fps for videos under 60 seconds
     else:
-        frame_extraction_rate = 3 * fps
+        ideal_interval = duration / max_frames
+        # Calculate frame rate based on desired interval
+        frame_extraction_rate = max(1, int(ideal_interval * fps))
 
     frame_duration = 1 / fps  # Time interval between frames (in seconds)
     output_file_prefix = os.path.basename(video_file_path).replace('.', '_')
@@ -179,7 +183,8 @@ def extract_frame_from_video(video_file_path, frame_extraction_directory):
         count += 1
     vidcap.release()  # Release the capture object\n",
     print(
-        f"Completed video frame extraction!\n\nExtracted: {frame_count} frames")
+        f"Completed video frame extraction!\n\nExtracted: {frame_count} frames at a rate of {frame_extraction_rate} frames per second.")
+    return {"video_duration": duration, "frame_count": frame_count, "frame_extraction_rate": frame_extraction_rate}
 
 
 class File:
@@ -226,6 +231,19 @@ def make_request(prompt, files):
     return request
 
 
+def send_message_with_retries(chat, request, max_retries=3):
+    retry_wait = 20  # start with 20 seconds
+    for attempt in range(max_retries):
+        try:
+            response = chat.send_message(request)
+            return response
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            time.sleep(retry_wait)
+            retry_wait *= 2  # exponential backoff
+    raise Exception("Max retries exceeded")
+
+
 def create_math_matrix_movie(math_problem, audience_type, language="English", voice_label="en-US-AriaNeural"):
     # Check if audience_type is a digit and format it as "x years old", otherwise leave as is
     if str(audience_type).isdigit():
@@ -246,7 +264,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     while attempt_count < 8 and not success:
         print(f"attempt #{attempt_count+1} next_prompt: {next_prompt}")
-        response = chat.send_message(next_prompt)
+        response = send_message_with_retries(chat, next_prompt)
         print(response.text)
         filename = create_python_file(response)
         command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
@@ -289,7 +307,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     frame_extraction_directory = os.path.join(os.path.dirname(
         os.path.abspath(__file__)), f"media/frames/{filename}/")
-    extract_frame_from_video(video_file_path, frame_extraction_directory)
+    frame_stats = extract_frame_from_video(video_file_path, frame_extraction_directory)
 
     files = os.listdir(frame_extraction_directory)
     files = sorted(files)
@@ -316,23 +334,54 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         uploaded_files.append(file)
 
     print(f"Completed file uploads!\n\nUploaded: {len(uploaded_files)} files")
+    frame_count = frame_stats['frame_count']
+    frame_extraction_rate = frame_stats['frame_extraction_rate']
+    video_duration = frame_stats['video_duration']
 
     prompt = """
-        Watch this video completely and make changes to make the video more appealing. Look at the video like a human viewer would. Is the space on the screen well-used? Are the colors and animations appealing? Is everything annotated well? Do elements appear and disappear on the right time? They should not be overlaid.
+        Watch this video keyframes and make changes to make the video more appealing. Our generation methodology is very simple and basic so keep it simple and basic. This is more a prototype video than a final video. Assume that the pacing of the last generated video was very good and keep the length similar, or make it shorter.
         
-        Please do not use any external dependencies like svgs or sound effects since they are not available. There are no external assets. Constraints can be liberating. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response.
-
-        First, describe everything you need to do and then finally write one block of code that includes ALL the code needed since it will be extracted directly and run from your response.
+        You have been provided {frame_count} frames at a rate of {frame_extraction_rate} frames per second of a video that is {video_duration} seconds long.
         
-        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept.
+        Consider things like:
+        - Does the text fit on the screen? If not make it wrap. Be careful with the text size, keep it modest. Do color and animate the titles. But again, be judicious. We'd rather have text centered and fit on screen than not, as the latter causes huge offense amongst viewers and we do not have too many passes to redo.
+        - Is everything annotated well? Do text colors match objects?
+        - Do elements appear and disappear on the right time? They should not be overlaid and persist past when they are due to disappear. 
+        - Are there unnecessary elements that are confusing?
+        - Is the spacing between elements correct or incorrect? Make the spacing good and regular, especially between text and equations.
+        - Is the content brisk? Consider the timing. We prefer not to have blanks on the screen.
+        - We don't want to use too much color, but a little bit to liven things up is appropriate. Same with animations, a little bit judiciously used goes a long way.
+        - make sure everything is labelled
+        
+        Please make a list of elements you would fix. Look at the frames carefully. Do not make assumptions. Study their visual composition. Reason what might be wrong with them, if anything, and if so how you would fix them. Remember, external assets cannot be used at all. Do not go over the top with animation and content changes, stick largely to aligning stuff and spacing stuff and making sure it fits on the screen and flows and transitions well and is legible. Legibility is key. Labelling is important as well. Remove unnecessary blocks and fix overlaid elements by spacing them appropriately or transitioning them out at the right time. Look at the latest code you generated that compiled as well as the video provided. Do not change the length dramatically. Do not ask to draw more complex shapes but only simple ones. E.g. representing babies as circles is fine. Draw with shapes and use colored letters, but keep it simple. There are no images or external assets at this time. Think like a human viewer of the {audience_type}, if some collection of shapes is not so great or looks untidy or messy, or it's not brisk enough or visual enough, we will not watch it. You are a great AI video editor and educator. Be very very specific in your suggestion of what to edit in terms of looking at the code and writing new manim code suggestions to fix it where applicable. Think step by step. Think in terms of manim and what it can do and what you know about it. Be literate, and literate in code as well.
+        
+        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. This is an interim step where you can give yourself room to produce  feedback, both positive and negative, on the video before it goes to the final step. But try to keep it specific and actionable, and keep the presentation and flow top of mind. It's a v simple video style, keep it that way for now. Constraints can be liberating.
+        
+        BE EXTREMELY BRIEF AND PRECISE ABOUT CHANGES.
     """
 
     # Make GenerateContent request with the structure described above.
 
     # Make the LLM request.
     request = make_request(prompt, uploaded_files)
-    response = chat.send_message(request)
+    response = send_message_with_retries(chat, request)
     print(response.text)
+
+    prompt = """
+    
+        OK, now, reviewing your own critique of the movie, and looking at your list of suggested improvements, please improve the video. Please write ONE block of ALL Manim code that includes ALL the code needed since it will be extracted directly and run from your response.
+
+        Please do not use any external dependencies like svgs or sound effects since they are not available. There are no external assets. Constraints can be liberating. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
+        
+        Please draw and animate things, using the whole canvas. Use color in a restrained but elegant way, for educational purposes.
+
+        Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting.
+        
+        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. You are a great AI video editor and educator.
+    """
+
+    response = send_message_with_retries(chat, prompt)
+
     filename = create_python_file(response)
     # Assuming filename is already defined as shown previously
     command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
@@ -345,7 +394,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         next_prompt = "\n\n" + error_prompt
         while attempt_count < 8 and not success:
             print(f"attempt #{attempt_count+1} next_prompt: {next_prompt}")
-            response = chat.send_message(next_prompt)
+            response = send_message_with_retries(chat, next_prompt)
             print(response.text)
             filename = create_python_file(response)
             command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
