@@ -112,13 +112,13 @@ class AzureExample(VoiceoverScene):
 
 The voice for the "{language}" is "{voice_label}". Please use this voice for the narration. 
 
-Please do not use any external dependencies like svgs or mp3s or grpahics since they are not available. Draw with shapes and use colored letters, but keep it simple. There are no external assets. Constraints can be liberating. 
+Please do not use any external dependencies like svgs or mp3s or grpahics since they are not available. Draw with shapes and use colored letters, but keep it simple. There are no external assets. Constraints are liberating. 
 
 First write the script explicitly and refine the contents and then write the code.
 
 Please draw and animate things, using the whole canvas. Use color in a restrained but elegant way, for educational purposes.
 
-Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting.
+Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting. PLEASE ENSURE ELEMENTS FADE OUT AT TE APPROPRIATE TIME. DO NOT LEAVE ARTIFACTS ACROSS SCENES AS THEY OVERLAP AND ARE JARRING. WRAP TEXT IF IT IS LONG.
 
 If the input is math that is obviously wrong, do not generate any code.
 
@@ -232,7 +232,7 @@ def make_request(prompt, files):
 
 
 def send_message_with_retries(chat, request, max_retries=3):
-    retry_wait = 20  # start with 20 seconds
+    retry_wait = 30  # start with 30 seconds
     for attempt in range(max_retries):
         try:
             response = chat.send_message(request)
@@ -339,48 +339,26 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     video_duration = frame_stats['video_duration']
 
     prompt = """
-        Watch this video keyframes and make changes to make the video more appealing. Our generation methodology is very simple and basic so keep it simple and basic. This is more a prototype video than a final video. Assume that the pacing of the last generated video was very good and keep the length similar, or make it shorter.
+        Watch the video keyframes, study the code you generated previously and make tweaks to make the video more appealing, if needed.
         
-        You have been provided {frame_count} frames at a rate of {frame_extraction_rate} frames per second of a video that is {video_duration} seconds long.
+        Previous code:
+        ```
+        {initial_code}
+        ```
         
-        Consider things like:
-        - Does the text fit on the screen? If not make it wrap. Be careful with the text size, keep it modest. Do color and animate the titles. But again, be judicious. We'd rather have text centered and fit on screen than not, as the latter causes huge offense amongst viewers and we do not have too many passes to redo.
-        - Is everything annotated well? Do text colors match objects?
-        - Do elements appear and disappear on the right time? They should not be overlaid and persist past when they are due to disappear. 
-        - Are there unnecessary elements that are confusing?
-        - Is the spacing between elements correct or incorrect? Make the spacing good and regular, especially between text and equations.
-        - Is the content brisk? Consider the timing. We prefer not to have blanks on the screen.
-        - We don't want to use too much color, but a little bit to liven things up is appropriate. Same with animations, a little bit judiciously used goes a long way.
-        - make sure everything is labelled
+        Study the code you wrote that compiled this video and make sure everything is labelled and annotated correctly, that the colors are pleasing, that the voiceovers match the scenes. Check that text doesn't go off the page (determine if it has been truncated). Common mistakes made in the first iteration are misaligned diagrams and artifacts that don't fade away on time, and text that scrolls off the page, particularly titles. Once again, use reasoning about the code, with small help from image reasoning, to make tweaks to the code. This is because as an LLM system, you are conceptually seeing the images through a quantized encoder, and so not able to determine where in an image an element is. So you are left with reasoning about the code, which is much better than nothing. MOSTLY SEARCH FOR ARTIFACTS THAT DO NOT FADE AWAY ON THE RIGHT TIME.
         
-        Please make a list of elements you would fix. Look at the frames carefully. Do not make assumptions. Study their visual composition. Reason what might be wrong with them, if anything, and if so how you would fix them. Remember, external assets cannot be used at all. Do not go over the top with animation and content changes, stick largely to aligning stuff and spacing stuff and making sure it fits on the screen and flows and transitions well and is legible. Legibility is key. Labelling is important as well. Remove unnecessary blocks and fix overlaid elements by spacing them appropriately or transitioning them out at the right time. Look at the latest code you generated that compiled as well as the video provided. Do not change the length dramatically. Do not ask to draw more complex shapes but only simple ones. E.g. representing babies as circles is fine. Draw with shapes and use colored letters, but keep it simple. There are no images or external assets at this time. Think like a human viewer of the {audience_type}, if some collection of shapes is not so great or looks untidy or messy, or it's not brisk enough or visual enough, we will not watch it. You are a great AI video editor and educator. Be very very specific in your suggestion of what to edit in terms of looking at the code and writing new manim code suggestions to fix it where applicable. Think step by step. Think in terms of manim and what it can do and what you know about it. Be literate, and literate in code as well.
-        
-        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. This is an interim step where you can give yourself room to produce  feedback, both positive and negative, on the video before it goes to the final step. But try to keep it specific and actionable, and keep the presentation and flow top of mind. It's a v simple video style, keep it that way for now. Constraints can be liberating.
-        
-        BE EXTREMELY BRIEF AND PRECISE ABOUT CHANGES.
-    """
+        Please write ONE block of ALL Manim code that includes ALL the code needed since it will be extracted directly and run from your response. Do not write any other blocks of code except the final single output manim code block as it will be extracted and run directly from your response.
 
-    # Make GenerateContent request with the structure described above.
+        Please do not use any external dependencies like svgs or sound effects since they are not available. There are no external assets. Constraints are liberating. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
+                
+        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. You are a great AI video editor and educator.
+    """
 
     # Make the LLM request.
     request = make_request(prompt, uploaded_files)
     response = send_message_with_retries(chat, request)
     print(response.text)
-
-    prompt = """
-    
-        OK, now, reviewing your own critique of the movie, and looking at your list of suggested improvements, please improve the video. Please write ONE block of ALL Manim code that includes ALL the code needed since it will be extracted directly and run from your response.
-
-        Please do not use any external dependencies like svgs or sound effects since they are not available. There are no external assets. Constraints can be liberating. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
-        
-        Please draw and animate things, using the whole canvas. Use color in a restrained but elegant way, for educational purposes.
-
-        Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting.
-        
-        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. You are a great AI video editor and educator.
-    """
-
-    response = send_message_with_retries(chat, prompt)
 
     filename = create_python_file(response)
     # Assuming filename is already defined as shown previously
