@@ -118,11 +118,13 @@ First write the script explicitly and refine the contents and then write the cod
 
 Please draw and animate things, using the whole canvas. Use color in a restrained but elegant way, for educational purposes.
 
-Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting. PLEASE ENSURE ELEMENTS FADE OUT AT TE APPROPRIATE TIME. DO NOT LEAVE ARTIFACTS ACROSS SCENES AS THEY OVERLAP AND ARE JARRING. WRAP TEXT IF IT IS LONG.
+Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting. PLEASE ENSURE ELEMENTS FADE OUT AT THE APPROPRIATE TIME. DO NOT LEAVE ARTIFACTS ACROSS SCENES AS THEY OVERLAP AND ARE JARRING. WRAP TEXT IF IT IS LONG. FORMAT TABLES CORRECTLY. ENSURE LABELS, FORMULAE, TEXT AND OBJECTS DO NOT OVERLAP OR OCCLUDE EACH OTHER. Be elegant video designer. Scale charts and numbers to fit the screen. And don't let labels run into each other or overlap, or take up poor positions. For example, do not label a triangle side length at the corners, but the middle. Do not write equations that spill across the Y axis bar or X axis bar, etc.
 
 If the input is math that is obviously wrong, do not generate any code.
 
 Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
+
+Take a deep breath and consider all the requirements carefully, then write the code.
 
 
 """
@@ -159,11 +161,8 @@ def extract_frame_from_video(video_file_path, frame_extraction_directory):
     if duration <= 60:
         frame_extraction_rate = 1  # 1 fps for videos under 60 seconds
     else:
-        ideal_interval = duration / max_frames
-        # Calculate frame rate based on desired interval
-        frame_extraction_rate = max(1, int(ideal_interval * fps))
+        frame_extraction_rate = max(1, int(total_frames / max_frames))
 
-    frame_duration = 1 / fps  # Time interval between frames (in seconds)
     output_file_prefix = os.path.basename(video_file_path).replace('.', '_')
     frame_count = 0
     count = 0
@@ -171,9 +170,11 @@ def extract_frame_from_video(video_file_path, frame_extraction_directory):
         success, frame = vidcap.read()
         if not success:  # End of video
             break
-        if int(count / frame_extraction_rate) == frame_count:  # Extract a frame every second
-            min = frame_count // 60
-            sec = frame_count % 60
+        if count % frame_extraction_rate == 0:  # Extract a frame at the calculated rate
+            # Calculate the actual time for the frame
+            time_in_seconds = count / fps
+            min = int(time_in_seconds // 60)
+            sec = int(time_in_seconds % 60)
             time_string = f"{min:02d}:{sec:02d}"
             image_name = f"{output_file_prefix}{FRAME_PREFIX}{time_string}.jpg"
             output_filename = os.path.join(
@@ -181,7 +182,7 @@ def extract_frame_from_video(video_file_path, frame_extraction_directory):
             cv2.imwrite(output_filename, frame)
             frame_count += 1
         count += 1
-    vidcap.release()  # Release the capture object\n",
+    vidcap.release()
     print(
         f"Completed video frame extraction!\n\nExtracted: {frame_count} frames at a rate of {frame_extraction_rate} frames per second.")
     return {"video_duration": duration, "frame_count": frame_count, "frame_extraction_rate": frame_extraction_rate}
@@ -307,7 +308,8 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
 
     frame_extraction_directory = os.path.join(os.path.dirname(
         os.path.abspath(__file__)), f"media/frames/{filename}/")
-    frame_stats = extract_frame_from_video(video_file_path, frame_extraction_directory)
+    frame_stats = extract_frame_from_video(
+        video_file_path, frame_extraction_directory)
 
     files = os.listdir(frame_extraction_directory)
     files = sorted(files)
@@ -346,7 +348,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         {initial_code}
         ```
         
-        Study the code you wrote that compiled this video and make sure everything is labelled and annotated correctly, that the colors are pleasing, that the voiceovers match the scenes. Check that text doesn't go off the page (determine if it has been truncated). Common mistakes made in the first iteration are misaligned diagrams and artifacts that don't fade away on time, and text that scrolls off the page, particularly titles. Once again, use reasoning about the code, with small help from image reasoning, to make tweaks to the code. This is because as an LLM system, you are conceptually seeing the images through a quantized encoder, and so not able to determine where in an image an element is. So you are left with reasoning about the code, which is much better than nothing. MOSTLY SEARCH FOR ARTIFACTS THAT DO NOT FADE AWAY ON THE RIGHT TIME.
+        Study the code you wrote that compiled this video and make sure everything is labelled and annotated correctly, that the colors are pleasing, that the voiceovers match the scenes. Check that text doesn't go off the page (determine if it has been truncated). Common mistakes made in the first iteration are misaligned diagrams and artifacts that don't fade away on time, and text that scrolls off the page, particularly titles. Once again, use reasoning about the code, with small help from image reasoning, to make tweaks to the code. This is because as an LLM system, you are conceptually seeing the images through a quantized encoder, and so not able to determine where in an image an element is. So you are left with reasoning about the code, which is much better than nothing. MOSTLY SEARCH FOR ARTIFACTS THAT DO NOT FADE AWAY ON THE RIGHT TIME. ALSO LOOK FOR TEXT THAT IS TRUNCATED, AND WRAP IT IN MULTIPLE LINES IF IT IS LONG OR RESIZE.
         
         Please write ONE block of ALL Manim code that includes ALL the code needed since it will be extracted directly and run from your response. Do not write any other blocks of code except the final single output manim code block as it will be extracted and run directly from your response.
 
@@ -407,7 +409,6 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         "original_prompt": filled_prompt,
         "final_code": final_code,
     }
-
 
     # Write subprocess
 if __name__ == "__main__":
