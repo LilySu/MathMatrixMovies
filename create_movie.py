@@ -341,20 +341,33 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     video_duration = frame_stats['video_duration']
 
     prompt = """
-        Watch the video keyframes, study the code you generated previously and make tweaks to make the video more appealing, if needed.
+        Watch the video keyframes, study the code you generated previously and make tweaks to make the video more appealing, if needed. Ask yourself: is there anything wrong with the attached images? How are the text colors, spacing and so on. How are the animations? How is their placement? be extremely terse and focus on actionable insights. This is for an AI video editor.
+        
+        Remember to:
+        - center titles
+        - center all action
+        - no text should roll off screen
+        - no text should be too small
+        - no text should be too big
+        - diagrams should be labelled correctly
+        - diagrams should be placed correctly
+        - diagrams should be animated correctly
+        - there should not be any artifacts
+        - there should not be significant stretches of blank screen
+        - leave some padding at the bottom to allow for where subtitles would appear
+        
+        These frames were extracted at a rate of {frame_extraction_rate} frames per second, for a video of {video_duration} seconds. Keep the video speed 1.15x.
         
         Previous code:
         ```
         {initial_code}
         ```
         
-        Study the code you wrote that compiled this video and make sure everything is labelled and annotated correctly, that the colors are pleasing, that the voiceovers match the scenes. Check that text doesn't go off the page (determine if it has been truncated). Common mistakes made in the first iteration are misaligned diagrams and artifacts that don't fade away on time, and text that scrolls off the page, particularly titles. Once again, use reasoning about the code, with small help from image reasoning, to make tweaks to the code. This is because as an LLM system, you are conceptually seeing the images through a quantized encoder, and so not able to determine where in an image an element is. So you are left with reasoning about the code, which is much better than nothing. MOSTLY SEARCH FOR ARTIFACTS THAT DO NOT FADE AWAY ON THE RIGHT TIME. ALSO LOOK FOR TEXT THAT IS TRUNCATED, AND WRAP IT IN MULTIPLE LINES IF IT IS LONG OR RESIZE.
-        
-        Please write ONE block of ALL Manim code that includes ALL the code needed since it will be extracted directly and run from your response. Do not write any other blocks of code except the final single output manim code block as it will be extracted and run directly from your response.
+        After enumerating actionable insights tersely, please write updated code. Please write ONE block of ALL Manim code that includes ALL the code needed since it will be extracted directly and run from your response. Do not write any other blocks of code except the final single output manim code block as it will be extracted and run directly from your response.
 
-        Please do not use any external dependencies like svgs or sound effects since they are not available. There are no external assets. Constraints are liberating. Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
+        Please do not use any external dependencies like svgs or sound effects since they are not available. There are no external assets. 
                 
-        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. You are a great AI video editor and educator.
+        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. You are a great AI video editor and educator. Keep the video speed 1.15x. Thank you so much! Take a deep breath and get it right!
     """
 
     # Make the LLM request.

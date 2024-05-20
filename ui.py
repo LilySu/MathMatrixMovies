@@ -44,8 +44,6 @@ query_params = st.query_params
 admin_mode = query_params.get('admin', None)
 
 if not admin_mode:
-    st.markdown("<div class='title'>MathMatrixMovies</div>",
-                unsafe_allow_html=True)
     st.video('https://youtu.be/-4-M8YwAlhU')
     iframe = '<iframe class="airtable-embed" src="https://airtable.com/embed/appJHjHaquTmMQ82e/pagAMECsTYqX6unw9/form" frameborder="0" onmousewheel="" width="100%" height="1066" style="background: transparent;"></iframe>'
     st.markdown(iframe, unsafe_allow_html=True)
