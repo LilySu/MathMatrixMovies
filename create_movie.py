@@ -233,7 +233,7 @@ def make_request(prompt, files):
 
 
 def send_message_with_retries(chat, request, max_retries=3):
-    retry_wait = 30  # start with 30 seconds
+    retry_wait = 60  # upped to 60 seconds cos of 504s grr
     for attempt in range(max_retries):
         try:
             response = chat.send_message(request)
