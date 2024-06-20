@@ -404,42 +404,19 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         "initial_code": initial_code
     }
 
-    frame_extraction_directory = os.path.join(os.path.dirname(
-        os.path.abspath(__file__)), f"media/frames/{filename}/")
-    frame_stats = extract_frame_from_video(
-        video_file_path, frame_extraction_directory)
+    video_file = genai.upload_file(path=video_file_path)
 
-    files = os.listdir(frame_extraction_directory)
-    files = sorted(files)
-    files_to_upload = []
-    for file in files:
-        if file:
-            files_to_upload.append(
-                File(file_path=os.path.join(frame_extraction_directory, file)))
+    # Check whether the file is ready to be used.
+    while video_file.state.name == "PROCESSING":
+        print('.', end='')
+        time.sleep(10)
+        video_file = genai.get_file(video_file.name)
 
-    print(files_to_upload)
-    # Upload the files to the API
-    # Only upload a 10 second slice of files to reduce upload time.
-    # Change full_video to True to upload the whole video.
-    full_video = True
-
-    uploaded_files = []
-    print(
-        f'Uploading {len(files_to_upload) if full_video else 10} files. This might take a bit...')
-
-    for file in files_to_upload if full_video else files_to_upload[40:50]:
-        print(f'Uploading: {file.file_path}...')
-        response = genai.upload_file(path=file.file_path)
-        file.set_file_response(response)
-        uploaded_files.append(file)
-
-    print(f"Completed file uploads!\n\nUploaded: {len(uploaded_files)} files")
-    frame_count = frame_stats['frame_count']
-    frame_extraction_rate = frame_stats['frame_extraction_rate']
-    video_duration = frame_stats['video_duration']
+    if video_file.state.name == "FAILED":
+        raise ValueError(video_file.state.name)
 
     prompt = """
-        Watch the video keyframes, study the code you generated previously and make tweaks to make the video more appealing, if needed. Ask yourself: is there anything wrong with the attached images? How are the text colors, spacing and so on. How are the animations? How is their placement? be extremely terse and focus on actionable insights. This is for an AI video editor.
+        Watch the video, study the code you generated previously and make tweaks to make the video more appealing, if needed. Ask yourself: is there anything wrong with the attached images? How are the text colors, spacing and so on. How are the animations? How is their placement? be extremely terse and focus on actionable insights. This is for an AI video editor.
         
         Remember to:
         - center titles
@@ -469,7 +446,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     """
 
     # Make the LLM request.
-    request = make_request(prompt, uploaded_files)
+    request = [prompt, video_file]
     response = send_message_with_retries(chat, request)
     print(response.text)
 
@@ -520,6 +497,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         "original_prompt": filled_prompt,
         "final_code": final_code,
     }
+
 
     # Write subprocess
 if __name__ == "__main__":
