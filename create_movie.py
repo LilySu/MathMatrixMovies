@@ -54,19 +54,23 @@ def main():
 
 MOVIE_PROMPT = """
 
-Can you explain {math_problem} to a {audience_type}? Please be visual and interesting. Consider using a meme if the audience is younger.
+Can you explain the following to an audience of {audience_type}? 
+
+Request: '{math_problem}'
+
+Please be visual and interesting in your explanation. Consider using a meme if the audience is younger.
 
 Please create python code for a manim video for the same. 
 
 Do not create any sound effects. The only images you have access to are svgs you can download with the download_svg_from_query fn. Scale svgs appropriately for use please.
 
-Always add a title and an outro. Narrate the title and outro.
+Always add a title and an outro. Always narrate the title and outro.
 
 Please try to visually center or attractively lay out all content. Please also keep the margins in consideration. If a sentence is long please wrap it by splitting it into multiple lines. 
 
-Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math.
+Please add actual numbers and formulae wherever appropriate as we want our {audience_type} to learn math & reason visually and conceptually as well.
 
-Do use voiceovers to narrate the video. The following is an example of how to do that, and also how to import the search_svg_repo and download_svg_from_url functions:
+Do use voiceovers to narrate the video. The following is an example of how to do that, and also how to import the download_svg_from_query function:
 
 ```
 from manim import *
@@ -121,27 +125,21 @@ The voice for the "{language}" is "{voice_label}". Please use this voice for the
 
 First write the script explicitly and refine the contents and then write the code.
 
-Please draw and animate things, using the whole canvas. Use color in a restrained but elegant way, for educational purposes.
+Please draw and animate things, using the whole canvas. Use color.
 
 Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting. PLEASE ENSURE ELEMENTS FADE OUT AT THE APPROPRIATE TIME. DO NOT LEAVE ARTIFACTS ACROSS SCENES AS THEY OVERLAP AND ARE JARRING. WRAP TEXT IF IT IS LONG. FORMAT TABLES CORRECTLY. ENSURE LABELS, FORMULAE, TEXT AND OBJECTS DO NOT OVERLAP OR OCCLUDE EACH OTHER. Be elegant video designer. Scale charts and numbers to fit the screen. And don't let labels run into each other or overlap, or take up poor positions. For example, do not label a triangle side length at the corners, but the middle. Do not write equations that spill across the Y axis bar or X axis bar, etc.
 
 If the input is math that is obviously wrong, do not generate any code.
 
-You can search for svgs for objects like 'tree' and 'satellite' and then download them and get the download path using the download_svg_from_query('satellite') fn. If you would like to search for and download for images, do that FIRST. Only ONCE the images are downloaded and you have their paths write the manim code. So make a plan that goes like
-1. enumerate image queries
-2. for each image query, 
-    2.1 search for the image
-    2.2 download the image
-    2.3 get the download path
-3. write manim code that includes images using their paths
+You can search for svgs for objects like 'tree' and 'satellite' and then download them and get the download path using the download_svg_from_query('satellite') fn. DO NOT MAKE UP PATHS, USE THE download_svg_from_query(query) fn
 
-Once you have all the images downloaded and their paths written, you can write the manim code. DO NOT MAKE UP PATHS, USE THE download_svg_from_query(query) fn
-
-You can also search_google for concepts and then check the results via fetch_html to create your video. Include "manim" in the search query if you need syntactical help.
+You can also search_google for concepts and then ingest the results into this context via fetch_html to create your video. Include "manim" in the search query if you need syntactical help. Do any research BEFORE writing code.
 
 Please use only manim for the video. Please write ALL the code needed in one block in your final response since it will be extracted directly and run from your response. 
 
-Take a deep breath and consider all the requirements carefully. Use tools to download images or do research, or both, then in your final answer write all the code.
+Make it visual and interesting please. The goal is to demonstrate concepts through cool visuals and animations, not present a powerpoint. Flex the power of Manim to create beautiful visuals and animations. Feel free to look up syntax and examples from the internet. 
+
+Consider all the requirements carefully, but have fun and be creative. Use tools to download images or do research, or both, then in your final answer write all the code. ALL THE CODE IN THE FINAL BLOCK PLEASE. NO SKIPPING LINES, THE ENTIRE MANIM FILE.
 
 
 """
@@ -230,7 +228,7 @@ def create_python_file(response):
     code_blocks = extract_code_blocks(response.text)
 
     if not code_blocks:
-        raise ValueError("No code blocks found in the response text.")
+        return ""
 
     # Find the biggest code block
     biggest_code_block = max(code_blocks, key=len)
@@ -278,6 +276,7 @@ def fetch_html(url: str) -> str:
     Returns:
         The raw HTML content.
     """
+    print(f"fetching html from url: {url}")
     response = requests.get(url)
     response.raise_for_status()  # Raise an exception for HTTP errors
 
@@ -293,6 +292,7 @@ def search_google(query: str) -> list:
     Returns:
         A list of URLs from the search results.
     """
+    print(f"searching google for: {query}")
     page = requests.get(
         f"https://www.google.com/search?q={query}")
     soup = BeautifulSoup(page.content, "html5lib")
@@ -305,6 +305,9 @@ def search_google(query: str) -> list:
             url = link.get('href').split("?q=")[1].split("&sa=U")[0]
             if url.startswith("http") and "google.com" not in url and "youtube.com" not in url:
                 urls.append(url)
+
+    print(f"google search results for {query}:")
+    print(urls)
 
     return urls
 
@@ -330,7 +333,7 @@ def search_svg_repo(query: str) -> list:
     # Check for "No Results in Vectors" message
     no_results = soup.find("h2", text="No Results in Vectors")
     if no_results:
-        return "No results found for the given query."
+        return f"No results found for the given query: {query}."
 
     # Find all nodes in the result table
     nodes = soup.find_all('div', class_='style_Node__GkK82')
@@ -391,7 +394,7 @@ def download_svg_from_query(query: str) -> str:
         raise ValueError(results)
 
     if not results:
-        raise ValueError("No SVGs found for the given query.")
+        raise ValueError(f"No SVGs found for the given query '{query}'.")
 
     # Select a random result from the top 3 or the first one if fewer than 3 results
     selected_url = random.choice(results[:3])
@@ -402,14 +405,15 @@ def download_svg_from_query(query: str) -> str:
 def create_math_matrix_movie(math_problem, audience_type, language="English", voice_label="en-US-AriaNeural"):
     # Check if audience_type is a digit and format it as "x years old", otherwise leave as is
     if str(audience_type).isdigit():
-        audience_type = f"{audience_type} year old"
+        audience_type = f"{audience_type} year olds"
+    else:
+        audience_type = f"{audience_type} audience"
 
     # Fill up the MOVIE_PROMPT with the provided arguments
     filled_prompt = MOVIE_PROMPT.format(
         math_problem=math_problem, audience_type=audience_type, language=language, voice_label=voice_label)
 
     tools = [search_google, fetch_html, download_svg_from_query]
-    # Print the filled prompt to the console
     model = genai.GenerativeModel('gemini-1.5-pro-latest', tools=tools)
     print(model._tools.to_proto())
     chat = model.start_chat(enable_automatic_function_calling=True)
@@ -433,15 +437,13 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
             success = True
         else:
             attempt_count += 1
-            error_prompt = f"Your last code iteration created an error, this is the text of the error: {result.stderr}\nPlease write ALL the code in one go so that it can be extracted and run directly."
-            next_prompt = "\n\n" + error_prompt
+            error_prompt = f"Your last code iteration created an error, this is the text of the error: {result.stderr}\nRemember to download ALL images using the download_svg_from_query function.\nYou can also search_google for concepts and then ingest the results into this context via fetch_html to create your video. Include 'manim' in the search query if you need syntactical help. Do any research BEFORE writing code.\n Please write ALL the code in one go so that it can be extracted and run directly.  ALL THE CODE IN THE FINAL BLOCK PLEASE. NO SKIPPING LINES, THE ENTIRE MANIM FILE."
+            next_prompt = error_prompt
 
     if not success:
         print("Failed to generate a successful output after 8 attempts.")
         raise Exception(
             "Failed to generate a successful output after 8 attempts.")
-
-    # call llama3 with response.text, math_problem, audience_type and language ... to generate youtube metadata
 
     current_script_dir = os.path.dirname(os.path.abspath(__file__))
     path_pattern = os.path.join(
@@ -462,105 +464,132 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         "initial_code": initial_code
     }
 
-    video_file = genai.upload_file(path=video_file_path)
+    NUM_ITERATIONS = 4
+    # Generate 4 videos
+    for i in range(NUM_ITERATIONS):
+        print(f"iteration #{i+1}")
+        current_script_dir = os.path.dirname(os.path.abspath(__file__))
+        path_pattern = os.path.join(
+            current_script_dir, f"media/videos/{filename}/480p15/*.mp4")
+        mp4_files = glob.glob(path_pattern)
 
-    # Check whether the file is ready to be used.
-    while video_file.state.name == "PROCESSING":
-        print('.', end='')
-        time.sleep(10)
-        video_file = genai.get_file(video_file.name)
+        video_file_path = mp4_files[0]
+        with open(f"{filename}.py", 'r') as file:
+            initial_code = file.read()
+        video_url = os.getenv('BASE_URL') + video_file_path.split("media")[1]
 
-    if video_file.state.name == "FAILED":
-        raise ValueError(video_file.state.name)
+        video_file = genai.upload_file(path=video_file_path)
 
-    prompt = """
-        Watch the video, study the code you generated previously and make tweaks to make the video more appealing, if needed. Ask yourself: is there anything wrong with the attached images? How are the text colors, spacing and so on. How are the animations? How is their placement? be extremely terse and focus on actionable insights. This is for an AI video editor.
-        
-        Remember to:
-        - center titles
-        - center all action
-        - no text should roll off screen
-        - no text should be too small
-        - no text should be too big
-        - there should not be looong stretches of blank screen
-        - diagrams should be labelled correctly
-        - diagrams should be placed correctly
-        - diagrams should be animated correctly
-        - there should not be any artifacts
-        - there should not be significant stretches of blank screen
-        - leave some padding at the bottom to allow for where subtitles would appear
-        - you can use svgs using the functions provided
-        - you can use google search results to help with code stuff
-        - you can use google search results to help with concepts
-        - please make it fun and creative
-                
-        Previous code:
-        ```
-        {initial_code}
-        ```
-        
-        Enumerate actionable insights, and reference the timestamp and the code segment that needs modification. Once you're done with suggestions, please write your FINAL block with ALL Manim code that includes ALL the code needed since that final block will be extracted directly and run from your response.
-        
-        You can search for svgs for objects like 'tree' and 'satellite' and then download them and get the download path. 
+        # Check whether the file is ready to be used.
+        while video_file.state.name == "PROCESSING":
+            print('.', end='')
+            time.sleep(10)
+            video_file = genai.get_file(video_file.name)
 
-        You can also search_google for concepts and then check the results via fetch_html to create your video. Include "manim" in the search query.
-                
-        Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. You are a great AI video editor and educator. Keep the video speed 1.15x. Thank you so much! Take a deep breath and get it right!
-    """
+        if video_file.state.name == "FAILED":
+            raise ValueError(video_file.state.name)
 
-    # Make the LLM request.
-    request = [prompt, video_file]
-    response = send_message_with_retries(chat, request)
-    print(response.text)
+        prompt = f"""
+            Watch the video, study the code you generated previously and make tweaks to make the video more appealing, if needed. Ask yourself: is there anything wrong with the attached images? How are the text colors, spacing and so on. How are the animations? How is their placement? be terse and focus on actionable insights with references to what code needs to be changed and how and why. This is for an AI video editor. This is your f{i+1}th attempt out of {NUM_ITERATIONS}. Each one should be an improvement, check the history and be sure this is the case.
+            
+            Remember to:
+            - make sure there is audio throughout
+            - that visuals match audio
+            - THAT VISUALS MAKE SENSE
+            - that the whole thing isn't boring like a powerpoint
+            - center titles
+            - make sure title text fits on screen, or make it wrap. THIS IS VERY IMPORTANT AS TITLES GOING OFF SCREEN MAKES VIDEOS LOOK SUPER UNPROFESSIONAL.
+            - make sure outro text fits on screen, or make it wrap. THIS IS VERY IMPORTANT AS TITLES GOING OFF SCREEN MAKES VIDEOS LOOK SUPER UNPROFESSIONAL.
+            - center all action
+            - no text should roll off screen
+            - no text should be too small
+            - no text should be too big
+            - there should not be looong stretches of blank screen
+            - diagrams should be labelled correctly
+            - diagrams should be placed correctly
+            - diagrams should be animated correctly
+            - there should not be any artifacts. ARTIFACTS AND OCCLUSIONS TURN VIEWERS OFF. THINGS HAVE TO BE SIZED RIGHT AND FADE IN AND OUT CORRECTLY AND NOT CROSS EACH OTHER.
+            - ARE IMAGES AND TEXT OVERLAPPING? THEY SHOULD NEVER OVERLAP. IF THEY ARE OVERLAPPING, MAKE THEM NOT OVERLAP. BLEEDS VIEWERS.
+            - animations should be awesome & educational!
+            - there should not be significant stretches of blank screen. BLANK SECTIONS WITH NO VISUALS ARE VERY BORING, BLEED VIEWERS.
+            - leave some padding at the bottom to allow for where subtitles would appear
+            - you can use svgs using the functions provided
+            - you can use google search results to help with code stuff
+            - you can use google search results to help with concepts
+            - please make it fun and creative
+                    
+            Previous code:
+            ```
+            {initial_code}
+            ```
+            
+            Enumerate actionable insights, and reference the timestamp and the precise code segment that needs modification, and note how it needs modification. For example, a title may need to be centered, text may need to wrap, and the font may need to be smaller. 
+            
+            Once you're done with listing all helpful suggestions, please write a FINAL block with ALL Manim code that includes ALL the code needed since that final block will be extracted directly and run from your response.  ALL THE CODE IN THE FINAL BLOCK PLEASE. NO SKIPPING LINES, THE ENTIRE MANIM FILE.
+                    
+            Remember, your goal is to explain the following to {audience_type}: '{math_problem}'. 
+            
+            Please stick to explaining the right thing in an interesting way appropriate to the audience. 
+            
+            The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. You are a great AI video editor and educator. Looking forward to your feedback!
+        """
 
-    filename = create_python_file(response)
-    # Assuming filename is already defined as shown previously
-    command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
-    result = subprocess.run(command, shell=True)
+        # Make the LLM request.
+        request = [prompt, video_file]
+        response = send_message_with_retries(chat, request)
+        print(response.text)
 
-    if result.returncode != 0:
-        attempt_count = 0
-        success = False
-        error_prompt = f"Your last code iteration created an error, this is the text of the error: {result.stderr}\nPlease write ALL the code in one go so that it can be extracted and run directly."
-        next_prompt = "\n\n" + error_prompt
-        while attempt_count < 8 and not success:
-            print(f"attempt #{attempt_count+1} next_prompt: {next_prompt}")
-            response = send_message_with_retries(chat, next_prompt)
-            print(response.text)
-            filename = create_python_file(response)
-            command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
-            result = subprocess.run(command, shell=True,
-                                    capture_output=True, text=True)
-            print(f"result: {result.returncode}")
+        filename = create_python_file(response)
+        # Assuming filename is already defined as shown previously
+        command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
+        result = subprocess.run(command, shell=True,
+                                capture_output=True, text=True)
 
-            if result.returncode == 0:
-                success = True
-            else:
-                attempt_count += 1
-                error_prompt = f"Your last code iteration created an error, this is the text of the error: {result.stderr}\nPlease write ALL the code in one go so that it can be extracted and run directly."
-                next_prompt = "\n\n" + error_prompt
+        if result.returncode != 0:
+            attempt_count = 0
+            success = False
+            error_prompt = f"Your last code iteration created an error, this is the text of the error: {result.stderr}\nRemember to download ALL images using the download_svg_from_query function.\nYou can also search_google for concepts and then ingest the results into this context via fetch_html to create your video. Include 'manim' in the search query if you need syntactical help. Do any research BEFORE writing code.\n Please write ALL the code in one go so that it can be extracted and run directly.\n ALL THE CODE IN THE FINAL BLOCK PLEASE. NO SKIPPING LINES, THE ENTIRE MANIM FILE."
+            next_prompt = error_prompt
 
-    current_script_dir = os.path.dirname(os.path.abspath(__file__))
-    path_pattern = os.path.join(
-        current_script_dir, f"media/videos/{filename}/480p15/*.mp4")
-    mp4_files = glob.glob(path_pattern)
+            NUM_ATTEMPTS = 8
+            while attempt_count < NUM_ATTEMPTS and not success:
+                print(f"attempt #{attempt_count+1} next_prompt: {next_prompt}")
+                response = send_message_with_retries(chat, next_prompt)
+                print(response.text)
+                filename = create_python_file(response)
+                command = f"{os.getenv('MANIM_BIN')} -ql {filename}.py --disable_caching"
+                result = subprocess.run(command, shell=True,
+                                        capture_output=True, text=True)
+                print(f"result: {result.returncode}")
 
-    video_file_path = mp4_files[0]
+                if result.returncode == 0:
+                    success = True
+                else:
+                    attempt_count += 1
+                    error_prompt = f"Your last code iteration created an error, this is the text of the error: {result.stderr}\nThis is attempt #{attempt_count+1} out of {NUM_ATTEMPTS}.\nIf it's the {NUM_ATTEMPTS/2} attempt or greater, please start being conservative and make your atempted code output simpler or the code won't compile and generation will fail.\nRemember to download ALL images using the download_svg_from_query function.\nYou can also search_google for concepts and then ingest the results into this context via fetch_html to create your video. Include 'manim' in the search query if you need syntactical help. Do any research BEFORE writing code.\n Please write ALL the code in one go so that it can be extracted and run directly.\n ALL THE CODE IN THE FINAL BLOCK PLEASE. NO SKIPPING LINES, THE ENTIRE MANIM FILE."
+                    next_prompt = error_prompt
 
-    with open(f"{filename}.py", 'r') as file:
-        final_code = file.read()
+        current_script_dir = os.path.dirname(os.path.abspath(__file__))
+        path_pattern = os.path.join(
+            current_script_dir, f"media/videos/{filename}/480p15/*.mp4")
+        mp4_files = glob.glob(path_pattern)
 
-    video_url = os.getenv('BASE_URL') + video_file_path.split("media")[1]
+        video_file_path = mp4_files[0]
 
-    yield {
-        "stage": "final",
-        "video_path": video_file_path,
-        "video_id": filename,
-        "video_url": video_url,
-        "original_prompt": filled_prompt,
-        "final_code": final_code,
-    }
+        with open(f"{filename}.py", 'r') as file:
+            final_code = file.read()
 
+        video_url = os.getenv('BASE_URL') + video_file_path.split("media")[1]
+
+        yield {
+            "stage": "final",
+            "iteration": i+1,
+            "video_path": video_file_path,
+            "video_id": filename,
+            "video_url": video_url,
+            "original_prompt": filled_prompt,
+            "final_code": final_code,
+        }
 
     # Write subprocess
 if __name__ == "__main__":
