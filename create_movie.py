@@ -1,3 +1,5 @@
+import requests
+from bs4 import BeautifulSoup
 import time
 import json
 import glob
@@ -46,11 +48,7 @@ def parse_arguments():
 
 
 def main():
-    # math_problem, audience_type, language, voice_label = parse_arguments()
-    print(f"Math Problem: {math_problem}")
-    print(f"Audience Type: {audience_type}")
-    print(f"Language: {language}")
-    print(f"Voice Label: {voice_label}")
+    pass
 
 
 MOVIE_PROMPT = """
@@ -121,6 +119,10 @@ Please draw and animate things, using the whole canvas. Use color in a restraine
 Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting. PLEASE ENSURE ELEMENTS FADE OUT AT THE APPROPRIATE TIME. DO NOT LEAVE ARTIFACTS ACROSS SCENES AS THEY OVERLAP AND ARE JARRING. WRAP TEXT IF IT IS LONG. FORMAT TABLES CORRECTLY. ENSURE LABELS, FORMULAE, TEXT AND OBJECTS DO NOT OVERLAP OR OCCLUDE EACH OTHER. Be elegant video designer. Scale charts and numbers to fit the screen. And don't let labels run into each other or overlap, or take up poor positions. For example, do not label a triangle side length at the corners, but the middle. Do not write equations that spill across the Y axis bar or X axis bar, etc.
 
 If the input is math that is obviously wrong, do not generate any code.
+
+You can search for svgs for objects like 'tree' and 'satellite' and then download them and get the download path. 
+
+You can also search_google for concepts and then check the results via fetch_html to create your video. Include "manim" in the search query.
 
 Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
 
@@ -245,6 +247,100 @@ def send_message_with_retries(chat, request, max_retries=3):
     raise Exception("Max retries exceeded")
 
 
+def fetch_html(url: str) -> str:
+    """
+    Fetch the HTML content of a given URL and return it as is.
+
+    :param url: The URL to fetch the HTML content from.
+    :return: The raw HTML content.
+    """
+    response = requests.get(url)
+    response.raise_for_status()  # Raise an exception for HTTP errors
+
+    return response.text
+
+
+def search_google(query: str) -> list:
+    """
+    Search Google and return a list of URLs from the search results.
+
+    :param query: The search query string.
+    :return: A list of URLs from the search results.
+    """
+    page = requests.get(
+        f"https://www.google.com/search?q={query}")
+    soup = BeautifulSoup(page.content, "html5lib")
+    links = soup.findAll("a")
+
+    urls = []
+    for link in links:
+        link_href = link.get('href')
+        if "url?q=" in link_href and not "webcache" in link_href:
+            url = link.get('href').split("?q=")[1].split("&sa=U")[0]
+            if url.startswith("http") and "google.com" not in url and "youtube.com" not in url:
+                urls.append(url)
+
+    return urls
+
+
+def search_svg_repo(query: str) -> list:
+    """
+    Search for SVGs on svgrepo.com based on the given query.
+
+    :param query: The search query string.
+    :return: A list of dictionaries containing SVG titles and URLs or a message indicating no results.
+    """
+    # Strip leading/trailing whitespace and replace multiple spaces with a single hyphen
+    slugified_query = re.sub(r'\s+', '-', query.strip().lower())
+    url = f"https://www.svgrepo.com/vectors/{slugified_query}/multicolor/"
+
+    response = requests.get(url)
+    response.raise_for_status()  # Raise an exception for HTTP errors
+
+    soup = BeautifulSoup(response.content, "html.parser")
+
+    # Check for "No Results in Vectors" message
+    no_results = soup.find("h2", text="No Results in Vectors")
+    if no_results:
+        return "No results found for the given query."
+
+    # Find all nodes in the result table
+    nodes = soup.find_all('div', class_='style_Node__GkK82')
+
+    results = []
+    for node in nodes:
+        img_url = node.find('img')['src']
+        results.append(img_url)
+
+    return results
+
+
+def download_svg_from_url(url: str) -> str:
+    """
+    Download an SVG from the given URL and save it to the media/images/svgs/ directory.
+
+    :param url: The URL of the SVG to download.
+    :return: The path to the saved SVG file.
+    """
+    current_script_dir = os.path.dirname(os.path.abspath(__file__))
+    save_dir = os.path.join(current_script_dir, "media/images/svgs/")
+
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+
+    response = requests.get(url)
+    response.raise_for_status()  # Raise an exception for HTTP errors
+
+    # Extract the filename from the URL
+    filename = os.path.basename(url)
+    save_path = os.path.join(save_dir, filename)
+
+    with open(save_path, 'wb') as file:
+        file.write(response.content)
+
+    return save_path
+
+
 def create_math_matrix_movie(math_problem, audience_type, language="English", voice_label="en-US-AriaNeural"):
     # Check if audience_type is a digit and format it as "x years old", otherwise leave as is
     if str(audience_type).isdigit():
@@ -254,9 +350,11 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     filled_prompt = MOVIE_PROMPT.format(
         math_problem=math_problem, audience_type=audience_type, language=language, voice_label=voice_label)
 
+    tools = [search_google, fetch_html,
+             search_svg_repo, download_svg_from_url, ]
     # Print the filled prompt to the console
-    model = genai.GenerativeModel('gemini-1.5-pro-latest')
-    chat = model.start_chat(history=[])
+    model = genai.GenerativeModel('gemini-1.5-pro-latest', tools=tools)
+    chat = model.start_chat(history=[], enable_automatic_function_calling=True)
 
     attempt_count = 0
     success = False
