@@ -1,3 +1,4 @@
+import random
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -57,21 +58,21 @@ Can you explain {math_problem} to a {audience_type}? Please be visual and intere
 
 Please create python code for a manim video for the same. 
 
-Please do not use any external dependencies like mp3s or svgs or graphics. Do not create any sound effects. 
+Do not create any sound effects. The only images you have access to are svgs you can download with the download_svg_from_query fn. Scale svgs appropriately for use please.
 
-If you need to draw something, do so using exclusively manim. Always add a title and an outro. Narrate the title and outro.
+Always add a title and an outro. Narrate the title and outro.
 
 Please try to visually center or attractively lay out all content. Please also keep the margins in consideration. If a sentence is long please wrap it by splitting it into multiple lines. 
 
 Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math.
 
-Do use voiceovers to narrate the video. The following is an example of how to do that:
+Do use voiceovers to narrate the video. The following is an example of how to do that, and also how to import the search_svg_repo and download_svg_from_url functions:
 
 ```
 from manim import *
 from manim_voiceover import VoiceoverScene
 from manim_voiceover.services.azure import AzureService
-
+from create_movie import download_svg_from_query
 
 class AzureExample(VoiceoverScene):
     def construct(self):
@@ -83,6 +84,14 @@ class AzureExample(VoiceoverScene):
             )
         )
 
+        # Download SVGs
+        brain_svg = download_svg_from_query("brain")
+        cnn_svg = download_svg_from_query("computer")
+        rnn_svg = download_svg_from_query("flow chart")
+        transformer_svg = download_svg_from_query("robot")
+        robot_svg = download_svg_from_query("robot")
+
+        # Draw shapes
         circle = Circle()
         square = Square().shift(2 * RIGHT)
 
@@ -108,9 +117,7 @@ class AzureExample(VoiceoverScene):
         self.wait()
 ```
 
-The voice for the "{language}" is "{voice_label}". Please use this voice for the narration. 
-
-Please do not use any external dependencies like svgs or mp3s or grpahics since they are not available. Draw with shapes and use colored letters, but keep it simple. There are no external assets. Constraints are liberating. 
+The voice for the "{language}" is "{voice_label}". Please use this voice for the narration.  
 
 First write the script explicitly and refine the contents and then write the code.
 
@@ -120,13 +127,21 @@ Please add actual numbers and formulae wherever appropriate as we want our audie
 
 If the input is math that is obviously wrong, do not generate any code.
 
-You can search for svgs for objects like 'tree' and 'satellite' and then download them and get the download path. 
+You can search for svgs for objects like 'tree' and 'satellite' and then download them and get the download path using the download_svg_from_query('satellite') fn. If you would like to search for and download for images, do that FIRST. Only ONCE the images are downloaded and you have their paths write the manim code. So make a plan that goes like
+1. enumerate image queries
+2. for each image query, 
+    2.1 search for the image
+    2.2 download the image
+    2.3 get the download path
+3. write manim code that includes images using their paths
 
-You can also search_google for concepts and then check the results via fetch_html to create your video. Include "manim" in the search query.
+Once you have all the images downloaded and their paths written, you can write the manim code. DO NOT MAKE UP PATHS, USE THE download_svg_from_query(query) fn
 
-Please use only manim for the video. Please write ALL the code needed since it will be extracted directly and run from your response. 
+You can also search_google for concepts and then check the results via fetch_html to create your video. Include "manim" in the search query if you need syntactical help.
 
-Take a deep breath and consider all the requirements carefully, then write the code.
+Please use only manim for the video. Please write ALL the code needed in one block in your final response since it will be extracted directly and run from your response. 
+
+Take a deep breath and consider all the requirements carefully. Use tools to download images or do research, or both, then in your final answer write all the code.
 
 
 """
@@ -213,16 +228,23 @@ def get_timestamp(filename):
 
 def create_python_file(response):
     code_blocks = extract_code_blocks(response.text)
-    for block in code_blocks:
-        print("Found code block:")
-        print(block.strip())
-        code = block.strip()
-    # exec(code)
+
+    if not code_blocks:
+        raise ValueError("No code blocks found in the response text.")
+
+    # Find the biggest code block
+    biggest_code_block = max(code_blocks, key=len)
+
+    print("Found the biggest code block:")
+    print(biggest_code_block.strip())
+    code = biggest_code_block.strip()
+
     filename = f"MathMovie_{uuid.uuid4().hex[:8]}"
 
     # Open the file in write mode ('w') which will overwrite the file if it already exists
     with open(f"{filename}.py", 'w') as file:
         file.write(code)
+
     return filename
 
 
@@ -251,8 +273,10 @@ def fetch_html(url: str) -> str:
     """
     Fetch the HTML content of a given URL and return it as is.
 
-    :param url: The URL to fetch the HTML content from.
-    :return: The raw HTML content.
+    Args:
+        url: The URL to fetch the HTML content from.
+    Returns:
+        The raw HTML content.
     """
     response = requests.get(url)
     response.raise_for_status()  # Raise an exception for HTTP errors
@@ -264,8 +288,10 @@ def search_google(query: str) -> list:
     """
     Search Google and return a list of URLs from the search results.
 
-    :param query: The search query string.
-    :return: A list of URLs from the search results.
+    Args:
+        query: The search query string.
+    Returns:
+        A list of URLs from the search results.
     """
     page = requests.get(
         f"https://www.google.com/search?q={query}")
@@ -287,8 +313,10 @@ def search_svg_repo(query: str) -> list:
     """
     Search for SVGs on svgrepo.com based on the given query.
 
-    :param query: The search query string.
-    :return: A list of dictionaries containing SVG titles and URLs or a message indicating no results.
+    Args:
+        query: The search query string.
+    Returns:
+        A list of dictionaries containing SVG titles and URLs or a message indicating no results.
     """
     # Strip leading/trailing whitespace and replace multiple spaces with a single hyphen
     slugified_query = re.sub(r'\s+', '-', query.strip().lower())
@@ -311,7 +339,8 @@ def search_svg_repo(query: str) -> list:
     for node in nodes:
         img_url = node.find('img')['src']
         results.append(img_url)
-
+    print(f"svg repo results for {query}:")
+    print(results)
     return results
 
 
@@ -319,9 +348,12 @@ def download_svg_from_url(url: str) -> str:
     """
     Download an SVG from the given URL and save it to the media/images/svgs/ directory.
 
-    :param url: The URL of the SVG to download.
-    :return: The path to the saved SVG file.
+    Args:
+        url: The URL of the SVG to download.
+    Returns:
+        The path to the saved SVG file.
     """
+    print(f"downloading svg from url: {url}")
     current_script_dir = os.path.dirname(os.path.abspath(__file__))
     save_dir = os.path.join(current_script_dir, "media/images/svgs/")
 
@@ -335,10 +367,36 @@ def download_svg_from_url(url: str) -> str:
     filename = os.path.basename(url)
     save_path = os.path.join(save_dir, filename)
 
+    print(f"saving svg to path: {save_path}")
+
     with open(save_path, 'wb') as file:
         file.write(response.content)
 
     return save_path
+
+
+def download_svg_from_query(query: str) -> str:
+    """
+    Search for SVGs based on the given query and download a random result from the top 3 or the first one if fewer than 3 results.
+
+    Args:
+        query: The search query string.
+    Returns:
+        The path to the saved SVG file.
+    """
+    results = search_svg_repo(query)
+
+    if isinstance(results, str):
+        # If the result is a string, it means no results were found
+        raise ValueError(results)
+
+    if not results:
+        raise ValueError("No SVGs found for the given query.")
+
+    # Select a random result from the top 3 or the first one if fewer than 3 results
+    selected_url = random.choice(results[:3])
+
+    return download_svg_from_url(selected_url)
 
 
 def create_math_matrix_movie(math_problem, audience_type, language="English", voice_label="en-US-AriaNeural"):
@@ -350,11 +408,11 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
     filled_prompt = MOVIE_PROMPT.format(
         math_problem=math_problem, audience_type=audience_type, language=language, voice_label=voice_label)
 
-    tools = [search_google, fetch_html,
-             search_svg_repo, download_svg_from_url, ]
+    tools = [search_google, fetch_html, download_svg_from_query]
     # Print the filled prompt to the console
     model = genai.GenerativeModel('gemini-1.5-pro-latest', tools=tools)
-    chat = model.start_chat(history=[], enable_automatic_function_calling=True)
+    print(model._tools.to_proto())
+    chat = model.start_chat(enable_automatic_function_calling=True)
 
     attempt_count = 0
     success = False
@@ -424,23 +482,28 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
         - no text should roll off screen
         - no text should be too small
         - no text should be too big
+        - there should not be looong stretches of blank screen
         - diagrams should be labelled correctly
         - diagrams should be placed correctly
         - diagrams should be animated correctly
         - there should not be any artifacts
         - there should not be significant stretches of blank screen
         - leave some padding at the bottom to allow for where subtitles would appear
-        
-        These frames were extracted at a rate of {frame_extraction_rate} frames per second, for a video of {video_duration} seconds. Keep the video speed 1.15x.
-        
+        - you can use svgs using the functions provided
+        - you can use google search results to help with code stuff
+        - you can use google search results to help with concepts
+        - please make it fun and creative
+                
         Previous code:
         ```
         {initial_code}
         ```
         
-        After enumerating actionable insights tersely, please write updated code. Please write ONE block of ALL Manim code that includes ALL the code needed since it will be extracted directly and run from your response. Do not write any other blocks of code except the final single output manim code block as it will be extracted and run directly from your response.
+        Enumerate actionable insights, and reference the timestamp and the code segment that needs modification. Once you're done with suggestions, please write your FINAL block with ALL Manim code that includes ALL the code needed since that final block will be extracted directly and run from your response.
+        
+        You can search for svgs for objects like 'tree' and 'satellite' and then download them and get the download path. 
 
-        Please do not use any external dependencies like svgs or sound effects since they are not available. There are no external assets. 
+        You can also search_google for concepts and then check the results via fetch_html to create your video. Include "manim" in the search query.
                 
         Remember, your goal is to explain {math_problem} to {audience_type}. Please stick to explaining the right thing in an interesting way appropriate to the audience. The goal is to make a production grade math explainer video that will help viewers quickly and thoroughly learn the concept. You are a great AI video editor and educator. Keep the video speed 1.15x. Thank you so much! Take a deep breath and get it right!
     """
