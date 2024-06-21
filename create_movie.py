@@ -500,7 +500,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
             - center titles
             - make sure title text fits on screen, or make it wrap. THIS IS VERY IMPORTANT AS TITLES GOING OFF SCREEN MAKES VIDEOS LOOK SUPER UNPROFESSIONAL.
             - make sure outro text fits on screen, or make it wrap. THIS IS VERY IMPORTANT AS TITLES GOING OFF SCREEN MAKES VIDEOS LOOK SUPER UNPROFESSIONAL.
-            - center all action
+            - use the whole canvas and do not let text or diagrams occlude each other. VERY IMPORTANT.
             - no text should roll off screen
             - no text should be too small
             - no text should be too big
