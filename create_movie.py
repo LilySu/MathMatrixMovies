@@ -127,7 +127,7 @@ First write the script explicitly and refine the contents and then write the cod
 
 Please draw and animate things, using the whole canvas. Use color.
 
-Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting. PLEASE ENSURE ELEMENTS FADE OUT AT THE APPROPRIATE TIME. DO NOT LEAVE ARTIFACTS ACROSS SCENES AS THEY OVERLAP AND ARE JARRING. WRAP TEXT IF IT IS LONG. FORMAT TABLES CORRECTLY. ENSURE LABELS, FORMULAE, TEXT AND OBJECTS DO NOT OVERLAP OR OCCLUDE EACH OTHER. Be elegant video designer. Scale charts and numbers to fit the screen. And don't let labels run into each other or overlap, or take up poor positions. For example, do not label a triangle side length at the corners, but the middle. Do not write equations that spill across the Y axis bar or X axis bar, etc.
+Please add actual numbers and formulae wherever appropriate as we want our audience of {audience_type} to learn math. Please do not leave large blank gaps in the video. Make it visual and interesting. PLEASE ENSURE ELEMENTS FADE OUT AT THE APPROPRIATE TIME. DO NOT LEAVE ARTIFACTS ACROSS SCENES AS THEY OVERLAP AND ARE JARRING. WRAP TEXT IF IT IS LONG. FORMAT TABLES CORRECTLY. ENSURE LABELS, FORMULAE, TEXT AND OBJECTS DO NOT OVERLAP OR OCCLUDE EACH OTHER. TEXT SHOULD NOT OVERLAP EVER!!! ALL ELEMENTS SHOULD BE WELL LAID OUT!!!. Be an elegant video designer. Scale charts and numbers TO FIT THE SCREEN. And don't let labels run into each other or overlap, or take up poor positions. For example, do not label a triangle side length at the corners, but the middle. Do not write equations that spill across the Y axis bar or X axis bar, etc.
 
 If the input is math that is obviously wrong, do not generate any code.
 
@@ -493,22 +493,22 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
             Watch the video, study the code you generated previously and make tweaks to make the video more appealing, if needed. Ask yourself: is there anything wrong with the attached images? How are the text colors, spacing and so on. How are the animations? How is their placement? be terse and focus on actionable insights with references to what code needs to be changed and how and why. This is for an AI video editor. This is your f{i+1}th attempt out of {NUM_ITERATIONS}. Each one should be an improvement, check the history and be sure this is the case.
             
             Remember to:
-            - make sure there is audio throughout
+            - make sure there are voiceovers throughout
             - that visuals match audio
             - THAT VISUALS MAKE SENSE
             - that the whole thing isn't boring like a powerpoint
             - center titles
             - make sure title text fits on screen, or make it wrap. THIS IS VERY IMPORTANT AS TITLES GOING OFF SCREEN MAKES VIDEOS LOOK SUPER UNPROFESSIONAL.
             - make sure outro text fits on screen, or make it wrap. THIS IS VERY IMPORTANT AS TITLES GOING OFF SCREEN MAKES VIDEOS LOOK SUPER UNPROFESSIONAL.
-            - use the whole canvas and do not let text or diagrams occlude each other. VERY IMPORTANT.
-            - no text should roll off screen
-            - no text should be too small
-            - no text should be too big
-            - there should not be looong stretches of blank screen
-            - diagrams should be labelled correctly
-            - diagrams should be placed correctly
-            - diagrams should be animated correctly
-            - there should not be any artifacts. ARTIFACTS AND OCCLUSIONS TURN VIEWERS OFF. THINGS HAVE TO BE SIZED RIGHT AND FADE IN AND OUT CORRECTLY AND NOT CROSS EACH OTHER.
+            - use the whole canvas and do not let text or diagrams OVERLAP. VERY IMPORTANT. NO OVERLAPPING
+            - no text should roll off screen. NO ROLLING OFF SCREEN!
+            - no text should be too small. WELL SIZED!
+            - no text should be too big. WELL SIZED!
+            - there should not be looong stretches of blank screen. NO BLANK STRETCHES!
+            - diagrams should be labelled correctly. WELL LABELLED!
+            - diagrams should be placed correctly. WELL PLACED!
+            - diagrams should be animated correctly. WELL ANIMATED!
+            - there should not be any artifacts. OVERLAPPING OBJECTS TURN VIEWERS OFF. THINGS HAVE TO BE SIZED RIGHT AND FADE IN AND OUT CORRECTLY AND NOT CROSS EACH OTHER.
             - ARE IMAGES AND TEXT OVERLAPPING? THEY SHOULD NEVER OVERLAP. IF THEY ARE OVERLAPPING, MAKE THEM NOT OVERLAP. BLEEDS VIEWERS.
             - animations should be awesome & educational!
             - there should not be significant stretches of blank screen. BLANK SECTIONS WITH NO VISUALS ARE VERY BORING, BLEED VIEWERS.
@@ -516,7 +516,7 @@ def create_math_matrix_movie(math_problem, audience_type, language="English", vo
             - you can use svgs using the functions provided
             - you can use google search results to help with code stuff
             - you can use google search results to help with concepts
-            - please make it fun and creative
+            - please make it fun and creative.
                     
             Previous code:
             ```
